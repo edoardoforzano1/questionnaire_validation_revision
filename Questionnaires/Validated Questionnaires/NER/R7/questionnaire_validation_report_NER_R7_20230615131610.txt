@@ -1,0 +1,213 @@
+
+Country iso3: NER
+Country round #: 7
+Country Questionnaire Language: fr
+Country Questionnaire Type: geopoll
+Country Questionnaire File: Niger_R7_household_questionnaire_geopoll_FR_template_20230307.xlsx
+The template used to validate the country questionnaire is: 20230307
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 15/06/2023, 13:16:10
+
+
+
+QName Field - Number of questions in the Template Questionnaire: 184
+QName Field - Number of questions in the Country Questionnaire: 146
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 182
+SuggestedQName Field - Number of questions in the Country Questionnaire: 137
+
+Found 81 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country):
+- hh_asset_transp_
+
+1) hh_asset_transp_bici
+2) hh_asset_transp_cart
+3) hh_asset_transp_boat
+4) hh_asset_transp_motorbike
+5) hh_asset_transp_car
+6) hh_asset_transp_van
+7) hh_asset_transp_other
+8) hh_asset_transp_none
+9) hh_asset_transp_dk
+10) hh_asset_transp_ref
+- rcsi_borrowed_food
+- cs_stress_changed_school
+- rcsi_less_preferred_foods
+- hh_explanation
+- hh_wealth_light
+- crp_irrig_pay
+- crp_irrig_system
+- cs_crisis_harv_immature_crops
+- crp_harv_vol
+- income_main_control
+- income_third_gender
+- cs_stress_eat_elsewhere
+- fcs_meat_fish_days
+- rcsi_limit_portions
+- cs_stress_credit
+- fcs_fruit_days
+- fcs_pulses_days
+- fcs_oil_days
+- income_sec_gender
+- income_main_gender
+- rcsi_intro
+- cs_emergency_hh_migration
+- cs_crisis_decrease_input_exp
+- hh_asset_prod_
+
+1) hh_asset_prod_process
+2) hh_asset_prod_farmmach
+3) hh_asset_prod_sewing
+4) hh_asset_prod_taxi
+5) hh_asset_prod_truck
+6) hh_asset_prod_other
+7) hh_asset_prod_none
+8) hh_asset_prod_dk
+9) hh_asset_prod_ref
+- crp_storage
+- crp_harv_unit_kg
+- hh_wealth_toilet
+- covid_
+
+1) covid_goodstransp
+2) covid_marketclosed
+3) covid_borderclosed
+4) covid_stayhome
+5) covid_gatherings
+6) covid_processclosed
+7) covid_curfew
+8) covid_school
+9) covid_other
+10) covid_none
+11) covid_dk
+12) covid_ref
+- fcs_intro
+- fish_inputdif_
+
+1) fish_inputdif_bait_feed
+2)fish_inputdif_fingerling
+3) fish_inputdif_gear
+4) fish_inputdif_ice
+5) fish_inputdif_fuel
+6) fish_inputdif_repairs
+7) fish_inputdif_labour
+8) fish_inputdif_other 
+9)fish_inputdif_dk
+10) fish_inputdif_ref
+- income_third_control
+- fcs_vegetables_days
+- crp_harv_lastyr
+- rcsi_reduce_number_meals
+- cs_crisis_consume_seed_stock
+- cs_stress_borrowed_or_helped
+- cs_emergency_illegal
+- income_sec_control
+- fcs_sugar_days
+- rcsi_restrict_adult_consumpt
+- fcs_staple_days
+- crp_harv_unit
+- fcs_condiments_days
+- fcs_dairy_days
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- o_fertiliser_contact
+- o_seed_supply_market_contact
+- o_seed_supply_agrodealer
+- o_seed_supply_market
+- o_fertiliser
+- o_crp_seed_supply
+- o_seed_supply_agrodealer_contact
+- o_fertiliser_phone
+
+QName Field - Questions in template questionnaire only (therefore not collected in the country):
+- fcs_dairy_days
+- rcsi_borrowed_food
+- cs_stress_changed_school
+- rcsi_less_preferred_foods
+- hh_explanation
+- hh_wealth_light
+- crp_irrig_pay
+- crp_irrig_system
+- hh_asset_transp
+- cs_crisis_harv_immature_crops
+- crp_harv_vol
+- income_main_control
+- income_third_gender
+- cs_stress_eat_elsewhere
+- fcs_meat_fish_days
+- rcsi_limit_portions
+- cs_stress_credit
+- fcs_fruit_days
+- fcs_pulses_days
+- fcs_oil_days
+- income_sec_gender
+- income_main_gender
+- rcsi_intro
+- cs_emergency_hh_migration
+- cs_crisis_decrease_input_exp
+- fish_inputdif
+- hh_asset_prod
+- covid
+- crp_storage
+- crp_harv_unit_kg
+- hh_wealth_toilet
+- fcs_intro
+- income_third_control
+- fcs_vegetables_days
+- crp_harv_lastyr
+- rcsi_reduce_number_meals
+- cs_crisis_consume_seed_stock
+- cs_stress_borrowed_or_helped
+- cs_emergency_illegal
+- income_sec_control
+- fcs_sugar_days
+- rcsi_restrict_adult_consumpt
+- fcs_staple_days
+- crp_harv_unit
+- fcs_condiments_days
+- crp_seed_supply
+
+1 hh_wealth_ question found in the country questionnaire: approved
+
+
+10 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['fish_inputdif_fingerling', 'covid_marketclosed', 'hh_asset_prod_taxi', 'fish_inputdif_fuel', 'hh_asset_transp_bici', 'hh_asset_transp_van', 'covid_goodstransp', 'covid_curfew', 'fish_inputdif_ice', 'covid_processclosed', 'hh_asset_transp_dk', 'hh_asset_transp_motorbike', 'covid_none', 'hh_asset_prod_ref', 'covid_borderclosed', 'hh_asset_prod_process', 'covid_gatherings', 'hh_asset_prod_farmmach', 'fish_inputdif_labour', 'hh_asset_prod_none', 'hh_asset_prod_dk', 'covid_ref', 'hh_asset_prod_sewing', 'hh_asset_transp_ref', 'fish_inputdif_gear', 'fish_inputdif_dk', 'covid_school', 'hh_asset_transp_boat', 'hh_asset_transp_none', 'hh_asset_prod_truck', 'fish_inputdif_bait_feed', 'covid_stayhome', 'covid_dk', 'fish_inputdif_ref', 'fish_inputdif_repairs', 'hh_asset_transp_car', 'hh_asset_transp_cart']
+Derived field only in country (therefore not stored/published on the Hub): []
+All domains have been respected
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['fish_inputdif_fingerling', 'covid_marketclosed', 'hh_asset_prod_taxi', 'fish_inputdif_fuel', 'hh_asset_transp_bici', 'hh_asset_transp_van', 'covid_goodstransp', 'covid_curfew', 'fish_inputdif_ice', 'covid_processclosed', 'hh_asset_transp_dk', 'hh_asset_transp_motorbike', 'covid_none', 'hh_asset_prod_ref', 'covid_borderclosed', 'hh_asset_prod_process', 'covid_gatherings', 'hh_asset_prod_farmmach', 'fish_inputdif_labour', 'hh_asset_prod_none', 'hh_asset_prod_dk', 'covid_ref', 'hh_asset_prod_sewing', 'hh_asset_transp_ref', 'fish_inputdif_gear', 'fish_inputdif_dk', 'covid_school', 'hh_asset_transp_boat', 'hh_asset_transp_none', 'hh_asset_prod_truck', 'fish_inputdif_bait_feed', 'covid_stayhome', 'covid_dk', 'fish_inputdif_ref', 'fish_inputdif_repairs', 'hh_asset_transp_car', 'hh_asset_transp_cart']
+Derived field only in country (therefore not stored/published on the Hub): []
+All domains have been respected
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/NER/R7/validated_questionnaire_geopoll_fr_NER_20230615131610.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 10
+
+Survey edited by replacing values according the Additional Information sheet

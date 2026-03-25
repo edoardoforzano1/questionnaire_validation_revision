@@ -1,0 +1,211 @@
+
+Country iso3: YEM
+Country round #: 10
+Country Questionnaire Language: ar
+Country Questionnaire Type: geopoll
+Country Questionnaire File: household_questionnaire_geopoll_AR_template_YEM_DIEM R10_(QM R6).xlsx
+The template used to validate the country questionnaire is: 20230307
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 14/06/2023, 23:58:58
+
+
+detecting differences in column: Skip Pattern
+['fish_inputdif']; ['lcsi_intro']; ['cs_stress_hh_assets']; ['cs_stress_spent_savings']; ['cs_stress_credit']; ['cs_stress_borrowed_money']; ['cs_crisis_no_school']; ['cs_crisis_reduced_health_exp']; ['cs_crisis_decrease_input_exp']; ['cs_emergency_sold_house']; ['cs_emergency_begged']; ['cs_emergency_sold_last_female']
+detecting differences in column: Core questions only
+['crp_intro']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesdif']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_intro']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_change']; ['ls_proddif']; ['ls_proddif_2']; ['ls_salesmain']; ['ls_salesdif']; ['ls_salesdif_2']; ['ls_salesprice']; ['fish_intro']; ['fish_main']; ['fish_change']; ['fish_proddif']; ['fish_proddif_2']; ['fish_salesmain']; ['fish_salesdif']; ['fish_salesdif_2']; ['fish_salesprice']
+
+QName Field - Number of questions in the Template Questionnaire: 184
+QName Field - Number of questions in the Country Questionnaire: 189
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 182
+SuggestedQName Field - Number of questions in the Country Questionnaire: 184
+
+Found 81 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- Have you incurred any new debt in the past three months which you have not repaid?
+
+[OPERATOR: SINGLE RESPONSE.]
+
+1)YES
+2)NO
+3)DON’T KNOW
+4)REFUSED
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country):
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- o_debt
+- o_debt_amount
+- o_hh_asset
+- o_fishery_activity
+- o_hh_wealth_water
+
+QName Field - Questions in template questionnaire only (therefore not collected in the country):
+
+3 hh_wealth_ questions found in the country questionnaire: it should be only one!
+
+
+19 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 8
+Number of CRISIS questions: 6
+Number of EMERGENCY questions: 5
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 4  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harv_unit_kg']
+
+
+-------
+Domains have been changed for question:
+hh_wealth_water
+
+Template Questionnaire order # 1 - صنبور خاص من مياه الأنابيب 
+
+ template value=صنبور خاص من مياه الأنابيب 
+ country value=مشروع مياه موصل إلى المنازل (حكومي أو خاص) 
+ 
+Country Questionnaire order # 2 - صنبور عام 
+
+ template value=صنبور عام 
+ country value=حنفية عامة 
+ 
+Country Questionnaire order # 3 - بئر محمي 
+
+ template value=بئر محمي 
+ country value=بئر ارتوازية 
+ 
+Country Questionnaire order # 4 - المياه المعبأة 
+
+ template value=المياه المعبأة 
+ country value=بئر مغطاة 
+ 
+Country Questionnaire order # 5 - مصدر آمن آخر 
+
+ template value=مصدر آمن آخر 
+ country value=عين مغطاة 
+ 
+Country Questionnaire order # 6 - نهر 
+
+ template value=نهر 
+ country value=مياه الأمطار 
+ 
+Country Questionnaire order # 7 - بئر غير محمي 
+
+ template value=بئر غير محمي 
+ country value=مياه معالجة (معدنية أو كوثر) 
+8 ) وادي أو جدول أو غيل 
+9 ) بئر مكشوفة 
+ 
+Country Questionnaire order # 8 - مياه الينابيع 
+
+ template value=مياه الينابيع 
+ country value=ماء عين مكشوفة 
+ 
+Country Questionnaire order # 9 - قناة أو مياه سطحية أخرى 
+
+ template value=قناة أو مياه سطحية أخرى 
+ country value=شاحنات, عربات, دواب لنقل المياه 
+ 
+Country Questionnaire order # 10 - مصدر آخر غير آمن 
+
+ template value=مصدر آخر غير آمن 
+ country value=صهاريج, حواجز مائية, سدود 
+ 
+
+
+-------
+
+Derived fields analysis: 
+Derived fields have been respected
+
+-------
+Domains have been changed for question:
+hh_wealth_water
+
+Country Questionnaire order # 1 - Private tap from piped water 
+
+ template value=Private tap from piped water 
+ country value=Piped water to premise (public or private) 
+ 
+Country Questionnaire order # 3 - Protected well 
+
+ template value=Protected well 
+ country value=Well 
+ 
+Country Questionnaire order # 4 - Bottled water 
+
+ template value=Bottled water 
+ country value=Covered well 
+ 
+Country Questionnaire order # 5 - Other safe source 
+
+ template value=Other safe source 
+ country value=Covered spring 
+ 
+Country Questionnaire order # 6 - River 
+
+ template value=River 
+ country value=Rainwater 
+ 
+Country Questionnaire order # 7 - Unprotected well 
+
+ template value=Unprotected well 
+ country value=Bottled water (mineral/kawthar) 
+ 
+Country Questionnaire order # 8 - Spring water 
+
+ template value=Spring water 
+ country value=Valley/stream/canal 
+ 
+Country Questionnaire order # 9 - Surface water (e.g. canals, ponds, dams) 
+
+ template value=Surface water (e.g. canals, ponds, dams) 
+ country value=Unprotected well 
+ 
+Country Questionnaire order # 10 - Other unsafe source 
+
+ template value=Other unsafe source 
+ country value=Unprotected spring 
+ 
+Country Questionnaire order # 11 - Don't know 
+
+ template value=Don't know 
+ country value=Water trucks/drum on carts/donkeys 
+ 
+Country Questionnaire order # 12 - Refused 
+
+ template value=Refused 
+ country value=Water cistern/reservoir/dam 
+ 
+Country Questionnaire order # 13 - Don't know 
+
+ template value= 
+ country value=Don't know 
+ 
+Country Questionnaire order # 14 - Refused 
+
+ template value= 
+ country value=Refused 
+ 
+
+
+-------
+
+Derived fields analysis: 
+Derived fields have been respected
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/YEM/R10/validated_questionnaire_geopoll_ar_YEM_20230614235858.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 11
+
+Survey edited by replacing values according the Additional Information sheet

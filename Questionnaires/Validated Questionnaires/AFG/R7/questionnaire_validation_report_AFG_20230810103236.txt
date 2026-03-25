@@ -1,0 +1,44 @@
+
+Country Questionnaire File: AFG R7 Household Questionnaire _EN_20230720_ISO3_F2F.xlsx
+Country Questionnaire Type: Please include Geopoll or Kobo inside the filename
+Country Questionnaire Language: en
+The template used to validate the country questionnaire is: 20230307
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: August 10, 2023
+
+All Fields in country questionnaire and not in template questionnaire: ['o_market_access', 'o_affected_flood', 'o_flood_severity', 'cs_crisis_decrease_expend_farming_inputs', 'o_village_name', 'cs_stress_reduced_expenses', 'cs_crisis_harvest_immature_crops', 'o_animals_sick', 'o_difficulty_seed_type', 'o_landsize_flooded', 'cs_crisis_forgone_farming_all_land', 'o_pest_disease', 'cs_crisis_sell_all_prod_animals', 'o_difficulty_seed_type_other', 'cs_crisis_send_family_members_wage_labour', 'cs_crisis_consumed_seed_stocks', 'cs_crisis_decrease_expend_livestock_inputs', 'o_pasture', 'o_access_market', 'o_animals_body_deteriorated', 'o_reasons_waterlack', 'o_difficulty_seed', 'o_cultivation_flooded', 'cs_emergency_marry_child', 'o_stored_seed_loss', 'cs_emergency_sell_land_all_herd', 'cs_crisis_sell_prod_assets', 'o_image', 'o_unit_of_measurement', 'o_less_area_reasons', 'o_animals_died', 'o_reasons_accessinputs']
+All Fields in template questionnaire and not in country questionnaire: ['cs_crisis_consume_seed_stocks', 'cs_stress_borrowed_or_helped', 'hh_asset_transp', 'income_third_control', 'crp_irrig_pay', 'cs_emergency_sold_last_female', 'cs_crisis_harv_immature_crops', 'hh_size', 'cs_stress_credit', 'cs_crisis_decrease_input_exp', 'cs_crisis_sold_prod_assets', 'crp_harv_lastyr', 'covid_otherspecify', 'cs_stress_changed_school', 'cs_emergency_begged', 'cs_emergency_sold_house', 'income_sec_gender', 'covid', 'cs_crisis_no_school', 'income_sec_control', 'cs_stress_eat_elsewhere', 'cs_crisis_reduced_health_exp', 'income_third_gender', 'cs_emergency_illegal']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: label::English (en)
+['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['ls_main']; ['fish_intro']; ['fish_change']; ['fish_proddif']; ['fish_proddif_']; ['fish_salesmain']; ['cs_stress_hh_assets']; ['cs_stress_spent_savings']; ['cs_stress_sold_more_animals']; ['cs_stress_borrowed_money']; ['cs_emergency_hh_migration']
+
+Found 111 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 16 CS questions found in the country questionnaire
+Number of STRESS questions: 5
+Number of CRISIS questions: 8
+Number of EMERGENCY questions: 3
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 5  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harvunit', 'crp_harv_unit_kg']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/AFG/R7/validated_questionnaire_Please include Geopoll or Kobo inside the filename_en_AFG_20230814103236.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 10
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/AFG/R7/validated_questionnaire_Please include Geopoll or Kobo inside the filename_en_AFG_20230814103236.xlsx
+
+Survey edited by replacing values according the Additional Information sheet

@@ -1,0 +1,44 @@
+
+Country Questionnaire File: TCD_household_questionnaire_FR_kobo_082023.xlsx
+Country Questionnaire Type: kobo
+Country Questionnaire Language: fr
+The template used to validate the country questionnaire is: 20230307
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: July 21, 2023
+
+All Fields in country questionnaire and not in template questionnaire: ['o_floods_ew', 'o_floods_sev', 'o_crp_landflood', 'o_flood_foodloss_qnty', 'o_flood_lsloss', 'o_adm4_pcode', 'o_floods_yes_no', 'o_flood_foodloss_values', 'o_flood_seedloss_qnty', 'o_flood_seedloss_value', 'o_floods_ewinfo', 'Floodsimpact', 'o_crp_flood', 'o_flood_assistance', 'o_flood_peak', 'o_crp_laossdam_flood']
+All Fields in template questionnaire and not in country questionnaire: ['crp_harv_lastyr', 'covid_otherspecify', 'crp_harv_vol', 'crp_harv_unit_kg', 'cs_stress_changed_school', 'cs_stress_eat_elsewhere', 'crp_harv_unit', 'covid', 'cs_stress_borrowed_money', 'income_third_gender', 'income_third_control', 'crp_harvunit']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: Mandatory
+['crp_intro']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crpmain']; ['crp_main_check']; ['crp_irrig_source_otherspecify']; ['crp_irrig_system']; ['crp_seed']; ['crp_proddif']; ['crp_proddif_']; ['crp_storage']; ['crp_all']; ['CropSales_group']; ['crp_sales_main']; ['crp_salesdif']; ['crp_saledif']; ['Livestock_group']; ['ls_intro']; ['lsmain']; ['ls_num_now']; ['ls_num']; ['ls_feed']; ['ls_all']; ['LivestockSales_group']; ['ls_salesdif']; ['ls_salesdif_']; ['ls_salesprice']; ['fish_main']; ['fish_proddif']; ['fish_proddif_otherspecify']; ['fish_inputdif']; ['fish_inputdif_otherspecify']; ['FishSales_group']; ['FSI']; ['intro_foodsec']; ['grp_fies']; ['fies_intro']; ['fies_worried']; ['fies_healthy']; ['fies_fewfoods']; ['fies_skipped']; ['fies_ateless']; ['fies_ranout']; ['fies_ranout_hhs']; ['fies_hungry']; ['fies_hungry_hhs']; ['fies_whlday']; ['fies_whlday_hhs']; ['grp_lcsi']; ['cs_stress_sold_more_animals']; ['cs_stress_borrowed_or_helped']; ['cs_stress_credit']; ['cs_crisis_sold_prod_assets']; ['cs_crisis_no_school']; ['hdds_intro']; ['hdds']; ['hdds_confirmation']; ['fcs_pulses_days']; ['fcs_vegetables_days']; ['fcs_fruit_days']; ['fcs_meat_fish_days']; ['fcs_dairy_days']; ['fcs_sugar_days']; ['fcs_oil_days']; ['fcs_condiments_days']; ['rcsi_less_preferred_foods']; ['rcsi_borrowed_food']; ['rcsi_reduce_number_meals']; ['rcsi_limit_portions']; ['rcsi_restrict_adult_consumpt']; ['Assisstance_group']; ['need']; ['need_']; ['need_otherspecify']; ['need_received']; ['need_received_otherspecify']; ['assistance_quality']; ['closing']; ['callback']; ['leader_contact']; ['leader_type']; ['phone_number_leader']; ['leader_name']; ['future_int_day']; ['future_int_time']; ['language2']; ['closeout']; ['Interview_End_Time']; ['enum_notes']; ['__version__']
+
+Found 111 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 16 CS questions found in the country questionnaire
+Number of STRESS questions: 5
+Number of CRISIS questions: 6
+Number of EMERGENCY questions: 5
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/TCD/R5/validated_questionnaire_kobo_fr_TCD_20230721104740.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 14
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/TCD/R5/validated_questionnaire_kobo_fr_TCD_20230721104740.xlsx
+
+Survey edited by replacing values according the Additional Information sheet

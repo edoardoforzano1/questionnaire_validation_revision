@@ -1,0 +1,294 @@
+
+Country iso3: NGA
+Country round #: 5
+Country Questionnaire Language: en
+Country Questionnaire Type: geopoll
+Country Questionnaire File: Household_questionnaire_geopoll_EN_template_20230720_NIGERIA_R5.xlsx
+The template used to validate the country questionnaire is: 20230307
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 24/08/2023, 12:57:24
+
+
+detecting differences in column: Suggested Name
+['hh_asset_prod']; ['hh_asset_transp']; ['ls_all']
+detecting differences in column: English
+['contact_2']; ['contact_3']; ['hh_asset_prod']; ['hh_asset_transp']; ['income_main']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_sec']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_third']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['ls_main']; ['fish_intro']; ['fish_change']; ['fish_proddif']; ['fish_proddif_2']; ['fish_salesmain']
+detecting differences in column: Length
+['contact_2']; ['contact_3']; ['hh_asset_prod']; ['hh_asset_transp']; ['income_main']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_sec']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_third']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['ls_main']; ['fish_intro']; ['fish_change']; ['fish_proddif']; ['fish_proddif_2']; ['fish_salesmain']
+detecting differences in column: Conditional
+['contact_2_name']; ['contact_3_name']; ['crp_intro']; ['crp_storage']; ['crp_salesmain']; ['ls_intro']; ['ls_salesmain']; ['fish_intro']; ['fish_salesmain']; ['need']
+detecting differences in column: Programming Instructions
+['hh_asset_transp']; ['ls_num_lastyr']; ['ls_num_now']
+detecting differences in column: Skip Pattern
+['hh_agricactivity']; ['hh_asset_transp']; ['income_main']; ['crp_proddif_2']; ['crp_storage']
+detecting differences in column: Codes
+['hh_asset_transp']; ['fish_inputdif']
+detecting differences in column: Default skip patterns & conditional 
+['hh_agricactivity']; ['income_main']; ['income_main_control']; ['income_sec']; ['income_sec_control']; ['ls_salesmain']; ['fish_intro']; ['fish_salesmain']; ['need']
+
+QName Field - Number of questions in the Template Questionnaire: 184
+QName Field - Number of questions in the Country Questionnaire: 164
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 182
+SuggestedQName Field - Number of questions in the Country Questionnaire: 162
+
+Found 81 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- ls_all_
+
+1) ls_all_cattle
+2) ls_all_goats
+3) ls_all_sheep
+4) ls_all_swine
+5) ls_all_equine
+6) ls_all_smallmammals
+7) ls_all_poultry
+8) ls_all_camelids
+9) ls_all_other
+10) ls_all_none
+11) ls_all_dk
+12) ls_all_ref
+- hh_fish
+- hh_asset_prod_
+
+1)hh_asset_prod_process
+2)hh_asset_prod_farmmach
+3)hh_asset_prod_sewing
+4)hh_asset_prod_taxi
+5)hh_asset_prod_truck
+6)hh_asset_prod_other
+7) hh_asset_prod_none
+8) hh_asset_prod_dk
+9) hh_asset_prod_ref
+- hh_asset_transp_
+
+1) hh_asset_transp_bici
+2) hh_asset_transp_cart
+3) hh_asset_transp_boatmotor
+4) hh_asset_transp_boatnomotor
+5) hh_asset_transp_motorbike
+6) hh_asset_transp_car
+7) hh_asset_transp_van
+8) hh_asset_transp_other
+9) hh_asset_transp_none
+10) hh_asset_transp_dk
+11) hh_asset_transp_ref
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country):
+- leader_type
+- cs_crisis_decrease_input_exp
+- ls_all_
+
+1)ls_all_cattle
+2)ls_all_goats
+3)ls_all_sheep
+4)ls_all_swine
+5)ls_all_equine
+6)ls_all_smallmammals
+7)ls_all_poultry
+8)ls_all_camelids
+9)ls_all_other
+10)ls_all_none
+11)ls_all_dk
+12)ls_all_ref
+- covid_
+
+1) covid_goodstransp
+2) covid_marketclosed
+3) covid_borderclosed
+4) covid_stayhome
+5) covid_gatherings
+6) covid_processclosed
+7) covid_curfew
+8) covid_school
+9) covid_other
+10) covid_none
+11) covid_dk
+12) covid_ref
+- cs_crisis_consume_seed_stock
+- leader_name
+- hh_asset_prod_
+
+1) hh_asset_prod_process
+2) hh_asset_prod_farmmach
+3) hh_asset_prod_sewing
+4) hh_asset_prod_taxi
+5) hh_asset_prod_truck
+6) hh_asset_prod_other
+7) hh_asset_prod_none
+8) hh_asset_prod_dk
+9) hh_asset_prod_ref
+- cs_stress_borrowed_or_helped
+- crp_irrig_system
+- income_third_gender
+- cs_stress_changed_school
+- leader_contact
+- income_third_amount
+- hh_asset_transp_
+
+1) hh_asset_transp_bici
+2) hh_asset_transp_cart
+3) hh_asset_transp_boat
+4) hh_asset_transp_motorbike
+5) hh_asset_transp_car
+6) hh_asset_transp_van
+7) hh_asset_transp_other
+8) hh_asset_transp_none
+9) hh_asset_transp_dk
+10) hh_asset_transp_ref
+- cs_emergency_hh_migration
+- cs_stress_sold_more_animals
+- hh_wealth_light
+- cs_stress_eat_elsewhere
+- cs_stress_credit
+- income_third_control
+- income_third_amount_conf
+- hh_wealth_water
+- phone_number_leader
+- crp_irrig_pay
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- hh_fish
+- cs_crisis_sold_last_female
+- cs_stress_reduced_health_exp
+
+QName Field - Questions in template questionnaire only (therefore not collected in the country):
+- cs_crisis_reduced_health_exp
+- covid
+- leader_type
+- cs_crisis_decrease_input_exp
+- cs_crisis_consume_seed_stock
+- leader_name
+- cs_stress_borrowed_or_helped
+- crp_irrig_system
+- income_third_gender
+- cs_stress_changed_school
+- leader_contact
+- income_third_amount
+- cs_emergency_hh_migration
+- cs_stress_sold_more_animals
+- hh_wealth_light
+- cs_stress_eat_elsewhere
+- cs_stress_credit
+- income_third_control
+- income_third_amount_conf
+- hh_wealth_water
+- phone_number_leader
+- crp_irrig_pay
+- cs_emergency_sold_last_female
+
+1 hh_wealth_ question found in the country questionnaire: approved
+
+
+11 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 4
+Number of EMERGENCY questions: 3
+Rule respected
+
+11 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 4
+Number of EMERGENCY questions: 3
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 4  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harv_unit_kg']
+
+
+-------
+Domains have been changed for question:
+income_main
+
+Template Questionnaire order # 4 - Production and sale of livestock and livestock products 
+
+ template value=Production and sale of livestock and livestock products 
+ country value=Production and sale of livestock or livestock products 
+ 
+Country Questionnaire order # 6 - Production and sale of fish 
+
+ template value=Production and sale of fish 
+ country value=Production and sale of fish or aquatic products 
+ 
+
+
+-------
+Domains have been changed for question:
+income_sec
+
+Country Questionnaire order # 4 - Production and sale of livestock and livestock products 
+
+ template value=Production and sale of livestock and livestock products 
+ country value=Production and sale of livestock or livestock products 
+ 
+Country Questionnaire order # 6 - Production and sale of fish 
+
+ template value=Production and sale of fish 
+ country value=Production and sale of fish or aquatic products 
+ 
+
+
+-------
+Domains have been changed for question:
+income_third
+
+Country Questionnaire order # 4 - Production and sale of livestock and livestock products 
+
+ template value=Production and sale of livestock and livestock products 
+ country value=Production and sale of livestock or livestock products 
+ 
+Country Questionnaire order # 6 - Production and sale of fish 
+
+ template value=Production and sale of fish 
+ country value=Production and sale of fish and aquatic products 
+ 
+
+
+-------
+Domains have been changed for question:
+fish_salesmain
+
+Country Questionnaire order # 1 - Fresh fish (any kind, including invertebrates) 
+
+ template value=Fresh fish (any kind, including invertebrates) 
+ country value=Fresh product (any kind, including invertebrates) 
+ 
+Country Questionnaire order # 2 - Preserved fish (including dry fish, smoked fish, fermented fish, salt fish) 
+
+ template value=Preserved fish (including dry fish, smoked fish, fermented fish, salt fish) 
+ country value=Preserved product (including dry, smoked, fermented, salted) 
+ 
+Country Questionnaire order # 3 - Frozen fish 
+
+ template value=Frozen fish 
+ country value=Frozen product 
+ 
+Country Questionnaire order # 4 - Canned fish 
+
+ template value=Canned fish 
+ country value=Canned product 
+ 
+
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['hh_asset_transp_boat', 'covid_marketclosed', 'covid_processclosed', 'covid_borderclosed', 'covid_none', 'covid_school', 'covid_ref', 'covid_goodstransp', 'covid_dk', 'covid_gatherings', 'covid_curfew', 'covid_stayhome']
+Derived field only in country (therefore not stored/published on the Hub): ['hh_asset_transp_boatnomotor', 'hh_asset_transp_boatmotor']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/NGA/R5/validated_questionnaire_geopoll_en_NGA_20230824125724.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 10
+
+Survey edited by replacing values according the Additional Information sheet

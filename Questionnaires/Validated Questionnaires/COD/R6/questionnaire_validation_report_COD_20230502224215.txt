@@ -1,0 +1,644 @@
+
+Country Questionnaire File: questionnaire_geopoll_fr_DRC_R6.xlsx
+Country Questionnaire Type: geopoll
+Country Questionnaire Language: fr
+The template used to validate the country questionnaire is: 20230307
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 20230502224215
+
+
+detecting differences in column: English
+['contact_2']; ['contact_3']; ['hh_admin1']; ['hh_admin2_1']; ['income_main_amount']; ['income_main_amount_conf']; ['income_main_comp']; ['income_sec_amount']; ['income_sec_amount_conf']; ['income_sec_comp']; ['income_third_amount']; ['income_third_amount_conf']; ['income_third_comp']; ['crp_intro']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_area_change']; ['crp_harv_change']; ['crp_harv_vol']; ['crp_proddif']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesprice']; ['ls_salesprice']; ['fish_salesprice']; ['fcs_vegetables_days']; ['fcs_fruit_days']
+detecting differences in column: Length
+['contact_2']; ['contact_3']; ['hh_admin1']; ['hh_admin2_1']; ['income_main_amount']; ['income_main_amount_conf']; ['income_main_comp']; ['income_sec_amount']; ['income_sec_amount_conf']; ['income_sec_comp']; ['income_third_amount']; ['income_third_amount_conf']; ['income_third_comp']; ['crp_intro']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_area_change']; ['crp_harv_change']; ['crp_harv_vol']; ['crp_proddif']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesprice']; ['ls_salesprice']; ['fish_salesprice']; ['fcs_vegetables_days']; ['fcs_fruit_days']
+detecting differences in column: Conditional
+['contact_2_name']; ['contact_3_name']
+detecting differences in column: Programming Instructions
+['ls_num_lastyr']; ['ls_num_now']
+detecting differences in column: Skip Pattern
+['Agree']; ['contact_2']; ['contact_3']; ['income_main_amount']; ['income_sec_amount']; ['income_third_amount']
+detecting differences in column: Default skip patterns & conditional 
+['Agree']; ['contact_2']; ['contact_2_name']; ['contact_3']; ['contact_3_name']
+detecting differences in column: Core questions only
+['resp_firstname']; ['resp_gender']; ['hh_admin1']; ['hh_agricactivity']; ['hh_gender']; ['hh_wealth_toilet']; ['hh_wealth_light']; ['income_main']; ['income_sec_comp']; ['income_third_comp']; ['crp_intro']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesdif']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_intro']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_change']; ['ls_proddif']; ['ls_proddif_2']; ['ls_salesmain']; ['ls_salesdif']; ['ls_salesdif_2']; ['ls_salesprice']; ['fish_intro']; ['fish_salesdif_2']; ['fies_worried']; ['fies_healthy']; ['fies_fewfoods']; ['fies_skipped']; ['fies_ateless']; ['fies_ranout']; ['fies_ranout_hhs']; ['hdds_confirmation']; ['need']; ['need_received']; ['assistance_quality']; ['callback']
+
+QName Field - Number of questions in the Template Questionnaire: 184
+QName Field - Number of questions in the Country Questionnaire: 176
+
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 182
+SuggestedQName Field - Number of questions in the Country Questionnaire: 166
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): []
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country): ['cs_stress_changed_school', 'cs_emergency_sold_last_female', 'hh_maritalstat', 'income_third_gender', 'crp_irrig_system', 'cs_crisis_decrease_input_exp', 'covid_\n\n1) covid_goodstransp\n2) covid_marketclosed\n3) covid_borderclosed\n4) covid_stayhome\n5) covid_gatherings\n6) covid_processclosed\n7) covid_curfew\n8) covid_school\n9) covid_other\n10) covid_none\n11) covid_dk\n12) covid_ref', 'income_sec_control', 'crp_irrig_pay', 'cs_emergency_sold_house', 'ls_all_\n\n1)ls_all_cattle\n2)ls_all_goats\n3)ls_all_sheep\n4)ls_all_swine\n5)ls_all_equine\n6)ls_all_smallmammals\n7)ls_all_poultry\n8)ls_all_camelids\n9)ls_all_other\n10)ls_all_none\n11)ls_all_dk\n12)ls_all_ref', 'cs_crisis_no_school', 'id_panel', 'crp_all_[name of crop as per crop list]', 'income_third_control', 'cs_stress_eat_elsewhere']
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['hh_admin2_5', 'hh_admin2_2', 'hh_admin2_6', 'hh_admin2_8', 'hh_admin2_3', 'hh_admin2_7', 'hh_admin2_4', 'hh_admin2_9']
+QName Field - Questions in template questionnaire only (therefore not collected in the country): ['cs_stress_changed_school', 'cs_emergency_sold_last_female', 'covid', 'hh_maritalstat', 'income_third_gender', 'crp_all', 'crp_irrig_system', 'income_sec_control', 'ls_all', 'crp_irrig_pay', 'cs_emergency_sold_house', 'id_panel', 'cs_crisis_no_school', 'cs_crisis_decrease_input_exp', 'income_third_control', 'cs_stress_eat_elsewhere']
+
+Found 81 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+3 hh_wealth_ questions found in the country questionnaire: it should be only one!
+
+
+13 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 6
+Number of CRISIS questions: 4
+Number of EMERGENCY questions: 3
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 4  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harv_unit_kg']
+
+
+-------
+
+Domains have been changed for question: contact_2
+   code                                              label
+1     2                    Oui - un autre membre du ménage
+2     3  Oui - un ami ou un parent (non membre du ménage).
+3     4                                                Non
+4     5                                        Ne sait pas
+5     6                                             Refusé
+1     2                Oui - celui d'un ami ou d'un parent
+2     3                                                Non
+3     4                                        Ne sait pas
+4     5                                             Refusé
+
+-------
+
+Domains have been changed for question: contact_3
+   code                                              label
+1     2                    Oui - un autre membre du ménage
+2     3  Oui - un ami ou un parent (non membre du ménage).
+3     4                                                Non
+4     5                                        Ne sait pas
+5     6                                             Refusé
+1     2                Oui - celui d'un ami ou d'un parent
+2     3                                                Non
+3     4                                        Ne sait pas
+4     5                                             Refusé
+
+-------
+
+Domains have been changed for question: hh_admin1
+    code           label
+0      1          Admin1
+1      2     Ne sait pas
+2      3          Refusé
+0      1        Bas-uele
+1      2        Equateur
+2      3    Haut-katanga
+3      4     Haut-lomami
+4      5       Haut-uele
+5      6           Ituri
+6      7           Kasai
+7      8   Kasai-central
+8      9  Kasai-oriental
+9     10        Kinshasa
+10    11   Kongo central
+11    12          Kwango
+12    13           Kwilu
+13    14          Lomami
+14    15         Lualaba
+15    16      Mai-ndombe
+16    17         Maniema
+17    18         Mongala
+18    19       Nord-kivu
+19    20     Nord-ubangi
+20    21         Sankuru
+21    22        Sud-kivu
+22    23      Sud-ubangi
+23    24      Tanganyika
+24    25          Tshopo
+25    26         Tshuapa
+26    27      Don't know
+27    28         Refused
+
+-------
+
+Domains have been changed for question: hh_admin2_1
+    code        label
+0      1       Admin2
+1      2  Ne sait pas
+2      3       Refusé
+0      1      Ariwara
+1      2          Aru
+2      3     Aru city
+3      4        Bunia
+4      5        Djugu
+5      6    Ingbokolo
+6      7        Irumu
+7      8       Mahagi
+8      9  Mahagi city
+9     10      Mambasa
+10    11     Mongwalu
+11    12  Ne sait pas
+12    13       Refuse
+
+-------
+
+Domains have been changed for question: crp_main_check
+    code                                                                  label
+0      1                     Ne produit habituellement pas pendant cette saison
+1      2  N'a pas été en mesure de produire (en raison de difficultés, par ex.)
+0      1                                                                    Mil
+1      2                                                                 Sorgho
+2      3                                                                   Maïs
+3      4                                                                 Manioc
+4      5                                                        Pommes de terre
+5      6                                                               Haricots
+6      7                                                                   Soja
+7      8                                                        Banane plantain
+8      9                                                                 Papaye
+9     10                                                    Arachide, cacahuète
+10    11                                                                   Café
+11    12                                                                    Riz
+12    13                                                                    Blé
+13    14                                                                   Orge
+14    15                                                        Autres céréales
+15    16                                                         Patates douces
+16    17                                                                Ignames
+17    18                                                               Carottes
+18    19                                                           Chou caraïbe
+19    20                                                      Autres tubercules
+20    21                                                              Lentilles
+21    22                                                                   Pois
+22    23                                                           Pois chiches
+23    24                                                                   Fève
+24    25                                                             Fève large
+25    26                                                    Autres légumineuses
+26    27                                                                  Choux
+27    28                                                                 Laitue
+28    29                                                     Epinards-amaranthe
+29    30                                                     Feuilles de manioc
+30    31                                             Feuilles de pomme de terre
+31    32                                                                Moringa
+32    33                                             Oseille hibiscus, rosselle
+33    34               Herbes aromatiques (thym, persil, menthe, rocca, autres)
+34    35                                                            Choux-fleur
+35    36                                              Autres légumes à feuilles
+36    37                                                                Tomates
+37    38                                                              Concombre
+38    39                                                             Citrouille
+39    40                                                  Aubergines/aubergines
+40    41                                                             Courgettes
+41    42                                                                   Okra
+42    43                                                               Poivrons
+43    44                                                                Oignons
+44    45                                                                Haricot
+45    46                                                             Petit pois
+46    47                                                              Pois fève
+47    48                                            Autres légumes non feuillus
+48    49                                                                 Orange
+49    50                                                                 Citron
+50    51                                                           Pamplemousse
+51    52                                                   Tangerine/clémentine
+52    53                                                         Autres agrumes
+53    54                                                           Banane douce
+54    55                                                                 Mangue
+55    56                                                                 Goyave
+56    57                                                                 Ananas
+57    58                                                                 Avocat
+58    59                                                              Pastèques
+59    60                                                                 Dattes
+60    61                                                                 Figues
+61    62                                                                Raisins
+62    63                                                                 Olives
+63    64                                                                  Pomme
+64    65                                                                Abricot
+65    66                                                                Cerises
+66    67                                                        Pêche/nectarine
+67    68                                                                Fraises
+68    69                                                                  Melon
+69    70                                                          Autres fruits
+70    71                                                           Noix de coco
+71    72                                                          Noix de cajou
+72    73                                                           Noix de kola
+73    74                                                                 Sésame
+74    75                                                        Noix de bambara
+75    76                                                                 Amande
+76    77                                                                   Noix
+77    78                                                  Autres fruits à coque
+78    79                                                                  Cacao
+79    80                                                                    Thé
+80    81                                                          Canne à sucre
+81    82                                                              Tournesol
+82    83                                     Autres cultures vivrières de rente
+83    84                                                                  Coton
+84    85                                                             Caoutchouc
+85    86                                                                   Jute
+86    87                                                               Fourrage
+87    88                                                                  Tabac
+88    89                                                                    Qat
+89    90                                 Autre culture de rente non alimentaire
+
+-------
+
+Domains have been changed for question: crp_salesmain
+   code                                                     label
+0     1                                                       Mil
+1     2                                                    Sorgho
+2     3                                                      Maïs
+3     4                                                    Manioc
+4     5                                           Pommes de terre
+5     6                                                  Haricots
+6     7                                                      Soja
+7     8                                           Banane plantain
+8     9                                                    Papaye
+9    10                                       Arachide, cacahuète
+10   11                                                      Café
+11   12                                                       Riz
+12   13                                                       Blé
+13   14                                                      Orge
+14   15                                           Autres céréales
+15   16                                            Patates douces
+16   17                                                   Ignames
+17   18                                                  Carottes
+18   19                                              Chou caraïbe
+19   20                                         Autres tubercules
+20   21                                                 Lentilles
+21   22                                                      Pois
+22   23                                              Pois chiches
+23   24                                                      Fève
+24   25                                                Fève large
+25   26                                       Autres légumineuses
+26   27                                                     Choux
+27   28                                                    Laitue
+28   29                                        Epinards-amaranthe
+29   30                                        Feuilles de manioc
+30   31                                Feuilles de pomme de terre
+31   32                                                   Moringa
+32   33                                Oseille hibiscus, rosselle
+33   34  Herbes aromatiques (thym, persil, menthe, rocca, autres)
+34   35                                               Choux-fleur
+35   36                                 Autres légumes à feuilles
+36   37                                                   Tomates
+37   38                                                 Concombre
+38   39                                                Citrouille
+39   40                                     Aubergines/aubergines
+40   41                                                Courgettes
+41   42                                                      Okra
+42   43                                                  Poivrons
+43   44                                                   Oignons
+44   45                                                   Haricot
+45   46                                                Petit pois
+46   47                                                 Pois fève
+47   48                               Autres légumes non feuillus
+48   49                                                    Orange
+49   50                                                    Citron
+50   51                                              Pamplemousse
+51   52                                      Tangerine/clémentine
+52   53                                            Autres agrumes
+53   54                                              Banane douce
+54   55                                                    Mangue
+55   56                                                    Goyave
+56   57                                                    Ananas
+57   58                                                    Avocat
+58   59                                                 Pastèques
+59   60                                                    Dattes
+60   61                                                    Figues
+61   62                                                   Raisins
+62   63                                                    Olives
+63   64                                                     Pomme
+64   65                                                   Abricot
+65   66                                                   Cerises
+66   67                                           Pêche/nectarine
+67   68                                                   Fraises
+68   69                                                     Melon
+69   70                                             Autres fruits
+70   71                                              Noix de coco
+71   72                                             Noix de cajou
+72   73                                              Noix de kola
+73   74                                                    Sésame
+74   75                                           Noix de bambara
+75   76                                                    Amande
+76   77                                                      Noix
+77   78                                     Autres fruits à coque
+78   79                                                     Cacao
+79   80                                                       Thé
+80   81                                             Canne à sucre
+81   82                                                 Tournesol
+82   83                        Autres cultures vivrières de rente
+83   84                                                     Coton
+84   85                                                Caoutchouc
+85   86                                                      Jute
+86   87                                                  Fourrage
+87   88                                                     Tabac
+88   89                                                       Qat
+89   90                    Autre culture de rente non alimentaire
+90   91         Pas de récolte vendue pendant les 3 derniers mois
+91   92                                               Ne sait pas
+92   93                                                    Refusé
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['covid_dk', 'ls_all_swine', 'ls_all_sheep', 'covid_processclosed', 'covid_marketclosed', 'ls_all_goats', 'ls_all_cattle', 'covid_gatherings', 'covid_none', 'ls_all_none', 'covid_borderclosed', 'ls_all_equine', 'covid_stayhome', 'covid_ref', 'ls_all_poultry', 'ls_all_dk', 'covid_school', 'ls_all_smallmammals', 'ls_all_camelids', 'ls_all_ref', 'covid_goodstransp', 'covid_curfew']
+Derived field only in country (therefore not stored/published on the Hub): []
+
+-------
+
+Domains have been changed for question: contact_2
+   code                                            label
+1     2                     Yes - other household member
+2     3  Yes - friend or relative (non-household member)
+3     4                                               No
+4     5                                       Don't know
+5     6                                          Refused
+1     2                         Yes - friend or relative
+2     3                                               No
+3     4                                       Don't know
+4     5                                          Refused
+
+-------
+
+Domains have been changed for question: contact_3
+   code                                            label
+1     2                     Yes - other household member
+2     3  Yes - friend or relative (non-household member)
+3     4                                               No
+4     5                                       Don't know
+5     6                                          Refused
+1     2                         Yes - friend or relative
+2     3                                               No
+3     4                                       Don't know
+4     5                                          Refused
+
+-------
+
+Domains have been changed for question: hh_admin1
+    code           label
+0      1          Admin1
+1      2      Don't know
+2      3         Refused
+0      1        Bas-uele
+1      2        Equateur
+2      3    Haut-katanga
+3      4     Haut-lomami
+4      5       Haut-uele
+5      6           Ituri
+6      7           Kasai
+7      8   Kasai-central
+8      9  Kasai-oriental
+9     10        Kinshasa
+10    11   Kongo central
+11    12          Kwango
+12    13           Kwilu
+13    14          Lomami
+14    15         Lualaba
+15    16      Mai-ndombe
+16    17         Maniema
+17    18         Mongala
+18    19       Nord-kivu
+19    20     Nord-ubangi
+20    21         Sankuru
+21    22        Sud-kivu
+22    23      Sud-ubangi
+23    24      Tanganyika
+24    25          Tshopo
+25    26         Tshuapa
+26    27      Don't know
+27    28         Refused
+
+-------
+
+Domains have been changed for question: hh_admin2_1
+    code        label
+0      1       Admin2
+1      2   Don't know
+2      3      Refused
+0      1      Ariwara
+1      2          Aru
+2      3     Aru city
+3      4        Bunia
+4      5        Djugu
+5      6    Ingbokolo
+6      7        Irumu
+7      8       Mahagi
+8      9  Mahagi city
+9     10      Mambasa
+10    11     Mongwalu
+11    12   Don't know
+12    13      Refused
+
+-------
+
+Domains have been changed for question: crp_landsize_unit
+   code                     label
+4     5  $local measurement unit$
+4     5                       Nan
+
+-------
+
+Domains have been changed for question: crp_main_check
+    code                                                   label
+0      1                Don’t usually produce during this season
+1      2       Wasn't able to produce (e.g. due to difficulties)
+0      1                                                  Millet
+1      2                                                 Sorghum
+2      3                                                   Maize
+3      4                                                 Cassava
+4      5                                                 Potatoe
+5      6                                                   Beans
+6      7                                                Soybeans
+7      8                                               Plantains
+8      9                                                  Papaya
+9     10                                        Groundnut/peanut
+10    11                                                  Coffee
+11    12                                                    Rice
+12    13                                                   Wheat
+13    14                                                  Barley
+14    15                                            Other cereal
+15    16                                          Sweet potatoes
+16    17                                                    Yams
+17    18                                                 Carrots
+18    19                                                 Cocoyam
+19    20                                            Other tubers
+20    21                                                 Lentils
+21    22                                                    Peas
+22    23                                               Chickpeas
+23    24                                              Fava beans
+24    25                                             Broad beans
+25    26                                            Other pulses
+26    27                                                 Cabbage
+27    28                                                 Lettuce
+28    29                                        Spinach-amaranth
+29    30                                          Cassava leaves
+30    31                                          Potatoe leaves
+31    32                                                 Moringa
+32    33                               Sorrel hibiscus, rosselle
+33    34  Green salad herbs (thyme, parsley, mint, rocca, other)
+34    35                                             Cauliflower
+35    36                                  Other leafy vegetables
+36    37                                                Tomatoes
+37    38                                                Cucumber
+38    39                                                 Pumpkin
+39    40                                      Eggplant/aubergine
+40    41                                                Zucchini
+41    42                                                    Okra
+42    43                                             Bell pepper
+43    44                                                  Onions
+44    45                                                 Haricot
+45    46                                              Green peas
+46    47                                        Fava beans green
+47    48                                    Other non leafy vegs
+48    49                                                  Orange
+49    50                                                   Lemon
+50    51                                              Grapefruit
+51    52                                   Mandarins/clementines
+52    53                                      Other citrus fruit
+53    54                                            Sweet banana
+54    55                                                   Mango
+55    56                                                   Guava
+56    57                                               Pineapple
+57    58                                                 Avocado
+58    59                                             Water melon
+59    60                                                   Dates
+60    61                                                    Figs
+61    62                                                  Grapes
+62    63                                                  Olives
+63    64                                                   Apple
+64    65                                                 Apricot
+65    66                                                Cherries
+66    67                                         Peach/nectarine
+67    68                                            Strawberries
+68    69                                      Melon (cantaloupe)
+69    70                                             Other fruit
+70    71                                                Coconuts
+71    72                                              Cashew nut
+72    73                                                Kola nut
+73    74                                                  Sesame
+74    75                                             Bambara nut
+75    76                                                  Almond
+76    77                                                  Walnut
+77    78                                              Other nuts
+78    79                                                   Cocoa
+79    80                                                     Tea
+80    81                                               Sugarcane
+81    82                                               Sunflower
+82    83                                    Other food cash crop
+83    84                                                  Cotton
+84    85                                                  Rubber
+85    86                                                    Jute
+86    87                                                  Fodder
+87    88                                                 Tobacco
+88    89                                                     Qat
+89    90                                Other non-food cash crop
+
+-------
+
+Domains have been changed for question: crp_salesmain
+   code                                                   label
+0     1                                                  Millet
+1     2                                                 Sorghum
+2     3                                                   Maize
+3     4                                                 Cassava
+4     5                                                 Potatoe
+5     6                                                   Beans
+6     7                                                Soybeans
+7     8                                               Plantains
+8     9                                                  Papaya
+9    10                                        Groundnut/peanut
+10   11                                                  Coffee
+11   12                                                    Rice
+12   13                                                   Wheat
+13   14                                                  Barley
+14   15                                            Other cereal
+15   16                                          Sweet potatoes
+16   17                                                    Yams
+17   18                                                 Carrots
+18   19                                                 Cocoyam
+19   20                                            Other tubers
+20   21                                                 Lentils
+21   22                                                    Peas
+22   23                                               Chickpeas
+23   24                                              Fava beans
+24   25                                             Broad beans
+25   26                                            Other pulses
+26   27                                                 Cabbage
+27   28                                                 Lettuce
+28   29                                        Spinach-amaranth
+29   30                                          Cassava leaves
+30   31                                          Potatoe leaves
+31   32                                                 Moringa
+32   33                               Sorrel hibiscus, rosselle
+33   34  Green salad herbs (thyme, parsley, mint, rocca, other)
+34   35                                             Cauliflower
+35   36                                  Other leafy vegetables
+36   37                                                Tomatoes
+37   38                                                Cucumber
+38   39                                                 Pumpkin
+39   40                                      Eggplant/aubergine
+40   41                                                Zucchini
+41   42                                                    Okra
+42   43                                             Bell pepper
+43   44                                                  Onions
+44   45                                                 Haricot
+45   46                                              Green peas
+46   47                                        Fava beans green
+47   48                                    Other non leafy vegs
+48   49                                                  Orange
+49   50                                                   Lemon
+50   51                                              Grapefruit
+51   52                                   Mandarins/clementines
+52   53                                      Other citrus fruit
+53   54                                            Sweet banana
+54   55                                                   Mango
+55   56                                                   Guava
+56   57                                               Pineapple
+57   58                                                 Avocado
+58   59                                             Water melon
+59   60                                                   Dates
+60   61                                                    Figs
+61   62                                                  Grapes
+62   63                                                  Olives
+63   64                                                   Apple
+64   65                                                 Apricot
+65   66                                                Cherries
+66   67                                         Peach/nectarine
+67   68                                            Strawberries
+68   69                                      Melon (cantaloupe)
+69   70                                             Other fruit
+70   71                                                Coconuts
+71   72                                              Cashew nut
+72   73                                                Kola nut
+73   74                                                  Sesame
+74   75                                             Bambara nut
+75   76                                                  Almond
+76   77                                                  Walnut
+77   78                                              Other nuts
+78   79                                                   Cocoa
+79   80                                                     Tea
+80   81                                               Sugarcane
+81   82                                               Sunflower
+82   83                                    Other food cash crop
+83   84                                                  Cotton
+84   85                                                  Rubber
+85   86                                                    Jute
+86   87                                                  Fodder
+87   88                                                 Tobacco
+88   89                                                     Qat
+89   90                                Other non-food cash crop
+90   91                       No crop sold in the last 3 months
+91   92                                              Don't know
+92   93                                                 Refused
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['covid_dk', 'ls_all_swine', 'ls_all_sheep', 'covid_processclosed', 'covid_marketclosed', 'ls_all_goats', 'ls_all_cattle', 'covid_gatherings', 'covid_none', 'ls_all_none', 'covid_borderclosed', 'ls_all_equine', 'covid_stayhome', 'covid_ref', 'ls_all_poultry', 'ls_all_dk', 'covid_school', 'ls_all_smallmammals', 'ls_all_camelids', 'ls_all_ref', 'covid_goodstransp', 'covid_curfew']
+Derived field only in country (therefore not stored/published on the Hub): []
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/COD/R6/validated_questionnaire_geopoll_fr_COD_20230502224215.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 12

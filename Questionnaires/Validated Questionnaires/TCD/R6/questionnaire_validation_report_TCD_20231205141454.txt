@@ -1,0 +1,42 @@
+
+Country Questionnaire File: TCD_R6_HHquestionnaire_fr_kobo.xlsx
+Country Questionnaire Type: kobo
+Country Questionnaire Language: fr
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: December 05, 2023
+
+All Fields in country questionnaire and not in template questionnaire: ['o_flood_foodloss_qnty', 'o_floods_ewinfo', 'o_crp_laossdam_flood', 'o_crp_flood', 'o_flood_lsloss', 'o_adm4_pcode', 'o_flood_peak', 'o_flood_seedloss_qnty', 'o_flood_seedloss_value', 'o_floods_ew', 'o_floods_sev', 'Floodsimpact', 'o_flood_foodloss_values', 'o_crp_landflood', 'o_flood_assistance', 'o_floods_yes_no']
+All Fields in template questionnaire and not in country questionnaire: ['covid_otherspecify', 'income_third_gender', 'crp_all', 'cs_stress_eat_elsewhere', 'cs_stress_borrowed_money', 'covid', 'income_third_control', 'cs_stress_changed_school']
+
+
+
+Found 111 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 16 CS questions found in the country questionnaire
+Number of STRESS questions: 5
+Number of CRISIS questions: 6
+Number of EMERGENCY questions: 5
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 5  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harvunit', 'crp_harv_unit_kg']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/TCD/R6/validated_questionnaire_kobo_fr_TCD_20231205141454.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 18
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/TCD/R6/validated_questionnaire_kobo_fr_TCD_20231205141454.xlsx
+
+Survey edited by replacing values according the Additional Information sheet

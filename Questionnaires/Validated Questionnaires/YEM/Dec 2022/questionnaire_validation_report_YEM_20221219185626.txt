@@ -1,0 +1,118 @@
+
+Country Questionnaire File: HFM_Questionnaire_Draft_19122022_YEM_AR_.xlsx
+Country Questionnaire Type: Please include Geopoll or Kobo inside the filename
+Country Questionnaire Language: ar
+The template used to validate the country questionnaire is: 20221122
+Validation number: 2
+User: Ibrahim Ali Ahmad
+Validated on: 20221219185626
+
+
+detecting differences in column: English
+['introduction']; ['hh_admin1']; ['hh_admin2_1']; ['hh_education']; ['income_main']; ['income_main_comp']; ['shock']; ['hdds']; ['fcs_vegetables_days']; ['fcs_meat_fish_days']; ['closeout']
+detecting differences in column: Length
+['introduction']; ['hh_admin1']; ['hh_education']; ['income_main_comp']; ['shock']; ['hdds']; ['fcs_vegetables_days']; ['fcs_meat_fish_days']; ['closeout']
+detecting differences in column: Skip Pattern
+['resp_language']; ['resp_id']; ['hh_education']; ['hh_residencetype']; ['income_main']; ['income_main_comp']; ['shock']; ['fies_whlday']; ['fies_whlday_hhs']; ['lcsi_intro']; ['cs_stress_hh_assets']; ['cs_stress_spent_savings']; ['cs_stress_credit']; ['cs_stress_borrowed_money']; ['cs_crisis_no_school']; ['cs_crisis_reduced_health_exp']; ['cs_crisis_decrease_input_exp']; ['cs_emergency_sold_house']; ['cs_emergency_begged']; ['cs_emergency_sold_last_female']; ['hdds_confirmation']; ['rcsi_restrict_adult_consumpt']
+
+QName Field - Number of questions in the Template Questionnaire: 183
+QName Field - Number of questions in the Country Questionnaire: 87
+
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 181
+SuggestedQName Field - Number of questions in the Country Questionnaire: 84
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): []
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country): ['cs_crisis_harv_immature_crops', 'hh_asset_transp_\n\n1) hh_asset_transp_bici\n2) hh_asset_transp_cart\n3) hh_asset_transp_boat\n4) hh_asset_transp_motorbike\n5) hh_asset_transp_car\n6) hh_asset_transp_van\n7) hh_asset_transp_other\n8) hh_asset_transp_none\n9) hh_asset_transp_dk\n10) hh_asset_transp_ref', 'ls_num_lastyr', 'ls_salesmain', 'crp_salesmain', 'crp_irrig_source', 'ls_feed\n\n1) ls_feed_open_pasture\n2) ls_feed_common_pasture\n3) ls_feed_self_produced\n4) ls_feed_purchased\n5) ls_feed_free_dist\n6) ls_feed_other\n7) ls_feed_dk\n8) ls_feed_ref', 'income_sec_crop_check', 'income_main_control', 'income_main_ls_check', 'fish_inputdif_\n\n1) fish_inputdif_bait_feed\n2)fish_inputdif_fingerling\n3) fish_inputdif_gear\n4) fish_inputdif_ice\n5) fish_inputdif_fuel\n6) fish_inputdif_repairs\n7) fish_inputdif_labour\n8) fish_inputdif_other \n9)fish_inputdif_dk\n10) fish_inputdif_ref', 'income_sec_comp', 'income_sec_control', 'hh_age', 'fish_salesmain', 'income_third', 'income_sec_amount', 'income_sec_ls_check', 'fish_proddif', 'assistance_quality', 'cs_crisis_sold_prod_assets', 'income_third_gender', 'need_received_\n\n1) need_received_food\n2) need_received_cash\n3) need_received_vouchers_fair\n4) need_received_crop_assist\n5) need_received_ls_assist\n6) need_received_fish_assist\n7) need_received_rehabilitation\n8) need_received_sales_support\n9) need_received_other\n10) need_received_none\n11) need_received_dk\n12) need_received_ref', 'cs_emergency_hh_migration', 'ls_main', 'cs_stress_sold_more_animals', 'crp_main', 'hh_explanation', 'income_third_ls_check', 'income_third_crop_check', 'crp_all_[name of crop as per crop list]', 'hh_wealth_water', 'income_sec', 'ls_salesdif', 'hh_gender', 'fish_main_\n\n1) fish_main_coastal\n2) fish_main_offshore_sea\n3) fish_main_freshwater\n4) fish_main_aquaculture\n5) fish_main_dk\n6) fish_main_ref', 'crp_harv_vol', 'ls_num_now', 'crp_harv_lastyr', 'crp_main_check', 'income_main_gender', 'crp_storage', 'hh_agricactivity', 'income_sec_fish_check', 'crp_irrig_pay', 'income_main_amount', 'ls_num_\n\n1) ls_num_no_change\n2) ls_num_inc_less_sales\n3) ls_num_inc_more_birth\n4) ls_num_inc_more_acquired\n5) ls_num_inc_received_free\n6) ls_num_dec_poor_health\n7) ls_num_dec_death\n8) ls_num_dec_sales_good_price\n9) ls_num_dec_sales_distress\n10) ls_num_dec_escape_stolen\n11) ls_num_dec_consumed\n12) ls_num_inc_dec_other\n13) ls_num_inc_dec_dk\n14) ls_num_inc_dec_ref', 'income_third_amount', 'fish_change', 'fish_proddif_\n\n1) fish_proddif_find_fish\n2) fish_proddif_pests\n3) fish_proddif_access_area\n4) fish_proddif_fuel\n5) fish_proddif_input_access\n6) fish_proddif_labour\n7) fish_proddif_infrastructure\n8) fish_proddif_damage_equip\n9) fish_proddif_other\n10) fish_proddif_dk\n11) fish_proddif_ref', 'income_third_amount_conf', 'income_main_amount_conf', 'hh_wealth_light', 'crp_proddif', 'hh_size', 'cs_crisis_consume_seed_stock', 'fish_salesdif', 'ls_salesdif_\n\n1) ls_salesdif_marketing_cost\n2) ls_salesdif_damage_losses\n3) ls_salesdif_low_demand\n4) ls_salesdif_pay_delay\n5) ls_salesdif_low_price\n6)  ls_salesdif_slaughterhouse\n7) ls_salesdif_processing\n8) ls_salesdif_competition\n9) ls_salesdif_other\n10) ls_salesdif_dk\n11) ls_salesdif_ref', 'crp_irrig_system', 'ls_salesprice', 'fish_salesprice', 'cs_emergency_illegal', 'crp_salesdif', 'crp_area_change', 'fish_intro', 'cs_stress_eat_elsewhere', 'assistance_provider\n\n1) assistance_fao\n2) assistance_wfp\n3) assistance_otherun\n4) assistance_gov\n5) assistance_ngo\n6) assistance_dk\n7) assistance_ref', 'crp_intro', 'crp_saledif_\n\n1) crp_saledif_marketing_cost\n2) crp_saledif_damage_losses\n3) crp_saledif_low_demand\n4) crp_saledif_pay_delay\n5) crp_saledif_low_price\n6) crp_saledif_processing\n7) crp_saledif_competition\n8) crp_saledif_other\n9) crp_saledif_dk\n10) crp_saledif_ref', 'crp_seed_supply\n\n1) crp_seed_ownprod\n2) crp_seed_market\n3) crp_seed_company\n4) crp_seed_ngo\n5) crp_seed_organized_community\n6) crp_seed_gov\n7) crp_seed_relatives_friends\n8) crp_seed_other\n9) crp_seed_dk\n10) crp_seed_ref', 'covid_\n\n1) covid_goodstransp\n2) covid_marketclosed\n3) covid_borderclosed\n4) covid_stayhome\n5) covid_gatherings\n6) covid_processclosed\n7) covid_curfew\n8) covid_school\n9) covid_other\n10) covid_none\n11) covid_dk\n12) covid_ref', 'income_sec_gender', 'need_\n\n1) need_food\n2) need_cash\n3) need_vouchers_fair\n4) need_crop_inputs\n5) need_crop_infrastructure\n6) need_crop_knowledge\n7) need_ls_feed\n8) need_ls_vet_service\n9) need_ls_infrastructure\n10) need_ls_knowledge\n11) need_fish_inputs\n12) need_fish_infrastructure\n13) need_fish_knowledge\n14) need_env_infra_rehab\n15) need_cold_storage\n16) need_marketing_supp\n17) need_other\n18) need_dk\n19) need_ref', 'crp_proddif_\n\n1) crp_proddif_plant_disease\n2) crp_proddif_pest_outbreak\n3) crp_proddif_animal_grazing\n4) crp_proddif_access_plot\n5) crp_proddif_access_fertilize\n6) crp_proddif_seed_quality\n7) crp_proddif_seed_quantity\n8) crp_proddif_access_pesticide\n9) crp_proddif_access_labour\n10) crp_proddif_access_machinery\n11) crp_proddif_access_fuel\n12) crp_proddif_soil_erosion\n13) crp_proddif_lack_irrigation\n14) crp_proddif_excess_water\n15) crp_proddif_access_credit\n16) crp_proddif_other\n17) crp_proddif_dk\n18) crp_proddif_ref', 'income_sec_amount_conf', 'crp_landsize_unit', 'income_main_fish_check', 'fish_saledif_\n\n1) fish_saledif_marketing_cost\n2) fish_saledif_damage_losses\n3) fish_saledif_low_demand\n4) fish_saledif_pay_delay\n5) fish_saledif_low_prices\n6) fish_saledif_processing\n7) fish_saledif_competition\n8) fish_saledif_other\n9) fish_saledif_dk\n10) fish_saledif_ref', 'crp_harv_unit', 'hh_wealth_toilet', 'ls_all_\n\n1)ls_all_cattle\n2)ls_all_goats\n3)ls_all_sheep\n4)ls_all_swine\n5)ls_all_equine\n6)ls_all_smallmammals\n7)ls_all_poultry\n8)ls_all_camelids\n9)ls_all_other\n10)ls_all_none\n11)ls_all_dk\n12)ls_all_ref', 'cs_stress_changed_school', 'hh_maritalstat', 'crp_landsize_num', 'ls_proddif', 'ls_intro', 'hh_asset_prod_\n\n1) hh_asset_prod_process\n2) hh_asset_prod_farmmach\n3) hh_asset_prod_sewing\n4) hh_asset_prod_taxi\n5) hh_asset_prod_truck\n6) hh_asset_prod_other\n7) hh_asset_prod_none\n8) hh_asset_prod_dk\n9) hh_asset_prod_ref', 'income_main_crop_check', 'income_third_comp', 'ls_proddif_\n\n1) ls_proddif_feed_purchase\n2) ls_proddif_access_pasture\n3) ls_proddif_access_water\n4) ls_proddif_vet_serv\n5) ls_proddif_vet_input\n6) ls_proddif_diseases\n7) ls_proddif_theft\n8) ls_proddif_access_market\n9) ls_proddif_access_credit\n10) ls_proddif_access_labour\n11) ls_proddif_other\n12) ls_proddif_dk\n13) ls_proddif_ref', 'crp_harv_unit_kg', 'need', 'crp_salesprice', 'income_third_fish_check', 'crp_harv_change', 'cs_stress_borrowed_or_helped', 'income_third_control']
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['o_hh_wealth_water']
+QName Field - Questions in template questionnaire only (therefore not collected in the country): ['cs_crisis_harv_immature_crops', 'crp_proddif_2', 'ls_num_lastyr', 'ls_salesmain', 'ls_feed', 'crp_salesmain', 'crp_irrig_source', 'income_sec_crop_check', 'income_main_control', 'income_main_ls_check', 'income_sec_comp', 'income_sec_control', 'crp_seed_supply', 'hh_age', 'fish_salesmain', 'income_third', 'income_sec_amount', 'income_sec_ls_check', 'fish_proddif', 'assistance_quality', 'cs_crisis_sold_prod_assets', 'income_third_gender', 'cs_emergency_hh_migration', 'ls_main', 'cs_stress_sold_more_animals', 'crp_main', 'ls_all', 'hh_explanation', 'income_third_ls_check', 'income_third_crop_check', 'hh_wealth_water', 'income_sec', 'ls_salesdif', 'hh_gender', 'assistance_provider', 'crp_harv_vol', 'hh_asset_transp', 'fish_main', 'ls_num_now', 'crp_harv_lastyr', 'ls_proddif_2', 'crp_main_check', 'income_main_gender', 'crp_storage', 'hh_agricactivity', 'income_sec_fish_check', 'crp_irrig_pay', 'income_main_amount', 'income_third_amount', 'ls_salesdif_2', 'fish_change', 'income_third_amount_conf', 'income_main_amount_conf', 'hh_asset_prod', 'ls_num_change', 'hh_wealth_light', 'crp_proddif', 'hh_size', 'cs_crisis_consume_seed_stock', 'crp_all', 'fish_salesdif', 'fish_proddif_2', 'crp_irrig_system', 'ls_salesprice', 'fish_salesprice', 'cs_emergency_illegal', 'crp_salesdif', 'need_2', 'crp_area_change', 'fish_intro', 'cs_stress_eat_elsewhere', 'crp_intro', 'crp_salesdif_2', 'income_sec_gender', 'covid', 'income_sec_amount_conf', 'crp_landsize_unit', 'income_main_fish_check', 'fish_inputdif', 'crp_harv_unit', 'hh_wealth_toilet', 'fish_salesdif_2', 'cs_stress_changed_school', 'hh_maritalstat', 'crp_landsize_num', 'ls_proddif', 'ls_intro', 'need_received', 'income_main_crop_check', 'income_third_comp', 'crp_harv_unit_kg', 'need', 'crp_salesprice', 'income_third_fish_check', 'crp_harv_change', 'cs_stress_borrowed_or_helped', 'income_third_control']
+
+Found 81 mandatory questions in the template questionnaire
+No, country questionnaire does not contains all mandatory questions. Missing question: ['ls_num_change', 'crp_proddif_2', 'ls_num_lastyr', 'ls_salesmain', 'income_third_ls_check', 'income_third_crop_check', 'crp_proddif', 'income_sec', 'ls_salesdif', 'hh_gender', 'crp_landsize_unit', 'fish_salesdif', 'fish_proddif_2', 'fish_main', 'crp_salesmain', 'crp_irrig_source', 'income_main_fish_check', 'income_sec_crop_check', 'ls_salesprice', 'fish_salesprice', 'income_main_ls_check', 'income_sec_comp', 'ls_num_now', 'crp_salesdif', 'fish_salesmain', 'fish_salesdif_2', 'income_third', 'ls_proddif_2', 'crp_landsize_num', 'need_2', 'crp_main_check', 'crp_area_change', 'ls_proddif', 'income_sec_ls_check', 'fish_proddif', 'fish_intro', 'assistance_quality', 'ls_intro', 'crp_intro', 'hh_agricactivity', 'need_received', 'income_sec_fish_check', 'income_main_crop_check', 'income_third_comp', 'crp_salesdif_2', 'need', 'crp_salesprice', 'ls_salesdif_2', 'fish_change', 'income_third_fish_check', 'crp_harv_change', 'ls_main', 'crp_main'] 
+
+0 hh_wealth_ questions found in the country questionnaire: it should be only one!
+
+
+10 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS NOT RESPECTED
+Number of crp_harv questions: 0  - []
+
+
+-------
+
+Domains have been changed for question: hh_education
+   code                                                                                                                         label
+0     1                                                                                          لا شيء أو لم يكمل المرحلة الابتدائية
+1     2                                                                                                       أكمل المرحلة الابتدائية
+2     3                                                                                                         أكمل المرحلة الثانوية
+3     4                                                                                            أكمل درجة تعليم عالي (جامعة, كلية)
+4     5                                                                                                  تربية دينية أو غير رسمية فقط
+5     6                                                                                                                       لا أعرف
+6     7                                                                                                                   رفض الإجابة
+0     1                                                                                                                  امي (لا شيء)
+1     2                                                                       لم يكمل المرحلة الاساسية ( الابتدائية) من المدرسة (1-9)
+2     3                                                                           أكمل المرحلة الاساسية (الابتدائية) من المدرسة (1-9)
+3     4                                                                                      أكمل المرحلة الثانوية من المدرسة (10-12)
+4     5                                                                  أكمل التعليم العالي (درجة جامعية, كلية ، تدريب مهني ، دبلوم)
+5     6                                                                                                  تربية دينية أو غير رسمية فقط
+6     7                                                                                                                       لا أعرف
+7     8                                                                                                                           NaN
+8     9                              3) أكمل المرحلة الاساسية (الابتدائية) من المدرسة (1-9)\n4) أكمل المرحلة الثانوية من المدرسة (10-
+9    10  5) أكمل التعليم العالي (درجة جامعية, كلية ، تدريب مهني ، دبلوم)\n6) تربية دينية أو غير رسمية فقط\n7) لا أعرف\n8) رفض الإجابة
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['need_vouchers_fair', 'covid_borderclosed', 'need_fish_infrastructure', 'hh_asset_prod_sewing', 'assistance_gov', 'hh_asset_transp_none', 'ls_all_goats', 'ls_all_poultry', 'ls_all_camelids', 'need_ls_infrastructure', 'need_marketing_supp', 'need_crop_inputs', 'fish_main_ref', 'hh_asset_transp_bici', 'need_ref', 'fish_main_offshore_sea', 'fish_inputdif_fuel', 'fish_inputdif_ref', 'ls_all_cattle', 'need_received_dk', 'hh_asset_prod_farmmach', 'need_received_food', 'fish_main_aquaculture', 'need_crop_infrastructure', 'need_fish_inputs', 'need_received_vouchers_fair', 'need_received_ls_assist', 'assistance_fao', 'ls_all_smallmammals', 'hh_asset_prod_process', 'hh_asset_prod_none', 'hh_asset_transp_ref', 'fish_main_freshwater', 'fish_inputdif_repairs', 'hh_asset_transp_car', 'fish_inputdif_ice', 'ls_all_ref', 'covid_processclosed', 'fish_inputdif_gear', 'fish_inputdif_dk', 'need_received_fish_assist', 'need_ls_feed', 'hh_asset_prod_taxi', 'fish_main_dk', 'need_food', 'covid_ref', 'hh_asset_prod_ref', 'ls_all_dk', 'assistance_wfp', 'ls_all_sheep', 'ls_all_equine', 'fish_inputdif_bait_feed', 'need_received_rehabilitation', 'ls_all_swine', 'covid_marketclosed', 'need_env_infra_rehab', 'need_dk', 'assistance_ngo', 'need_ls_knowledge', 'need_received_none', 'covid_school', 'need_cold_storage', 'fish_main_coastal', 'need_fish_knowledge', 'hh_asset_transp_van', 'hh_asset_transp_dk', 'covid_none', 'need_received_sales_support', 'covid_dk', 'assistance_ref', 'need_crop_knowledge', 'hh_asset_transp_motorbike', 'fish_inputdif_labour', 'hh_asset_prod_truck', 'covid_gatherings', 'hh_asset_transp_cart', 'hh_asset_transp_boat', 'assistance_otherun', 'assistance_dk', 'ls_all_none', 'need_cash', 'covid_curfew', 'covid_goodstransp', 'need_received_cash', 'need_ls_vet_service', 'hh_asset_prod_dk', 'covid_stayhome', 'need_received_ref', 'fish_inputdif_fingerling', 'need_received_crop_assist']
+Derived field only in country (therefore not stored/published on the Hub): []
+
+-------
+
+Domains have been changed for question: hh_education
+   code                                                                                                                                                                                           label
+0     1                                                                                                                                                         None or did not complete primary school
+1     2                                                                                                                                                                        Completed primary school
+2     3                                                                                                                                                                      Completed secondary school
+3     4                                                                                                                                         Completed higher education (university, college) degree
+4     5                                                                                                                                                            Religious or informal education only
+5     6                                                                                                                                                                                      Don't know
+6     7                                                                                                                                                                                         Refused
+0     1                                                                                                                                                                                      Illiterate
+1     2                                                                                                                                               Did not complete basic (preparatory) school (1-9)
+2     3                                                                                                                                                      Completed basic school (preparatory) (1-9)
+3     4                                                                                                                                                              Completed secondary school (10-12)
+4     5                                                                                                           Completed higher education (university, college degree, vocational training, diploma)
+5     6                                                                                                                                                            Religious or informal education only
+6     7                                                                                                                                                                                      Don't know
+7     8                                                                                                                                                                                             NaN
+8     9  4)completed secondary school (10-12)\n5)completed higher education (university, college degree, vocational training, diploma)\n6)religious or informal education only\n7)don't know\n8)refused
+
+-------
+
+Domains have been changed for question: income_main
+   code                              label
+2     3   Production and sale of cashcrops
+2     3  Production and sale of cash crops
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['need_vouchers_fair', 'covid_borderclosed', 'need_fish_infrastructure', 'hh_asset_prod_sewing', 'assistance_gov', 'hh_asset_transp_none', 'ls_all_goats', 'ls_all_poultry', 'ls_all_camelids', 'need_ls_infrastructure', 'need_marketing_supp', 'need_crop_inputs', 'fish_main_ref', 'hh_asset_transp_bici', 'need_ref', 'fish_main_offshore_sea', 'fish_inputdif_fuel', 'fish_inputdif_ref', 'ls_all_cattle', 'need_received_dk', 'hh_asset_prod_farmmach', 'need_received_food', 'fish_main_aquaculture', 'need_crop_infrastructure', 'need_fish_inputs', 'need_received_vouchers_fair', 'need_received_ls_assist', 'assistance_fao', 'ls_all_smallmammals', 'hh_asset_prod_process', 'hh_asset_prod_none', 'hh_asset_transp_ref', 'fish_main_freshwater', 'fish_inputdif_repairs', 'hh_asset_transp_car', 'fish_inputdif_ice', 'ls_all_ref', 'covid_processclosed', 'fish_inputdif_gear', 'fish_inputdif_dk', 'need_received_fish_assist', 'need_ls_feed', 'hh_asset_prod_taxi', 'fish_main_dk', 'need_food', 'covid_ref', 'hh_asset_prod_ref', 'ls_all_dk', 'assistance_wfp', 'ls_all_sheep', 'ls_all_equine', 'fish_inputdif_bait_feed', 'need_received_rehabilitation', 'ls_all_swine', 'covid_marketclosed', 'need_env_infra_rehab', 'need_dk', 'assistance_ngo', 'need_ls_knowledge', 'need_received_none', 'covid_school', 'need_cold_storage', 'fish_main_coastal', 'need_fish_knowledge', 'hh_asset_transp_van', 'hh_asset_transp_dk', 'covid_none', 'need_received_sales_support', 'covid_dk', 'assistance_ref', 'need_crop_knowledge', 'hh_asset_transp_motorbike', 'fish_inputdif_labour', 'hh_asset_prod_truck', 'covid_gatherings', 'hh_asset_transp_cart', 'hh_asset_transp_boat', 'assistance_otherun', 'assistance_dk', 'ls_all_none', 'need_cash', 'covid_curfew', 'covid_goodstransp', 'need_received_cash', 'need_ls_vet_service', 'hh_asset_prod_dk', 'covid_stayhome', 'need_received_ref', 'fish_inputdif_fingerling', 'need_received_crop_assist']
+Derived field only in country (therefore not stored/published on the Hub): []
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/YEM/DEC 2022/validated_questionnaire_Please include Geopoll or Kobo inside the filename_ar_YEM_20221219185626.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by replacing values according the Additional Information sheet

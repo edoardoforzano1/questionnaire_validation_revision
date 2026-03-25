@@ -1,0 +1,41 @@
+
+Country Questionnaire File: validated_questionnaire_kobo_en_BGD_20231025012314_review20231102.xlsx
+Country Questionnaire Type: kobo
+Country Questionnaire Language: en
+The template used to validate the country questionnaire is: 20230720
+Validation number: 2
+User: Ibrahim Ali Ahmad
+Validated on: November 02, 2023
+
+All Fields in country questionnaire and not in template questionnaire: ['adm2_name_pull', 'CallBackDate', 'cs_crisis_sold_fish_assets', 'flood_liv_sheep_injured', 'grp_foodprice', 'CallbackMessageEN', 'flood_dam_equip_liv_val', 'o_crp_fert_subst', 'call_intro', 'cs_stress_borrowed_formal', 's', 'flood_marketfunc1', 'o_hh_credit', 'o_ls_alter_feed', 'rddid', 'adm2_name_test', 'flood_crp_harv_unit', 'hh_id', 'hh_agricactivity_old', 'o_pr_Wheat', 'o_pr_Vegetables', 'o_crp_harv_unit_otherspecify', 'phonenumber_pull', 'o_hh_education_max', 'flood_landsize_unit', 'adm1_manual', 'flood_landsize_amount', 'o_mrk_staple', 'o_crp_all_othertypes', 'FoodPrice__intro', 'flood_marketfunc2', 'o_crop_alter_fertilizer', 'flood_landsize_val', 'o_ls_prodfeed', 'flood_dam_equip_crp_val', 's_t', 'flood_loss_prod_liv_val', 'flood_lost_prod_crp_val', 'o_crp_fert_avail', 'flood_liv_poultry_injured', 'adm1_name_test', 'flood_ew', 'start_t', 'adm2_pcode_pull', 'o_pr_Leafy_vegetables', 'calldispo', 'flood_liv_sheep_died', 'flood_loss_equip_fish_val', 'hh_id_wrong', 'o_crp_diffpower', 'o_pr_Potato', 'o_credit_denial_reason_otherspecify', 'CallBackTime', 'hhid_input', 'o_pr_Egg', 'hhid', 'call_duration', 'flood_affected', 'flood_intro', 'flood_gp', 'adm2_yn', 'flood_liv_poultry_died', 'hh_id_check', 'flood_liv_swine_died', 'flood_loss_prod_fish_q', 'o_mrk_cash', 'cs_stress_spent_savingsdebt', 'o_mrk_livestock', 'end_t', 'adm1_pcode_pull', 'adm2_manual', 'o_mrk_vegfruit', 'o_pr_Milk', 'e', 'Panelist', 'flood_lost_input_crp_val', 'o_credit_denial_reason', 'e_t', 'o_crp_storage_why', 'flood_union', 'flood_assistance', 'o_pr_Sugar', 'o_pr_ginger', 'flood_liv_cattle_injured', 'flood_upazila', 'flood_peak', 'phone_yn', 'call_status', 'o_cropprodfertilizer', 'flood_liv_swine_injured', 'o_pr_Cooking_Oil', 'o_pr_Meat', 'call_duration_check', 'o_feedback_complaints', 'o_pr_Pulses', 'cs_crisis_sentmembers', 'adm1_name_pull', 'flood_liv_cattle_died', 'o_pr_onion', 'flood_loss_prod_fish_val', 'flood_loss_prod_fish2_val', 'flood_yes_gp', 'flood_loss_input_liv_val', 'flood_ewinfo', 'o_pr_garlic', 'rddid_input', 'o_pr_Fruits', 'cs_emergency_draught', 'o_pr_Rice', 'adm1_yn', 'flood_sev', 'o_crp_fert_supply', 'o_pr_Fish']
+All Fields in template questionnaire and not in country questionnaire: ['hh_asset_prod', 'hh_maritalstat', 'hh_explanation', 'income_sec_gender', 'contact_3', 'cs_stress_eat_elsewhere', 'income_sec_amount', 'covid', 'income_main_gender', 'hh_asset_transp', 'fcs_sugar_days', 'fcs_meat_fish_days', 'income_main_amount_conf', 'phone_number_3', 'income_third_amount', 'fish_inputdif', 'hh_wealth_water', '__version__', 'income_sec_control', 'fcs_vegetables_days', 'hh_residencetype', 'income_sec_amount_conf', 'fcs_fruit_days', 'fcs_intro', 'gps_2', 'fish_inputdif_otherspecify', 'fcs_staple_days', 'grp_fcs', 'fcs_condiments_days', 'cs_emergency_illegal', 'rcsi_borrowed_food', 'grp_rcsi', 'cs_stress_borrowed_or_helped', 'ls_all', 'crp_seed', 'fcs_dairy_days', 'income_third_control', 'rcsi_reduce_number_meals', 'rcsi_restrict_adult_consumpt', 'cs_stress_spent_savings', 'cs_crisis_no_school', 'gps_1', 'covid_otherspecify', 'fcs_pulses_days', 'contact_3_name', 'income_third_gender', 'cs_stress_changed_school', 'rcsi_intro', 'rcsi_limit_portions', 'income_main_control', 'enum_team', 'hh_wealth_light', 'crp_irrig_system', 'cs_stress_borrowed_money', 'fcs_oil_days', 'cs_stress_sold_more_animals', 'income_third_amount_conf', 'crp_irrig_pay', 'rcsi_less_preferred_foods', 'income_main_amount', 'Interview_End_Time']
+
+Found 111 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+Found 111 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 16 CS questions found in the country questionnaire
+Number of STRESS questions: 4
+Number of CRISIS questions: 7
+Number of EMERGENCY questions: 5
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 5  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harvunit', 'crp_harv_unit_kg']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 5  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harvunit', 'crp_harv_unit_kg']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/BGD/R9/V2/validated_questionnaire_kobo_en_BGD_20231102130904.xlsx

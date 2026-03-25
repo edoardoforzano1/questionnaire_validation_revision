@@ -1,0 +1,57 @@
+
+Country Questionnaire File: Earthquake questionnaire_Nepal_EN_draft3.xlsx
+Country Questionnaire Type: Please include Geopoll or Kobo inside the filename
+Country Questionnaire Language: en
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: November 17, 2023
+
+All Fields in country questionnaire and not in template questionnaire: ['intro_cs', 'adm3_name', 'o_income', 'goatnumb', 'handtoolsdestroyednumber', 'numberofgoatdied', 'hhmembersdied', 'seedfooddestroyedkg', 'goatinjured', 'goatdied', 'femaledied', 'impact on livestock', 'income_third_fishcheck', 'cropdamageloss', 'income_sec_fishcheck', 'howmanysheepinjured', 'othercropsloses', 'howmanygoatinjured', 'beansloses', 'storedcropdestroyedkg', 'o_difficulty_seed', 'numbershleterpartdamage', 'o_irr_function', 'o_hh_caste', 'storedanimalproddestroy', 'cultivationhowdestroyed', 'wheatloses', 'crp_irrigation', 'o_hh_migr_fut_who', 'income_main_fishcheck', 'peasloses', 'affectedspecies', 'leader_name', 'intro_rcsi', 'cultivationlostdestroyed', 'o_hh_migr_who', 'maledied', 'cs_crisis_decrease_expend_farming_inputs', 'chickendied', 'fooderdestroyedinkg', 'livestockaffected', 'cs_crisis_harvest_immature_crops', 'intro_fies', 'cs_emergency_migr_child', 'rcsi_restrict_adult_consumption', 'fertilizerhowmuchdestroyed', 'numbershletertotaldamage', 'income_sec_cropcheck', 'ls_food_supply', 'milletloses', 'numberofchickendied', 'o_difficulty_seed_type', 'handtoolsdestroyed', 'estimatedyeildlost', 'cheesdestroyedKg', 'childrendied', 'phone_number_leader', 'farm_assets_after', 'crp_irrigation_otherspecify', 'income_main_cropcheck', 'foodmarketfuctional', 'cowdied', 'sheepinjured', 'dryhaydestroyed', 'fies', 'eggsdestroyedegg', 'animalshelterdestroy', 'agrimachinesdestroyednumber', 'farm_assets_before', 'agriinputmarketfuctional', 'numberofpigsdied', 'seedfoodhowdestroyed', 'riceloses', 'irrigationsystdestroyed', 'cs_emergency_sell_land_all_herd', 'leader_type', 'yogurtdestroyedKg', 'o_hh_caste_otherspecify', 'sheepnumb', 'otherdamages', 'cs_crisis_sell_prod_assets', 'assistance_timeliness', 'animalvaccinesdestroyed', 'seedfooddestroyed', 'income_third_cropcheck', 'sheepdied', 'fooderdestroyed', 'o_pasture', 'landhighdamage', 'orcharddamaged', 'affectedbyearthquake', 'cowsnumb', 'pigsbefore', 'numberofsheepdied', 'earthquake_impact', 'income_main_lscheck', 'agriculturemachinesdestroyed', 'cropprodinputchange', 'adm3_pcode', 'o_hh_migr', 'cs_crisis_consumed_seed_stocks', 'cs_crisis_sell_all_prod_animals', 'hdds_', 'o_difficulty_seed_type_other', 'cs_stress_reduced_expenses', 'chickenbefore', 'howmanycowinjured', 'o_hh_migr_fut', 'cs_crisis_school_child', 'o_village_name', 'irrigatedlandaffected', 'income_sec_lscheck', 'copingstrategies', 'leader_contact', 'impact_crops', 'maizeloses', 'pigsdied', 'landaffected', 'storedcropdestroyed', 'dryhaydestroyedinkg', 'earthquakeseverity', 'numberofcowdied', 'storedfertilizerdestroyedkg', 'livestockprodinputchange', 'milkdestroyedliter', 'cs_crisis_send_family_members_wage_labour', 'rcsi', 'cowinjured', 'income_third_lscheck', 'storedfertilizerdestroyed', 'agrilanddestroyed']
+All Fields in template questionnaire and not in country questionnaire: ['fish_salesdif_otherspecify', 'income_main_control', 'fish_salesmain', 'income_third_amount', 'cs_crisis_decrease_input_exp', 'fish_inputdif_otherspecify', 'income_third_crop_check', 'grp_lcsi', 'ls_all', 'income_sec_control', 'crp_harv_lastyr', 'crp_harv_unit', 'Fishing_group', 'lcsi_intro', 'hh_wealth_toilet', 'fish_salesdif', 'hh_fish', 'fcs_fruit_days', 'grp_hdds', 'cs_emergency_illegal', 'income_main_gender', 'grp_rcsi', 'covid', 'fish_salesprice', 'cs_crisis_no_school', 'crp_irrig_source_otherspecify', 'hh_asset_prod', 'hh_explanation', 'hh_asset_transp', 'crp_harv_vol', 'income_main_amount_conf', 'crp_irrig_system', 'fish_proddif_otherspecify', 'hh_residencetype', 'fish_change', 'income_sec_crop_check', 'income_sec_amount', 'fies_intro', 'income_third_control', 'cs_crisis_sold_prod_assets', 'cs_emergency_sold_house', 'fcs_dairy_days', 'grp_fcs', 'income_main_amount', 'crp_storage', 'ls_feed', 'fcs_oil_days', 'income_sec_amount_conf', 'cs_emergency_sold_last_female', 'crp_irrig_pay', 'cs_stress_eat_elsewhere', 'cs_crisis_reduced_health_exp', 'assistance', 'income_third_fish_check', 'income_third_gender', 'fcs_intro', 'income_main_fish_check', 'fcs_sugar_days', 'cs_crisis_consume_seed_stocks', 'fish_intro', 'fish_saledif', 'income_main_ls_check', 'fishsalesmain', 'cs_emergency_begged', 'grp_fies', 'cs_stress_borrowed_or_helped', 'crp_harvunit', 'assistance_quality', 'income_sec_gender', 'hh_wealth_light', 'cs_stress_credit', 'resp_id', 'rcsi_intro', 'fish_main', 'income_sec_ls_check', 'crp_irrig_source', 'FishSales_group', 'adm1_name', 'adm1_pcode', 'fcs_pulses_days', 'cs_stress_changed_school', 'fish_proddif_', 'fcs_staple_days', 'rcsi_restrict_adult_consumpt', 'income_main_crop_check', 'cs_crisis_harv_immature_crops', 'income_third_ls_check', 'income_third_amount_conf', 'crp_all', 'fish_salesmain_otherspecify', 'income_sec_fish_check', 'crp_harv_unit_kg', 'fish_inputdif', 'fcs_meat_fish_days', 'covid_otherspecify', 'fcs_vegetables_days', 'fish_proddif', 'fcs_condiments_days']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: TYPE
+['resp_agree']; ['hdds']
+DETECTING DIFFERENCES IN QUESTIONS: label::English (en)
+['introduction']; ['contact_2']; ['contact_3']; ['hh_agricactivity']; ['income_main']; ['income_main_comp']; ['income_sec']; ['income_sec_comp']; ['income_third']; ['income_third_comp']; ['shock']; ['crp_intro']; ['crp_main']; ['crp_main_check']; ['crp_seed']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_']; ['crp_sales_main_1']; ['crp_sales_main_2']; ['crp_salesdif']; ['crp_saledif']; ['crp_salesprice']; ['ls_main']; ['ls_proddif']; ['ls_salesmain']; ['ls_salesdif']; ['ls_salesdif_']; ['ls_salesprice']; ['cs_stress_hh_assets']; ['cs_stress_spent_savings']; ['cs_stress_sold_more_animals']; ['cs_stress_borrowed_money']; ['cs_emergency_hh_migration']; ['hdds_intro']; ['hdds']; ['need']; ['need_']; ['need_received']
+DETECTING DIFFERENCES IN QUESTIONS: hint::English (en)
+['gps_1']; ['resp_age']; ['resp_gender']; ['contact_2']; ['contact_3']; ['hh_agricactivity']; ['hh_gender']; ['hh_education']; ['hh_wealth_water']; ['hh_size']; ['hh_maritalstat']; ['hh_age']; ['income_main']; ['income_main_comp']; ['income_sec']; ['income_sec_comp']; ['income_third']; ['income_third_comp']; ['shock']; ['crp_main']; ['crp_main_check']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_sales_main_1']; ['crp_sales_main_2']; ['crp_salesdif']; ['crp_salesprice']; ['ls_main']; ['ls_proddif']; ['ls_salesmain']; ['ls_salesdif']; ['ls_salesprice']; ['hdds']; ['need']; ['need_']; ['callback']; ['language2']
+DETECTING DIFFERENCES IN QUESTIONS: required
+['phone_number_personal']; ['contact_2']; ['phone_number_2']; ['contact_2_name']; ['contact_3']; ['phone_number_3']; ['contact_3_name']; ['hdds']
+DETECTING DIFFERENCES IN QUESTIONS: appearance
+['crp_main']; ['crp_sales_main_2']; ['cs_stress_hh_assets']; ['cs_stress_spent_savings']; ['cs_stress_sold_more_animals']; ['cs_stress_borrowed_money']; ['cs_emergency_hh_migration']
+DETECTING DIFFERENCES IN QUESTIONS: constraint
+['resp_age']; ['phone_number_personal']; ['phone_number_2']; ['phone_number_3']; ['need_received']
+DETECTING DIFFERENCES IN QUESTIONS: Mandatory
+['hdds']
+
+Found 111 mandatory questions in the template questionnaire
+No, country questionnaire does not contains all mandatory questions.
+Missing question: ['fish_salesdif_otherspecify', 'adm1_name', 'fish_salesmain', 'adm1_pcode', 'fish_proddif_', 'income_third_crop_check', 'income_third_fish_check', 'income_main_crop_check', 'Fishing_group', 'income_main_fish_check', 'income_third_ls_check', 'fish_proddif_otherspecify', 'fish_intro', 'fish_saledif', 'fish_change', 'income_main_ls_check', 'income_sec_crop_check', 'fish_salesmain_otherspecify', 'fish_salesdif', 'fishsalesmain', 'income_sec_fish_check', 'fies_intro', 'resp_id', 'fish_main', 'income_sec_ls_check', 'crp_irrig_source', 'fish_proddif', 'fish_salesprice', 'crp_irrig_source_otherspecify', 'FishSales_group'] 
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 15 CS questions found in the country questionnaire
+Number of STRESS questions: 5
+Number of CRISIS questions: 7
+Number of EMERGENCY questions: 3
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 3  - ['hdds_intro', 'hdds_', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/NPL/validated_questionnaire_Please include Geopoll or Kobo inside the filename_en_NPL_20231117135619.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 11
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/NPL/validated_questionnaire_Please include Geopoll or Kobo inside the filename_en_NPL_20231117135619.xlsx
+
+Survey edited by replacing values according the Additional Information sheet

@@ -1,0 +1,720 @@
+
+Country iso3: MMR
+Country round #: 9
+Country Questionnaire Language: en
+Country Questionnaire Type: geopoll
+Country Questionnaire File: household_questionnaire_geopoll_EN_MMR_R9_Edited_WFP.xlsx
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 05/03/2024, 12:24:09
+
+
+detecting differences in column: English
+['resp_language']; ['introduction']; ['contact_2']; ['hh_admin1']; ['quotareached']; ['income_main']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_main_comp']; ['income_sec']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_sec_comp']; ['income_third']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['income_third_comp']; ['crp_intro']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_area_change']; ['crp_harv_change']; ['crp_harv_vol']; ['crp_proddif']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesprice']; ['ls_main']; ['ls_salesprice']; ['fish_intro']; ['fish_change']; ['fish_proddif']; ['fish_proddif_2']; ['fish_inputdif']; ['fish_salesmain']; ['fish_salesprice']; ['fcs_intro']; ['need_2']
+detecting differences in column: Length
+['resp_language']; ['introduction']; ['contact_2']; ['hh_admin1']; ['income_main']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_main_comp']; ['income_sec']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_sec_comp']; ['income_third']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['income_third_comp']; ['crp_intro']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_area_change']; ['crp_harv_change']; ['crp_harv_vol']; ['crp_proddif']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesprice']; ['ls_main']; ['ls_salesprice']; ['fish_intro']; ['fish_change']; ['fish_proddif']; ['fish_proddif_2']; ['fish_inputdif']; ['fish_salesmain']; ['fish_salesprice']; ['fcs_intro']; ['need_2']
+detecting differences in column: Conditional
+['hh_age']; ['crp_intro']; ['crp_salesmain']; ['ls_intro']; ['ls_salesmain']; ['fish_intro']; ['fish_salesmain']; ['need']
+detecting differences in column: Programming Instructions
+['income_main']; ['income_third']
+detecting differences in column: Skip Pattern
+['Agree']; ['contact_2']; ['hh_admin1']; ['hh_agricactivity']; ['hh_education']; ['hh_wealth_water']; ['hh_age']; ['income_main']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_sec']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_third']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['income_third_comp']; ['shock']; ['crp_proddif_2']; ['crp_salesprice']; ['fish_salesprice']; ['fcs_intro']; ['need_2']; ['need_received']; ['callback']
+detecting differences in column: Codes
+['crp_main']; ['crp_salesmain']; ['fish_inputdif']
+detecting differences in column: Default skip patterns & conditional 
+['Agree']; ['contact_2']; ['hh_agricactivity']; ['income_main']; ['ls_salesmain']; ['fish_intro']; ['fish_salesmain']; ['fish_salesprice']; ['need']; ['callback']
+detecting differences in column: Mandatory
+['Agree']; ['quotareached']
+detecting differences in column: Core questions only
+['Agree']; ['resp_gender']; ['hh_admin1']; ['hh_agricactivity']; ['hh_gender']; ['income_main']; ['income_sec_comp']; ['income_third_comp']; ['crp_landsize_num']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_change']; ['ls_proddif_2']; ['ls_salesmain']; ['ls_salesprice']; ['fish_intro']; ['fish_salesdif_2']; ['fies_worried']; ['fies_healthy']; ['fies_fewfoods']; ['fies_skipped']; ['fies_ateless']; ['fies_ranout']; ['fies_ranout_hhs']; ['need']; ['need_received']; ['callback']
+
+QName Field - Number of questions in the Template Questionnaire: 181
+QName Field - Number of questions in the Country Questionnaire: 204
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 179
+SuggestedQName Field - Number of questions in the Country Questionnaire: 181
+
+Found 82 mandatory questions in the template questionnaire
+No, country questionnaire does not contains all mandatory questions. Missing question: ['assistance_quality', 'hh_admin2_1', 'hdds_confirmation', 'resp_firstname', 'hdds', 'resp_lastname'] 
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- o_con_ls
+- o_meals
+- LhCSIRiskJobs
+- FCSFruit
+- LhCSIResAsset
+- o_diff_marketfunc1
+- FCSStap
+- FCSVeg
+- o_con_school
+- LhCSIBorrowCash
+- o_diff_crp_output
+- o_HHDisability
+- o_con_health_yes
+- o_diff_ls_input
+- o_con_water_yes
+- o_HHSize5_15
+- FCSSugar
+- o_con_land
+- o_con_water
+- o_HHSize16_59
+- FCSPr
+- FCSDairy
+- o_con_school_yes
+- copingstrategies
+- hh_agricactivity_Check4
+- hhsizeconfirm
+- LhCSIConsSeed
+- o_wage_sec_amount_Check
+- o_AccessMarket_why
+- LhCSIProdAsset
+- LhCSIMoved
+- o_hh_admin3
+- o_income_sec_selfemployed
+- hh_agricactivity_Check2
+- o_con_health
+- FCSPulse
+- o_HHSize04
+- LhCSILabChild
+- o_wage_third_amount
+- hh_agricactivity_Check1
+- o_wage_main_amount
+- o_con_house
+- o_HHSize60
+- LhCSICrdtFood
+- LhCSILastDraught
+- o_income_third_selfemployed
+- LhCSIReduceNonFood
+- hh_agricactivity_Check3
+- FCSFat
+- o_wage_main_amount_Check
+- o_con_move
+- LhCSISaving
+- o_con_tele_yes
+- o_diff_ls_output
+- o_hh_wealth_house
+- o_diff_crp_input
+- o_con_asset
+- o_con_tele
+- o_wage_third_amount_Check
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country):
+- hh_asset_transp_
+
+1) hh_asset_transp_bici
+2) hh_asset_transp_cart
+3) hh_asset_transp_boatmotor
+4) hh_asset_transp_boatnomotor
+5) hh_asset_transp_motorbike
+6) hh_asset_transp_car
+7) hh_asset_transp_van
+8) hh_asset_transp_other
+9) hh_asset_transp_none
+10) hh_asset_transp_dk
+11) hh_asset_transp_ref
+- hh_maritalstat
+- income_main_gender
+- cs_crisis_harv_immature_crops
+- fcs_pulses_days
+- cs_stress_eat_elsewhere
+- cs_emergency_hh_migration
+- crp_irrig_pay
+- crp_irrig_system
+- cs_emergency_begged
+- phone_number_conf
+- hh_explanation
+- contact_2_name
+- covid_
+
+1) covid_goodstransp
+2) covid_marketclosed
+3) covid_borderclosed
+4) covid_stayhome
+5) covid_gatherings
+6) covid_processclosed
+7) covid_curfew
+8) covid_school
+9) covid_other
+10) covid_none
+11) covid_dk
+12) covid_ref
+- crp_all_[name of crop as per crop list]
+- fcs_oil_days
+- income_sec_amount_conf
+- assistance_provider
+
+1) assistance_fao
+2) assistance_wfp
+3) assistance_otherun
+4) assistance_gov
+5) assistance_ngo
+6) assistance_dk
+7) assistance_ref
+- assistance_quality
+- cs_stress_spent_savings
+- cs_crisis_reduced_health_exp
+- crp_seed_supply
+
+1) crp_seed_ownprod
+2) crp_seed_market
+3) crp_seed_company
+4) crp_seed_ngo
+5) crp_seed_organized_community
+6) crp_seed_gov
+7) crp_seed_relatives_friends
+8) crp_seed_other
+9) crp_seed_dk
+10) crp_seed_ref
+- phone_number_3
+- hh_admin2_1
+- hh_wealth_toilet
+- hdds_confirmation
+- future_int_day_
+
+1) future_int_day_mon
+2) future_int_day_tues
+3) future_int_day_wed
+4) future_int_day_thurs
+5) future_int_day_fri
+6) future_int_day_sat
+7) future_int_day_sun
+- fcs_vegetables_days
+- hh_wealth_light
+- cs_stress_credit
+- crp_storage
+- cs_emergency_sold_last_female
+- fcs_staple_days
+- hdds
+
+1) hdds_cereals
+2) hdds_rootstubers
+3) hdds_vegetables
+4) hdds_fruits
+5) hdds_meat
+6) hdds_eggs
+7) hdds_fish
+8) hdds_legumes
+9) hdds_milkdairy
+10) hdds_oils
+11)hdds_sugar
+12) hdds_condiments
+- cs_crisis_decrease_input_exp
+- phone_number_3_name
+- income_sec_control
+- fcs_fruit_days
+- cs_stress_changed_school
+- income_main_control
+- income_sec_amount
+- income_main_amount_conf
+- income_sec_gender
+- hh_fish
+- income_third_amount_conf
+- future_int_time_ 
+
+1) future_int_time_morn
+2) future_int_time_aft
+3) future_int_time_eve
+- cs_crisis_sold_prod_assets
+- income_main_amount
+- resp_firstname
+- income_third_gender
+- cs_emergency_illegal
+- fcs_meat_fish_days
+- cs_stress_sold_more_animals
+- lcsi_intro
+- id_panel
+- cs_crisis_consume_seed_stock
+- fcs_condiments_days
+- phone_number_pers
+- contact_3
+- income_third_amount
+- cs_stress_borrowed_money
+- income_third_control
+- ls_all_
+
+1) ls_all_cattle
+2) ls_all_goats
+3) ls_all_sheep
+4) ls_all_swine
+5) ls_all_equine
+6) ls_all_smallmammals
+7) ls_all_poultry
+8) ls_all_camelids
+9) ls_all_other
+10) ls_all_none
+11) ls_all_dk
+12) ls_all_ref
+- hh_asset_prod_
+
+1)hh_asset_prod_process
+2)hh_asset_prod_farmmach
+3)hh_asset_prod_sewing
+4)hh_asset_prod_taxi
+5)hh_asset_prod_truck
+6)hh_asset_prod_other
+7) hh_asset_prod_none
+8) hh_asset_prod_dk
+9) hh_asset_prod_ref
+- fcs_dairy_days
+- cs_stress_borrowed_or_helped
+- cs_crisis_no_school
+- resp_lastname
+- cs_emergency_sold_house
+- fcs_sugar_days
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- rCSIMealSize
+- LhCSIResAsset
+- rCSILessQlty
+- o_con_school
+- LhCSIBorrowCash
+- rCSIMealNb
+- o_con_water_yes
+- o_con_water
+- o_HHSize16_59
+- LhCSIConsSeed
+- o_AccessMarket_why
+- o_hh_admin3_7
+- o_wage_third_amount
+- o_wage_main_amount
+- RuralUrban
+- LhCSIReduceNonFood
+- rcsi
+- o_wage_main_amount_Check
+- LhCSIDomAsset
+- o_hh_admin3_5
+- phone_number_3_2
+- HHIncEarners_year
+- o_HHExpTotal30d
+- o_con_ls
+- o_Income_total_amount
+- FCSFruit
+- o_diff_marketfunc1
+- FCSStap
+- o_diff_crp_output
+- o_con_health_yes
+- o_diff_ls_input
+- o_wage_sec_amount
+- FCSSugar
+- copingstrategies
+- hhsizeconfirm
+- hh_agricactivity_Check2
+- hh_agricactivity_Check1
+- o_hh_admin3_3
+- o_con_house
+- o_hh_admin3_9
+- hh_agricactivity_Check3
+- o_Income_total_comp
+- o_con_move
+- LhCSISaving
+- phone_number_3_Location
+- rCSIBorrow
+- o_hh_admin3_2
+- o_con_tele
+- o_income_main_selfemployed
+- o_meals
+- LhCSIRiskJobs
+- o_need4
+- o_hh_admin3_4
+- HHDebt_more
+- o_hh_admin3_12
+- o_con_land
+- FCSPr
+- FCSDairy
+- o_wage_sec_amount_Check
+- LhCSIProdAsset
+- o_hh_admin3_11
+- HHDebt_yn
+- FCSPulse
+- LhCSILabChild
+- o_incomechangereduced
+- LhCSICrdtFood
+- LhCSILastDraught
+- o_hh_admin3_1
+- HHIncEarners
+- o_con_tele_yes
+- o_need3
+- o_diff_ls_output
+- HHDebt_BorrowFrom
+- o_con_asset
+- o_Income_total_amount_conf
+- FCSVeg
+- o_hh_admin3_8
+- contact_3_2
+- o_HHDisability
+- o_HHSize5_15
+- o_con_school_yes
+- hh_agricactivity_Check4
+- LhCSIMoved
+- o_income_sec_selfemployed
+- o_hh_admin3_14
+- o_con_health
+- o_HHSize04
+- rCSIMealAdult
+- o_hh_admin3_6
+- o_ExpenseFood30d
+- o_HHSize60
+- o_income_third_selfemployed
+- o_hh_admin3_15
+- FCSFat
+- phone_number_2_Location
+- o_diff_crp_input
+- o_hh_wealth_house
+- o_hh_admin3_13
+- o_wage_third_amount_Check
+
+QName Field - Questions in template questionnaire only (therefore not collected in the country):
+- hh_maritalstat
+- cs_crisis_harv_immature_crops
+- contact_3_name
+- fcs_oil_days
+- assistance_quality
+- hh_asset_transp
+- crp_storage
+- income_sec_amount
+- cs_crisis_sold_prod_assets
+- income_main_amount
+- resp_firstname
+- cs_emergency_illegal
+- lcsi_intro
+- assistance_provider
+- cs_stress_hh_assets
+- fcs_sugar_days
+- fcs_pulses_days
+- phone_number_personal
+- phone_number_conf
+- hh_explanation
+- contact_2_name
+- income_sec_amount_conf
+- rcsi_reduce_number_meals
+- hh_admin2_1
+- hh_wealth_toilet
+- income_sec_control
+- hh_fish
+- rcsi_borrowed_food
+- income_third_amount_conf
+- cs_stress_sold_more_animals
+- id_panel
+- contact_3
+- cs_stress_borrowed_money
+- fcs_dairy_days
+- resp_lastname
+- cs_stress_eat_elsewhere
+- cs_emergency_hh_migration
+- crp_irrig_pay
+- hdds
+- rcsi_limit_portions
+- cs_stress_spent_savings
+- cs_crisis_reduced_health_exp
+- fcs_vegetables_days
+- hh_wealth_light
+- cs_stress_credit
+- cs_crisis_decrease_input_exp
+- income_main_control
+- income_main_amount_conf
+- income_sec_gender
+- crp_seed_supply
+- future_int_day
+- fcs_meat_fish_days
+- income_third_amount
+- income_third_control
+- ls_all
+- cs_crisis_no_school
+- rcsi_less_preferred_foods
+- fcs_staple_days
+- future_int_time
+- income_main_gender
+- crp_irrig_system
+- cs_emergency_begged
+- covid
+- phone_number_3
+- hh_asset_prod
+- hdds_confirmation
+- cs_emergency_sold_last_female
+- fcs_fruit_days
+- cs_stress_changed_school
+- rcsi_restrict_adult_consumpt
+- income_third_gender
+- crp_all
+- rcsi_intro
+- cs_crisis_consume_seed_stock
+- fcs_condiments_days
+- cs_stress_borrowed_or_helped
+- cs_emergency_sold_house
+
+1 hh_wealth_ question found in the country questionnaire: approved
+
+
+1 hh_wealth_ question found in the country questionnaire: approved
+
+
+No CS questions in the country questionnaire.
+There are less than 10 coping strategies included in the questionnaire. Add coping strategies so that each respondent profile receives at least 10 coping strategies.
+
+No CS questions in the country questionnaire.
+There are less than 10 coping strategies included in the questionnaire. Add coping strategies so that each respondent profile receives at least 10 coping strategies.
+
+There should be more than 2 HDDS fields
+No HDDS questions in the country questionnaire
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 4  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harv_unit_kg']
+
+
+-------
+Domains have been changed for question:
+resp_language
+
+Template Questionnaire order # 1 - English 
+
+ template value=English 
+ country value=Burmese 
+ 
+Country Questionnaire order # 2 - Other options (add as many as necessary) 
+
+ template value=Other options (add as many as necessary) 
+ country value=English (for testing only) 
+ 
+
+
+-------
+Domains have been changed for question:
+contact_2
+
+Country Questionnaire order # 2 - Yes - other household member 
+
+ template value=Yes - other household member 
+ country value=Yes - friend or relative 
+ 
+Country Questionnaire order # 3 - Yes - friend or relative (non-household member) 
+
+ template value=Yes - friend or relative (non-household member) 
+ country value=No 
+ 
+Country Questionnaire order # 4 - No 
+
+ template value=No 
+ country value=Don't know 
+ 
+Country Questionnaire order # 5 - Don't know 
+
+ template value=Don't know 
+ country value=Refused 
+ 
+Country Questionnaire order # 6 - Refused 
+
+ template value=Refused 
+ country value= 
+ 
+
+
+-------
+Domains have been changed for question:
+hh_admin1
+
+Country Questionnaire order # 1 - Admin1 
+
+ template value=Admin1 
+ country value=Ayeyarwady 
+ 
+Country Questionnaire order # 2 - Don't know 
+
+ template value=Don't know 
+ country value=Bago 
+ 
+Country Questionnaire order # 3 - Refused 
+
+ template value=Refused 
+ country value=Chin 
+ 
+Country Questionnaire order # 4 - Kachin 
+
+ template value= 
+ country value=Kachin 
+ 
+Country Questionnaire order # 5 - Kayah 
+
+ template value= 
+ country value=Kayah 
+ 
+Country Questionnaire order # 6 - Kayin 
+
+ template value= 
+ country value=Kayin 
+ 
+Country Questionnaire order # 7 - Magway 
+
+ template value= 
+ country value=Magway 
+ 
+Country Questionnaire order # 8 - Mandalay 
+
+ template value= 
+ country value=Mandalay 
+ 
+Country Questionnaire order # 9 - Mon 
+
+ template value= 
+ country value=Mon 
+ 
+Country Questionnaire order # 10 - Nay pyi taw 
+
+ template value= 
+ country value=Nay pyi taw 
+ 
+Country Questionnaire order # 11 - Rakhine 
+
+ template value= 
+ country value=Rakhine 
+ 
+Country Questionnaire order # 12 - Sagaing 
+
+ template value= 
+ country value=Sagaing 
+ 
+Country Questionnaire order # 13 - Shan 
+
+ template value= 
+ country value=Shan 
+ 
+Country Questionnaire order # 14 - Tanintharyi 
+
+ template value= 
+ country value=Tanintharyi 
+ 
+Country Questionnaire order # 15 - Yangon 
+
+ template value= 
+ country value=Yangon 
+ 
+Country Questionnaire order # 16 - Don't know 
+
+ template value= 
+ country value=Don't know 
+ 
+Country Questionnaire order # 17 - Refused 
+
+ template value= 
+ country value=Refused 
+ 
+
+
+-------
+Domains have been changed for question:
+income_main
+
+Country Questionnaire order # 4 - Production and sale of livestock or livestock products 
+
+ template value=Production and sale of livestock or livestock products 
+ country value=Production and sale of livestock and livestock products 
+ 
+Country Questionnaire order # 6 - Production and sale of fish or aquatic products 
+
+ template value=Production and sale of fish or aquatic products 
+ country value=Production and sale of fish 
+ 
+Country Questionnaire order # 20 - Refused 
+
+ template value=Refused 
+ country value=Don't know
+20)refused 
+ 
+
+
+-------
+Domains have been changed for question:
+income_sec
+
+Country Questionnaire order # 4 - Production and sale of livestock or livestock products 
+
+ template value=Production and sale of livestock or livestock products 
+ country value=Production and sale of livestock and livestock products 
+ 
+Country Questionnaire order # 6 - Production and sale of fish or aquatic products 
+
+ template value=Production and sale of fish or aquatic products 
+ country value=Production and sale of fish 
+ 
+
+
+-------
+Domains have been changed for question:
+income_third
+
+Country Questionnaire order # 4 - Production and sale of livestock or livestock products 
+
+ template value=Production and sale of livestock or livestock products 
+ country value=Production and sale of livestock and livestock products 
+ 
+Country Questionnaire order # 6 - Production and sale of fish or aquatic products 
+
+ template value=Production and sale of fish or aquatic products 
+ country value=Production and sale of fish 
+ 
+
+
+-------
+Domains have been changed for question:
+fish_salesmain
+
+Country Questionnaire order # 1 - Fresh product (any kind, including invertebrates) 
+
+ template value=Fresh product (any kind, including invertebrates) 
+ country value=Fresh fish (any kind, including invertebrates) 
+ 
+Country Questionnaire order # 2 - Preserved product (including dry, smoked, fermented, salted) 
+
+ template value=Preserved product (including dry, smoked, fermented, salted) 
+ country value=Preserved fish (including dry fish, smoked fish, fermented fish, salt fish) 
+ 
+Country Questionnaire order # 3 - Frozen product 
+
+ template value=Frozen product 
+ country value=Frozen fish 
+ 
+Country Questionnaire order # 4 - Canned product 
+
+ template value=Canned product 
+ country value=Canned fish 
+ 
+
+
+-------
+Domains have been changed for question:
+cs_stress_hh_assets
+
+Country Questionnaire order # 2 - No - because it wasn’t necessary 
+
+ template value=No - because it wasn’t necessary 
+ country value=No - because it wasn't necessary 
+ 
+Country Questionnaire order # 4 - Not applicable 
+
+ template value=Not applicable 
+ country value=Not applicable (don't have these assets) 
+ 
+Country Questionnaire order # 5 - Don't know 
+
+ template value=Don't know 
+ country value= 
+ 
+Country Questionnaire order # 6 - Refused 
+
+ template value=Refused 
+ country value= 
+ 
+
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['ls_all_goats', 'hh_asset_prod_taxi', 'hdds_sugar', 'hh_asset_transp_motorbike', 'hdds_rootstubers', 'covid_ref', 'ls_all_dk', 'hdds_vegetables', 'hh_asset_transp_van', 'ls_all_equine', 'covid_curfew', 'ls_all_sheep', 'future_int_time_eve', 'hdds_eggs', 'ls_all_smallmammals', 'assistance_ngo', 'future_int_day_fri', 'hh_asset_prod_ref', 'hh_asset_transp_boatnomotor', 'future_int_day_mon', 'future_int_time_morn', 'hdds_meat', 'future_int_day_sun', 'hh_asset_prod_process', 'assistance_ref', 'assistance_fao', 'hdds_legumes', 'hh_asset_prod_none', 'covid_stayhome', 'ls_all_swine', 'hdds_condiments', 'future_int_time_aft', 'assistance_dk', 'hh_asset_transp_boatmotor', 'covid_processclosed', 'assistance_gov', 'ls_all_ref', 'future_int_day_sat', 'hh_asset_transp_car', 'covid_goodstransp', 'hdds_oils', 'hh_asset_transp_bici', 'hh_asset_prod_sewing', 'ls_all_none', 'hdds_cereals', 'hh_asset_transp_none', 'hh_asset_prod_dk', 'hh_asset_prod_farmmach', 'hdds_milkdairy', 'future_int_day_thurs', 'future_int_day_tues', 'hh_asset_transp_cart', 'hdds_fruits', 'ls_all_camelids', 'hdds_fish', 'assistance_wfp', 'covid_school', 'covid_borderclosed', 'hh_asset_transp_ref', 'covid_dk', 'covid_none', 'assistance_otherun', 'covid_marketclosed', 'covid_gatherings', 'hh_asset_transp_dk', 'future_int_day_wed', 'hh_asset_prod_truck', 'ls_all_cattle', 'ls_all_poultry']
+Derived field only in country (therefore not stored/published on the Hub): []
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/MMR/R9/validated_questionnaire_geopoll_en_MMR_20240305122409.xlsx
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 10
+
+Survey edited by replacing values according the Additional Information sheet

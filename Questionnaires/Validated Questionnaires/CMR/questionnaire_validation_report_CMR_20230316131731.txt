@@ -1,0 +1,298 @@
+
+Country Questionnaire File: GeoPoll_CMR_FR_HHData_Final_20230314.xlsx
+Country Questionnaire Type: geopoll
+Country Questionnaire Language: fr
+The template used to validate the country questionnaire is: 20230307
+Validation number: 2
+User: Ibrahim Ali Ahmad
+Validated on: 20230316131731
+
+
+detecting differences in column: English
+['resp_language']; ['Agree']; ['contact_2']; ['contact_3']; ['hh_admin1']; ['hh_admin2_1']; ['hh_agricactivity']; ['hh_gender']; ['hh_wealth_water']; ['hh_wealth_toilet']; ['hh_residencetype']; ['hh_asset_prod']; ['hh_age']; ['income_main']; ['income_main_amount']; ['income_main_amount_conf']; ['income_main_comp']; ['income_sec']; ['income_sec_amount']; ['income_sec_amount_conf']; ['income_sec_comp']; ['income_third']; ['income_third_amount']; ['income_third_amount_conf']; ['income_third_comp']; ['crp_intro']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_system']; ['crp_area_change']; ['crp_harv_change']; ['crp_harv_vol']; ['crp_proddif']; ['crp_proddif_2']; ['crp_storage']; ['crp_salesmain']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_num_change']; ['ls_proddif_2']; ['ls_salesprice']; ['fish_main']; ['fish_proddif_2']; ['fish_inputdif']; ['fish_salesmain']; ['fish_salesprice']; ['hdds']; ['fcs_vegetables_days']; ['fcs_fruit_days']; ['need_2']; ['language2']
+detecting differences in column: Length
+['resp_language']; ['Agree']; ['contact_2']; ['contact_3']; ['hh_admin1']; ['hh_admin2_1']; ['hh_agricactivity']; ['hh_gender']; ['hh_wealth_water']; ['hh_wealth_toilet']; ['hh_residencetype']; ['hh_asset_prod']; ['hh_age']; ['income_main']; ['income_main_amount']; ['income_main_amount_conf']; ['income_main_comp']; ['income_sec']; ['income_sec_amount']; ['income_sec_amount_conf']; ['income_sec_comp']; ['income_third']; ['income_third_amount']; ['income_third_amount_conf']; ['income_third_comp']; ['crp_intro']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_system']; ['crp_area_change']; ['crp_harv_change']; ['crp_harv_vol']; ['crp_proddif']; ['crp_proddif_2']; ['crp_storage']; ['crp_salesmain']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_num_change']; ['ls_proddif_2']; ['ls_salesprice']; ['fish_main']; ['fish_proddif_2']; ['fish_inputdif']; ['fish_salesmain']; ['fish_salesprice']; ['hdds']; ['fcs_vegetables_days']; ['fcs_fruit_days']; ['need_2']; ['language2']
+detecting differences in column: Q Type
+['resp_refusalwhy']; ['crp_irrig_source']; ['crp_harv_unit']; ['fish_inputdif']; ['fish_salesmain']; ['need_2']; ['need_received']; ['leader_type']
+detecting differences in column: Conditional
+['contact_2_name']; ['contact_3_name']; ['crp_intro']; ['crp_irrig_system']; ['crp_storage']; ['crp_salesmain']; ['ls_intro']; ['fish_intro']; ['need']
+detecting differences in column: Programming Instructions
+['hh_admin2_1']; ['income_sec']; ['income_third']; ['crp_salesmain']; ['ls_main']
+detecting differences in column: Skip Pattern
+['resp_language']; ['Agree']; ['contact_2']; ['contact_3']; ['hh_admin1']; ['hh_admin2_1']; ['hh_education']; ['hh_wealth_water']; ['hh_wealth_toilet']; ['hh_wealth_light']; ['income_main']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_main_amount']; ['income_main_amount_conf']; ['income_main_gender']; ['income_sec']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_sec_amount']; ['income_sec_amount_conf']; ['income_third']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['income_third_amount']; ['income_third_amount_conf']; ['shock']; ['hh_explanation']; ['crp_landsize_unit']; ['crp_irrig_source']; ['crp_irrig_system']; ['crp_irrig_pay']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_2']; ['crp_storage']; ['crp_salesmain']; ['ls_num_change']; ['ls_proddif']; ['ls_proddif_2']; ['fish_proddif']; ['fish_proddif_2']; ['fish_inputdif']; ['fish_salesmain']; ['fish_salesprice']; ['fies_whlday']; ['fies_whlday_hhs']; ['lcsi_intro']; ['cs_stress_hh_assets']; ['cs_stress_spent_savings']; ['cs_stress_sold_more_animals']; ['cs_stress_borrowed_or_helped']; ['cs_stress_credit']; ['cs_stress_borrowed_money']; ['cs_crisis_sold_prod_assets']; ['cs_crisis_no_school']; ['cs_crisis_reduced_health_exp']; ['cs_crisis_consume_seed_stock']; ['cs_crisis_decrease_input_exp']; ['cs_emergency_begged']; ['cs_emergency_illegal']; ['cs_emergency_hh_migration']; ['hdds_confirmation']; ['fcs_condiments_days']; ['assistance_quality']; ['language2']
+detecting differences in column: Codes
+['crp_main']; ['crp_salesmain']
+detecting differences in column: Default skip patterns & conditional 
+['contact_2']; ['contact_2_name']; ['contact_3']; ['contact_3_name']
+detecting differences in column: Mandatory
+['hh_admin2_1']
+detecting differences in column: Core questions only
+['resp_firstname']; ['resp_gender']; ['hh_admin1']; ['hh_admin2_1']; ['hh_agricactivity']; ['hh_gender']; ['hh_wealth_toilet']; ['hh_wealth_light']; ['income_main']; ['income_sec_comp']; ['income_third_comp']; ['crp_intro']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesdif']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_intro']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_change']; ['ls_proddif']; ['ls_proddif_2']; ['ls_salesmain']; ['ls_salesdif']; ['ls_salesdif_2']; ['ls_salesprice']; ['fish_intro']; ['fish_main']; ['fish_change']; ['fish_proddif']; ['fish_proddif_2']; ['fish_salesmain']; ['fish_salesdif']; ['fish_salesdif_2']; ['fish_salesprice']; ['fies_worried']; ['fies_healthy']; ['fies_fewfoods']; ['fies_skipped']; ['fies_ateless']; ['fies_ranout']; ['fies_ranout_hhs']; ['hdds_confirmation']; ['need']; ['need_received']; ['assistance_quality']
+
+QName Field - Number of questions in the Template Questionnaire: 184
+QName Field - Number of questions in the Country Questionnaire: 177
+
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 182
+SuggestedQName Field - Number of questions in the Country Questionnaire: 175
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['hh_admin2_3', 'End poll callback', 'o_ls_proddif_2', 'hh_admin2_5', 'hh_admin2_6', 'o_shock', 'CallBack-Introduction', 'CallBack-Confirmation', 'hh_admin2_7', 'hh_admin2_4', 'hh_admin2_2']
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country): ['cs_stress_changed_school', 'cs_emergency_sold_house', 'rcsi_restrict_adult_consumpt', 'income_third_control', 'cs_emergency_sold_last_female', 'rcsi_reduce_number_meals', 'rcsi_intro', 'rcsi_limit_portions', 'crp_all_[name of crop as per crop list]', 'ls_all_\n\n1)ls_all_cattle\n2)ls_all_goats\n3)ls_all_sheep\n4)ls_all_swine\n5)ls_all_equine\n6)ls_all_smallmammals\n7)ls_all_poultry\n8)ls_all_camelids\n9)ls_all_other\n10)ls_all_none\n11)ls_all_dk\n12)ls_all_ref', 'covid_\n\n1) covid_goodstransp\n2) covid_marketclosed\n3) covid_borderclosed\n4) covid_stayhome\n5) covid_gatherings\n6) covid_processclosed\n7) covid_curfew\n8) covid_school\n9) covid_other\n10) covid_none\n11) covid_dk\n12) covid_ref', 'rcsi_borrowed_food', 'income_sec_control', 'income_third_gender', 'cs_crisis_harv_immature_crops', 'income_sec_gender', 'cs_stress_eat_elsewhere', 'rcsi_less_preferred_foods']
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['hh_admin2_3', 'End poll callback', 'o_ls_proddif_2', 'hh_admin2_5', 'hh_admin2_6', 'o_shock', 'CallBack-Introduction', 'CallBack-Confirmation', 'FutureCallback', 'hh_admin2_7', 'hh_admin2_4', 'hh_admin2_2']
+QName Field - Questions in template questionnaire only (therefore not collected in the country): ['covid', 'crp_all', 'rcsi_restrict_adult_consumpt', 'cs_emergency_sold_last_female', 'cs_emergency_sold_house', 'cs_crisis_harv_immature_crops', 'rcsi_less_preferred_foods', 'rcsi_reduce_number_meals', 'callback', 'rcsi_borrowed_food', 'cs_stress_eat_elsewhere', 'ls_all', 'income_third_control', 'income_sec_control', 'income_third_gender', 'income_sec_gender', 'cs_stress_changed_school', 'rcsi_intro', 'rcsi_limit_portions']
+
+Found 81 mandatory questions in the template questionnaire
+No, country questionnaire does not contains all mandatory questions. Missing question: ['callback'] 
+
+3 hh_wealth_ questions found in the country questionnaire: it should be only one!
+
+
+14 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 6
+Number of CRISIS questions: 5
+Number of EMERGENCY questions: 3
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 4  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harv_unit_kg']
+
+
+-------
+
+Domains have been changed for question: resp_language
+   code                                     label
+0     1                                   English
+1     2  Other options (add as many as necessary)
+0     1                                    French
+1     2                                   English
+2     3                                  Fulfulde
+
+-------
+
+Domains have been changed for question: resp_agree
+   code     label
+0     1       Yes
+0     1  Continue
+
+-------
+
+Domains have been changed for question: contact_2
+   code                                            label
+1     2                     Yes - other household member
+2     3  Yes - friend or relative (non-household member)
+3     4                                               No
+4     5                                       Don't know
+5     6                                          Refused
+1     2                         Yes - friend or relative
+2     3                                               No
+3     4                                       Don't know
+4     5                                          Refused
+
+-------
+
+Domains have been changed for question: contact_3
+   code                                            label
+1     2                     Yes - other household member
+2     3  Yes - friend or relative (non-household member)
+3     4                                               No
+4     5                                       Don't know
+5     6                                          Refused
+1     2                         Yes - friend or relative
+2     3                                               No
+3     4                                       Don't know
+4     5                                          Refused
+
+-------
+
+Domains have been changed for question: hh_admin1
+   code       label
+0     1      Admin1
+1     2  Don't know
+2     3     Refused
+0     1     Adamawa
+1     2        East
+2     3   Far-north
+3     4       North
+4     5  North-west
+5     6  South-west
+6     7        West
+7     8  Don't know
+8     9     Refused
+
+-------
+
+Domains have been changed for question: hh_admin2_1
+   code        label
+0     1       Admin2
+1     2   Don't know
+2     3      Refused
+0     1       Djérem
+1     2  Faro-et-déo
+2     3   Mayo-banyo
+3     4        Mbéré
+4     5         Vina
+5     6   Don't know
+6     7      Refused
+
+-------
+
+Domains have been changed for question: crp_landsize_unit
+   code                     label
+4     5  $local measurement unit$
+4     5                   Quarter
+5     6                      Feet
+
+-------
+
+Domains have been changed for question: crp_irrig_system
+   code                                      label
+0     1            No, everything works on gravity
+1     2   Yes, there is a communal diesel/gas pump
+2     3       Yes, there is a communal manual pump
+3     4    Yes, there is a manual pump in my field
+4     5    Yes, there is a diesel pump in my field
+0     1           No - everything works on gravity
+1     2  Yes - there is a communal diesel/gas pump
+2     3      Yes - there is a communal manual pump
+3     4   Yes - there is a manual pump in my field
+4     5   Yes - there is a diesel pump in my field
+
+-------
+
+Domains have been changed for question: crp_storage
+   code                                        label
+2     3  An important part of it, but less than half
+2     3   An important part of it but less than half
+
+-------
+
+Domains have been changed for question: crp_salesmain
+   code                                                   label
+0     1                                                    Rice
+1     2                                                  Millet
+2     3                                                 Sorghum
+3     4                                                   Maize
+4     5                                                 Cassava
+5     6                                                 Potatoe
+6     7                                                   Beans
+7     8                                          Cassava leaves
+8     9                                                 Haricot
+9    10                                               Plantains
+10   11                                                   Wheat
+11   12                                                  Barley
+12   13                                            Other cereal
+13   14                                          Sweet potatoes
+14   15                                                    Yams
+15   16                                                 Carrots
+16   17                                                 Cocoyam
+17   18                                            Other tubers
+18   19                                                 Lentils
+19   20                                                    Peas
+20   21                                                Soybeans
+21   22                                               Chickpeas
+22   23                                              Fava beans
+23   24                                             Broad beans
+24   25                                            Other pulses
+25   26                                                 Cabbage
+26   27                                                 Lettuce
+27   28                                        Spinach-amaranth
+28   29                                          Potatoe leaves
+29   30                                                 Moringa
+30   31                               Sorrel hibiscus, rosselle
+31   32  Green salad herbs (thyme, parsley, mint, rocca, other)
+32   33                                             Cauliflower
+33   34                                  Other leafy vegetables
+34   35                                                Tomatoes
+35   36                                                Cucumber
+36   37                                                 Pumpkin
+37   38                                      Eggplant/aubergine
+38   39                                                Zucchini
+39   40                                                    Okra
+40   41                                             Bell pepper
+41   42                                                  Onions
+42   43                                              Green peas
+43   44                                        Fava beans green
+44   45                                    Other non leafy vegs
+45   46                                                  Orange
+46   47                                                   Lemon
+47   48                                              Grapefruit
+48   49                                   Mandarins/clementines
+49   50                                      Other citrus fruit
+50   51                                            Sweet banana
+51   52                                                  Papaya
+52   53                                                   Mango
+53   54                                                   Guava
+54   55                                               Pineapple
+55   56                                                 Avocado
+56   57                                             Water melon
+57   58                                                   Dates
+58   59                                                    Figs
+59   60                                                  Grapes
+60   61                                                  Olives
+61   62                                                   Apple
+62   63                                                 Apricot
+63   64                                                Cherries
+64   65                                         Peach/nectarine
+65   66                                            Strawberries
+66   67                                      Melon (cantaloupe)
+67   68                                             Other fruit
+68   69                                                Coconuts
+69   70                                        Groundnut/peanut
+70   71                                              Cashew nut
+71   72                                                Kola nut
+72   73                                                  Sesame
+73   74                                             Bambara nut
+74   75                                                  Almond
+75   76                                                  Walnut
+76   77                                              Other nuts
+77   78                                                   Cocoa
+78   79                                                  Coffee
+79   80                                                     Tea
+80   81                                               Sugarcane
+81   82                                               Sunflower
+82   83                                    Other food cash crop
+83   84                                                  Cotton
+84   85                                                  Rubber
+85   86                                                    Jute
+86   87                                                  Fodder
+87   88                                                 Tobacco
+88   89                                                     Qat
+89   90                                Other non-food cash crop
+90   91                       No crop sold in the last 3 months
+91   92                                              Don't know
+92   93                                                 Refused
+
+-------
+
+Domains have been changed for question: fish_salesmain
+   code                                                                         label
+0     1                                Fresh fish (any kind, including invertebrates)
+1     2   Preserved fish (including dry fish, smoked fish, fermented fish, salt fish)
+0     1                               Fresh fish (any kind,  including invertebrates)
+1     2  Preserved fish (including dry fish, smoked fish,  fermented fish, salt fish)
+
+-------
+
+Domains have been changed for question: language2
+   code                                            label
+0     1                                          English
+1     2  Other languages (consistent with resp_language)
+0     1                                           French
+1     2                                          English
+2     3                                         Fulfulde
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['ls_all_equine', 'need_received_fish_assist', 'fish_inputdif_repairs', 'need_vouchers_fair', 'need_crop_knowledge', 'need_crop_infrastructure', 'need_fish_infrastructure', 'covid_ref', 'need_cold_storage', 'fish_inputdif_labour', 'need_crop_inputs', 'fish_inputdif_bait_feed', 'covid_none', 'need_received_ref', 'fish_inputdif_fuel', 'covid_dk', 'need_ls_feed', 'ls_all_smallmammals', 'covid_borderclosed', 'ls_all_cattle', 'covid_goodstransp', 'need_ls_knowledge', 'fish_inputdif_gear', 'ls_all_none', 'need_marketing_supp', 'need_ref', 'need_received_vouchers_fair', 'need_env_infra_rehab', 'need_dk', 'fish_inputdif_ice', 'covid_gatherings', 'fish_inputdif_fingerling', 'ls_all_ref', 'need_fish_knowledge', 'covid_curfew', 'need_cash', 'ls_all_poultry', 'fish_inputdif_dk', 'need_food', 'need_fish_inputs', 'need_ls_vet_service', 'need_received_sales_support', 'covid_stayhome', 'need_received_ls_assist', 'covid_school', 'need_received_dk', 'need_received_rehabilitation', 'ls_all_sheep', 'need_received_none', 'need_received_food', 'ls_all_dk', 'need_received_crop_assist', 'ls_all_camelids', 'need_received_cash', 'ls_all_swine', 'covid_marketclosed', 'ls_all_goats', 'need_ls_infrastructure', 'fish_inputdif_ref', 'covid_processclosed']
+Derived field only in country (therefore not stored/published on the Hub): []
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/CMR/validated_questionnaire_geopoll_fr_CMR_20230316131731.xlsx
+
+Created Admin Info sheet with updated boundaries.

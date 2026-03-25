@@ -1,0 +1,109 @@
+
+Country iso3: SLE
+Country round #: 10
+Country Questionnaire Language: en
+Country Questionnaire Type: geopoll
+Country Questionnaire File: household_questionnaire_geopoll_EN_template_20230307_ISO3_20230717.xlsx
+The template used to validate the country questionnaire is: 20230307
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 17/07/2023, 15:15:20
+
+
+
+QName Field - Number of questions in the Template Questionnaire: 184
+QName Field - Number of questions in the Country Questionnaire: 167
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 182
+SuggestedQName Field - Number of questions in the Country Questionnaire: 165
+
+Found 81 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country):
+- cs_stress_changed_school
+- cs_stress_borrowed_or_helped
+- covid_
+
+1) covid_goodstransp
+2) covid_marketclosed
+3) covid_borderclosed
+4) covid_stayhome
+5) covid_gatherings
+6) covid_processclosed
+7) covid_curfew
+8) covid_school
+9) covid_other
+10) covid_none
+11) covid_dk
+12) covid_ref
+- income_third_control
+- crp_harv_lastyr
+- income_third_amount_conf
+- cs_stress_hh_assets
+- crp_irrig_system
+- cs_emergency_hh_migration
+- income_third_amount
+- cs_stress_eat_elsewhere
+- cs_crisis_no_school
+- cs_crisis_reduced_health_exp
+- cs_crisis_sold_prod_assets
+- cs_emergency_sold_house
+- income_third_gender
+- crp_irrig_pay
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+
+QName Field - Questions in template questionnaire only (therefore not collected in the country):
+- cs_stress_changed_school
+- cs_stress_borrowed_or_helped
+- income_third_control
+- crp_harv_lastyr
+- income_third_amount_conf
+- covid
+- cs_stress_hh_assets
+- crp_irrig_system
+- cs_emergency_hh_migration
+- income_third_amount
+- cs_stress_eat_elsewhere
+- cs_crisis_no_school
+- cs_crisis_reduced_health_exp
+- cs_crisis_sold_prod_assets
+- cs_emergency_sold_house
+- income_third_gender
+- crp_irrig_pay
+
+3 hh_wealth_ questions found in the country questionnaire: it should be only one!
+
+
+10 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 4  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harv_unit_kg']
+
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['covid_gatherings', 'covid_marketclosed', 'covid_ref', 'covid_goodstransp', 'covid_processclosed', 'covid_school', 'covid_stayhome', 'covid_none', 'covid_borderclosed', 'covid_dk', 'covid_curfew']
+Derived field only in country (therefore not stored/published on the Hub): []
+All domains have been respected
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/SLE/R10/validated_questionnaire_geopoll_en_SLE_20230717151520.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 10
+
+Survey edited by replacing values according the Additional Information sheet

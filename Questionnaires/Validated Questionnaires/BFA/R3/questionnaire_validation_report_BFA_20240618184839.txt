@@ -1,0 +1,46 @@
+
+Country Questionnaire File: household_questionnaire_kobo_FR_template_20240131_BFA_F2F_240617.xlsx
+Country Questionnaire Type: kobo
+Country Questionnaire Language: fr
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: June 18, 2024
+
+All Fields in country questionnaire and not in template questionnaire: ['adm4_pcode', 'adm3_pcode', 'adm4_name', 'adm3_name', 'Sample', 'cluster']
+All Fields in template questionnaire and not in country questionnaire: ['cs_stress_eat_elsewhere', 'crp_harv_vol', 'crp_harv_unit', 'crp_irrig_pay', 'income_third_amount_conf', 'income_sec_gender', 'covid', 'covid_otherspecify', 'crp_irrig_system', 'cs_stress_hh_assets', 'income_third_gender', 'cs_stress_changed_school', 'income_sec_amount_conf', 'cs_crisis_harv_immature_crops', 'income_third_control', 'cs_stress_borrowed_or_helped', 'crp_harv_unit_kg', 'crp_harv_lastyr', 'hh_fish', 'fish_inputdif_otherspecify', 'fish_inputdif', 'income_third_amount', 'crp_harvunit', 'income_sec_control', 'income_sec_amount']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: label::English (en)
+['fies_hungry']
+DETECTING DIFFERENCES IN QUESTIONS: label::French (fr)
+['hh_agricactivity']; ['hh_education']; ['hh_wealth_water']; ['hh_wealth_light']; ['crp_landsize_num']
+
+Found 117 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 14 CS questions found in the country questionnaire
+Number of STRESS questions: 4
+Number of CRISIS questions: 5
+Number of EMERGENCY questions: 5
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/BFA/R3/validated_questionnaire_kobo_fr_BFA_20240618184839.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 10
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/BFA/R3/validated_questionnaire_kobo_fr_BFA_20240618184839.xlsx
+
+Survey edited by replacing values according the Additional Information sheet

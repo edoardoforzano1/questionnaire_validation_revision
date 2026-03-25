@@ -1,0 +1,87 @@
+
+Country Questionnaire File: household_questionnaire_geopoll_EN_template_20220929_ZWE.xlsx
+Country Questionnaire Type: geopoll
+Country Questionnaire Language: en
+The template used to validate the country questionnaire is: 20220929
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 20221025130233
+
+
+detecting differences in column: English
+['introduction']; ['hh_wealth_light']; ['crp_irrig_system']; ['ls_main']
+detecting differences in column: Length
+['introduction']; ['hh_wealth_light']; ['crp_irrig_system']; ['ls_main']
+detecting differences in column: Q Type
+['quotareached']
+detecting differences in column: Randomize
+['quotareached']
+detecting differences in column: Default skip patterns & conditional 
+['crp_seed_supply']
+detecting differences in column: Core questions only
+['crp_intro']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesdif']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_intro']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_change']; ['ls_proddif']; ['ls_proddif_2']; ['ls_salesmain']; ['ls_salesdif']; ['ls_salesdif_2']; ['ls_salesprice']
+
+QName Field - Number of questions in the Template Questionnaire: 183
+QName Field - Number of questions in the Country Questionnaire: 173
+
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 181
+SuggestedQName Field - Number of questions in the Country Questionnaire: 165
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['fies', 'copingstrategies']
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country): ['cs_emergency_hh_migration', 'hh_explanation', 'cs_crisis_reduced_health_exp', 'hh_wealth_water', 'lcsi_intro', 'hh_wealth_toilet', 'fies_intro', 'cs_crisis_consume_seed_stock', 'cs_stress_changed_school', 'cs_crisis_decrease_input_exp', 'cs_stress_eat_elsewhere', 'crp_harv_unit', 'cs_stress_spent_savings', 'cs_stress_borrowed_or_helped', 'crp_harv_unit_kg', 'crp_harv_lastyr', 'crp_storage', 'cs_emergency_sold_house', 'covid_\n\n1) covid_goodstransp\n2) covid_marketclosed\n3) covid_borderclosed\n4) covid_stayhome\n5) covid_gatherings\n6) covid_processclosed\n7) covid_curfew\n8) covid_school\n9) covid_other\n10) covid_none\n11) covid_dk\n12) covid_ref']
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['o_crp_germination', 'o_crp_fert_price', 'o_fert_subst', 'fies', 'o_crp_fert_now', 'o_crp_seed_price_change', 'o_crp_Main_landsize_unit', 'o_crp_fert_supply', 'o_crp_main_area', 'copingstrategies']
+QName Field - Questions in template questionnaire only (therefore not collected in the country): ['cs_emergency_hh_migration', 'hh_explanation', 'cs_crisis_reduced_health_exp', 'hh_wealth_water', 'crp_harv_vol', 'lcsi_intro', 'hh_wealth_toilet', 'fies_intro', 'cs_crisis_consume_seed_stock', 'cs_stress_changed_school', 'cs_crisis_decrease_input_exp', 'cs_stress_eat_elsewhere', 'crp_harv_unit', 'cs_stress_spent_savings', 'cs_stress_borrowed_or_helped', 'crp_harv_unit_kg', 'crp_harv_lastyr', 'crp_storage', 'cs_emergency_sold_house', 'covid']
+
+Found 81 mandatory questions in the template questionnaire
+No, country questionnaire does not contains all mandatory questions. Missing question: ['fies_intro'] 
+
+1 hh_wealth_ question found in the country questionnaire: approved
+
+
+10 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+
+-------
+
+Domains have been changed for question: hh_wealth_light
+   code                    label
+2     3              Petrol lamp
+2     3  Paraffin or petrol lamp
+
+-------
+
+Domains have been changed for question: crp_irrig_system
+   code                                                          label
+1     2                       Yes, there is a communal diesel/gas pump
+4     5                        Yes, there is a diesel pump in my field
+1     2     Yes, there is a communal diesel/gas/solar/electricity pump
+4     5  Yes, there is a diesel/solar/electricity/gas pump in my field
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['covid_dk', 'covid_processclosed', 'covid_none', 'covid_school', 'covid_goodstransp', 'covid_ref', 'covid_marketclosed', 'covid_borderclosed', 'covid_stayhome', 'covid_gatherings', 'covid_curfew']
+Derived field only in country (therefore not stored/published on the Hub): []
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/ZWE/R6/validated_questionnaire_geopoll_en_ZWE_20221025130233.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 12
+
+Survey edited by replacing values according the Additional Information sheet

@@ -1,0 +1,110 @@
+
+Country Questionnaire File: household_questionnaire_geopoll_EN_template_20220929_ZWE.xlsx
+Country Questionnaire Type: geopoll
+Country Questionnaire Language: en
+The template used to validate the country questionnaire is: 20220929
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 20221023173940
+
+
+detecting differences in column: Suggested Name
+['fish_salesdif']; ['assistance_provider']; ['leader_contact']
+detecting differences in column: English
+['hh_agricactivity']; ['hh_wealth_light']; ['hh_asset_prod']; ['hh_asset_transp']; ['income_main_amount']; ['income_sec_ls_check']; ['income_sec_amount']; ['income_third_ls_check']; ['income_third_amount']; ['shock']; ['crp_irrig_system']; ['crp_salesmain']; ['ls_main']; ['ls_num_change']; ['ls_feed']; ['ls_proddif_2']; ['ls_salesmain']; ['fish_salesdif']; ['copingstrategies']; ['fcs_intro']; ['fcs_staple_days']; ['fcs_pulses_days']; ['fcs_vegetables_days']; ['fcs_meat_fish_days']; ['fcs_dairy_days']; ['fcs_sugar_days']; ['fcs_oil_days']; ['need_2']
+detecting differences in column: Length
+['hh_agricactivity']; ['hh_wealth_light']; ['hh_asset_prod']; ['hh_asset_transp']; ['income_main_amount']; ['income_sec_ls_check']; ['income_sec_amount']; ['income_third_ls_check']; ['income_third_amount']; ['shock']; ['crp_irrig_system']; ['crp_salesmain']; ['ls_num_change']; ['ls_proddif_2']; ['ls_salesmain']; ['fish_salesdif']; ['copingstrategies']; ['fcs_intro']; ['fcs_staple_days']; ['fcs_pulses_days']; ['fcs_vegetables_days']; ['fcs_meat_fish_days']; ['fcs_dairy_days']; ['fcs_sugar_days']; ['fcs_oil_days']; ['need_2']
+detecting differences in column: Q Type
+['fish_salesdif']
+detecting differences in column: Conditional
+['need_2']
+detecting differences in column: Programming Instructions
+['fish_salesdif']
+detecting differences in column: Skip Pattern
+['income_main']; ['income_sec']; ['income_third']; ['fish_salesdif']; ['fcs_condiments_days']
+detecting differences in column: Codes
+['fish_salesdif']; ['assistance_provider']
+detecting differences in column: Default skip patterns & conditional 
+['resp_age']; ['income_main']; ['income_sec']; ['income_third']; ['crp_seed_supply']; ['fish_salesdif']; ['fcs_condiments_days']
+detecting differences in column: Estimated percentage of repondents
+['crp_intro']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_seed_supply']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif_2']; ['crp_all']; ['crp_salesmain']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_intro']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_change']; ['ls_feed']; ['ls_proddif_2']; ['ls_all']; ['ls_salesmain']; ['ls_salesdif_2']; ['ls_salesprice']
+detecting differences in column: Weighted Duration
+['Agree']; ['resp_firstname']; ['resp_lastname']; ['resp_age']; ['resp_gender']; ['phone_number_conf']; ['phone_number_personal']; ['contact_2']; ['phone_number_2']; ['contact_2_name']; ['contact_3']; ['phone_number_3']; ['contact_3_name']; ['hh_admin1']; ['hh_admin2_1']; ['hh_agricactivity']; ['resp_id']; ['hh_gender']; ['hh_education']; ['hh_wealth_light']; ['hh_residencetype']; ['hh_size']; ['hh_asset_prod']; ['hh_asset_transp']; ['hh_maritalstat']; ['hh_age']; ['income_main']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_main_amount']; ['income_main_amount_conf']; ['income_main_gender']; ['income_main_control']; ['income_main_comp']; ['income_sec']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_sec_amount']; ['income_sec_amount_conf']; ['income_sec_gender']; ['income_sec_control']; ['income_sec_comp']; ['income_third']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['income_third_amount']; ['income_third_amount_conf']; ['income_third_gender']; ['income_third_control']; ['income_third_comp']; ['shock']; ['crp_intro']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_seed_supply']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif_2']; ['crp_all']; ['crp_salesmain']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_intro']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_change']; ['ls_feed']; ['ls_proddif_2']; ['ls_all']; ['ls_salesmain']; ['ls_salesdif_2']; ['ls_salesprice']; ['fish_intro']; ['fish_main']; ['fish_change']; ['fish_proddif_2']; ['fish_inputdif']; ['fish_salesmain']; ['fish_salesdif']; ['fish_salesprice']; ['fies']; ['fies_worried']; ['fies_healthy']; ['fies_fewfoods']; ['fies_skipped']; ['fies_ateless']; ['fies_ranout']; ['fies_ranout_hhs']; ['fies_hungry']; ['fies_hungry_hhs']; ['fies_whlday']; ['fies_whlday_hhs']; ['copingstrategies']; ['cs_stress_hh_assets']; ['cs_stress_sold_more_animals']; ['cs_stress_credit']; ['cs_stress_borrowed_money']; ['cs_crisis_sold_prod_assets']; ['cs_crisis_no_school']; ['cs_crisis_harv_immature_crops']; ['cs_emergency_begged']; ['cs_emergency_illegal']; ['cs_emergency_sold_last_female']; ['hdds']; ['hdds_confirmation']; ['fcs_intro']; ['fcs_staple_days']; ['fcs_pulses_days']; ['fcs_vegetables_days']; ['fcs_fruit_days']; ['fcs_meat_fish_days']; ['fcs_dairy_days']; ['fcs_sugar_days']; ['fcs_oil_days']; ['fcs_condiments_days']; ['rcsi_less_preferred_foods']; ['rcsi_borrowed_food']; ['rcsi_reduce_number_meals']; ['rcsi_limit_portions']; ['rcsi_restrict_adult_consumpt']; ['need_2']; ['need_received']; ['assistance_quality']; ['assistance_provider']; ['callback']; ['leader_contact']; ['leader_type']; ['phone_number_leader']; ['leader_name']; ['future_int_day']; ['future_int_time']; ['language2']; ['closeout']
+detecting differences in column: Updated duration (sec)
+['resp_id']; ['fish_salesdif']
+detecting differences in column: Updated weighted duration
+['resp_id']; ['crp_intro']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_seed_supply']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif_2']; ['crp_all']; ['crp_salesmain']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_intro']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_change']; ['ls_feed']; ['ls_proddif_2']; ['ls_all']; ['ls_salesmain']; ['ls_salesdif_2']; ['ls_salesprice']; ['fish_salesdif']
+detecting differences in column: Core questions only
+['resp_id']; ['crp_intro']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_intro']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_change']; ['ls_proddif_2']; ['ls_salesmain']; ['ls_salesdif_2']; ['ls_salesprice']; ['fish_salesdif']
+
+QName Field - Number of questions in the Template Questionnaire: 183
+QName Field - Number of questions in the Country Questionnaire: 173
+
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 181
+SuggestedQName Field - Number of questions in the Country Questionnaire: 165
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['assistance_provider\n\n1) assistance_fao\n2) assistance_wfp\n3) assistance_otherun\n4) assistance_gov\n5) assistance_ngo\n6) assistance_dk\n7) assistance_ref', 'leader_contact', 'rcsi_intro']
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country): ['cs_emergency_hh_migration', 'cs_stress_eat_elsewhere', 'crp_harv_lastyr', 'cs_crisis_reduced_health_exp', 'hh_explanation', 'cs_stress_spent_savings', 'crp_harv_unit', 'covid_\n\n1) covid_goodstransp\n2) covid_marketclosed\n3) covid_borderclosed\n4) covid_stayhome\n5) covid_gatherings\n6) covid_processclosed\n7) covid_curfew\n8) covid_school\n9) covid_other\n10) covid_none\n11) covid_dk\n12) covid_ref', 'cs_crisis_consume_seed_stock', 'assistance_provider\n\n1) assistance_FAO\n2) assistance_WFP\n3) assistance_otherUN\n4) assistance_gov\n5) assistance_ngo\n6) assistance_dk\n7) assistance_ref', 'cs_stress_changed_school', 'hh_wealth_water', 'cs_crisis_decrease_input_exp', 'cs_stress_borrowed_or_helped', 'cs_emergency_sold_house', 'rcsi', 'hh_wealth_toilet', 'crp_storage', 'phone_number_leader_yn', 'crp_harv_unit_kg']
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['o_crp_germination', 'o_crp_fert_price', 'o_fert_subst', 'fish_proddif', 'o_crp_main_area', 'ls_salesdif', 'o_crp_fert_supply', 'crp_salesdif', 'ls_proddif', 'rcsi_intro', 'need', 'fish_salesdif_2', 'o_crp_seed_price_change', 'o_crp_Main_landsize_unit', 'o_crp_fert_now', 'crp_proddif']
+QName Field - Questions in template questionnaire only (therefore not collected in the country): ['cs_emergency_hh_migration', 'covid', 'cs_stress_eat_elsewhere', 'crp_harv_lastyr', 'fish_proddif_1', 'cs_crisis_reduced_health_exp', 'hh_explanation', 'cs_stress_spent_savings', 'crp_harv_unit', 'cs_crisis_consume_seed_stock', 'ls_proddif_1', 'cs_stress_changed_school', 'need_1', 'hh_wealth_water', 'crp_harv_vol', 'cs_crisis_decrease_input_exp', 'cs_stress_borrowed_or_helped', 'ls_salesdif_1', 'cs_emergency_sold_house', 'rcsi', 'fish_salesdif_1', 'hh_wealth_toilet', 'crp_salesdif_1', 'crp_storage', 'crp_proddif_1', 'crp_harv_unit_kg']
+
+Found 81 mandatory questions in the template questionnaire
+No, country questionnaire does not contains all mandatory questions. Missing question: ['ls_salesdif_1', 'fish_salesdif_1', 'crp_salesdif_1', 'ls_proddif_1', 'fish_proddif_1', 'crp_proddif_1', 'need_1'] 
+
+1 hh_wealth_ question found in the country questionnaire: approved
+
+
+10 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+
+-------
+
+Domains have been changed for question: hh_wealth_light
+   code                    label
+2     3              Petrol lamp
+2     3  Paraffin or petrol lamp
+
+-------
+
+Domains have been changed for question: crp_irrig_system
+   code                                                          label
+1     2                       Yes, there is a communal diesel/gas pump
+4     5                        Yes, there is a diesel pump in my field
+1     2     Yes, there is a communal diesel/gas/solar/electricity pump
+4     5  Yes, there is a diesel/solar/electricity/gas pump in my field
+
+-------
+
+Domains have been changed for question: ls_salesmain
+   code  label
+1     2  Goats
+1     2   Goat
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['covid_dk', 'covid_processclosed', 'covid_gatherings', 'assistance_otherUN', 'covid_goodstransp', 'covid_borderclosed', 'assistance_FAO', 'assistance_WFP', 'covid_curfew', 'covid_ref', 'covid_school', 'covid_stayhome', 'covid_none', 'covid_marketclosed']
+Derived field only in country (therefore not stored/published on the Hub): ['assistance_fao', 'assistance_wfp', 'assistance_otherun']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/ZWE/R6/validated_questionnaire_geopoll_en_ZWE_20221023173940.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 12
+
+Survey edited by replacing values according the Additional Information sheet

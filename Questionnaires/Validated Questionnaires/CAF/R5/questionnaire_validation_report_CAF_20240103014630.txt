@@ -1,0 +1,42 @@
+
+Country Questionnaire File: CAR_R5_HH_questionnaire_kobo_FR_.xlsx
+Country Questionnaire Type: kobo
+Country Questionnaire Language: fr
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: January 03, 2024
+
+All Fields in country questionnaire and not in template questionnaire: []
+All Fields in template questionnaire and not in country questionnaire: ['income_sec_gender', 'income_sec_control', 'cs_emergency_sold_house', 'crp_all', 'income_third_control', 'hh_explanation', 'covid', 'income_third_gender', 'cs_crisis_no_school', 'cs_crisis_harv_immature_crops', 'ls_all', 'covid_otherspecify', 'cs_stress_eat_elsewhere', 'cs_crisis_decrease_input_exp', 'cs_emergency_sold_last_female']
+
+
+
+Found 117 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 13 CS questions found in the country questionnaire
+Number of STRESS questions: 7
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 5  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harvunit', 'crp_harv_unit_kg']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/CAF/R5/validated_questionnaire_kobo_fr_CAF_20240103014630.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 10
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/CAF/R5/validated_questionnaire_kobo_fr_CAF_20240103014630.xlsx
+
+Survey edited by replacing values according the Additional Information sheet

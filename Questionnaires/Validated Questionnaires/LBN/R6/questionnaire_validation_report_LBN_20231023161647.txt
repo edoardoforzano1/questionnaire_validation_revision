@@ -1,0 +1,56 @@
+
+Country Questionnaire File: household_questionnaire_kobo_AR_template_20230720_LBNR6_19OCT23.xlsx
+Country Questionnaire Type: kobo
+Country Questionnaire Language: ar
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: October 23, 2023
+
+All Fields in country questionnaire and not in template questionnaire: ['o_cropping_change', 'o_hh_agric_checktime', 'o_reason_ls_mortality', 'crpsubstitute', 'o_reason_ls_mortality_otherspecify', 'o_reason_herd_change', 'phone_number', 'calldispo', 'o_HI', 'o_hh_agric_stopped', 'cs_crisis_decr_agric_input_exp', 'copingstrategies', 'WhenCallBack', 'o_reason_crop_change', 'CallbackMessageEN', 'o_ls_mortality', 'o_crp_substitute', 'o_herd_change', 'o_ls_mortality_lastyear', 'o_enumerator_otherspecify', 'o_hh_agrigender', 'o_sustainable_agripractices', 'callstat', 'o_hh_agric_checkresume', 'o_femaleagricactivity', 'o_feed_type', 'o_femaleagricactivity_otherspecify', 'o_growing_own_feed', 'o_cooperative_association']
+All Fields in template questionnaire and not in country questionnaire: ['gps_1', 'hh_explanation', 'hh_age', 'income_third_amount_conf', 'hh_asset_prod', 'income_third_amount', 'crp_irrig_pay', 'income_sec_amount', 'covid', 'income_sec_amount_conf', 'contact_3_name', 'income_main_amount', 'gps_2', 'crp_harv_vol', 'phone_number_3', 'cs_crisis_harv_immature_crops', 'enum_team', 'phone_number_2', 'cs_emergency_illegal', 'covid_otherspecify', 'cs_emergency_begged', 'hh_maritalstat', 'cs_crisis_decrease_input_exp', 'crp_irrig_system', 'hh_wealth_light', 'contact_3', 'hh_fish', 'cs_stress_eat_elsewhere', 'hh_asset_transp', 'cs_crisis_consume_seed_stocks', 'crp_harvunit', 'hh_residencetype', 'income_main_amount_conf', 'crp_harv_unit', 'crp_harv_lastyr', 'contact_2', 'contact_2_name', 'cs_stress_borrowed_or_helped', 'crp_harv_unit_kg', 'lcsi_intro', 'hh_wealth_toilet']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: label::English (en)
+['introduction']; ['cs_stress_changed_school']; ['cs_emergency_sold_house']; ['cs_emergency_sold_last_female']
+DETECTING DIFFERENCES IN QUESTIONS: label::Arabic (ar)
+['introduction']; ['cs_emergency_sold_house']; ['enum_notes']
+DETECTING DIFFERENCES IN QUESTIONS: hint::English (en)
+['income_main_comp']; ['income_sec_comp']; ['income_third_comp']; ['crp_salesprice']; ['ls_main']; ['ls_salesprice']
+DETECTING DIFFERENCES IN QUESTIONS: hint::Arabic (ar)
+['income_main_comp']; ['income_sec_comp']; ['income_third_comp']; ['crp_salesprice']; ['ls_main']; ['ls_salesprice']
+DETECTING DIFFERENCES IN QUESTIONS: required
+['enumerator']; ['introduction']; ['resp_agree']; ['Refusal']; ['eligibility']; ['resp_firstname']; ['resp_lastname']; ['resp_age']; ['resp_gender']; ['phone_number_personal']; ['adm1_pcode']; ['adm2_pcode ']; ['hh_agricactivity']; ['generalInfo']; ['resp_id']; ['hh_gender']; ['hh_education']; ['hh_wealth_water']; ['hh_size']; ['Income_Shocks_group']; ['income_main']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_main_gender']; ['income_main_control']; ['income_main_comp']; ['income_sec']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_sec_gender']; ['income_sec_control']; ['income_sec_comp']; ['income_third']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['income_third_gender']; ['income_third_control']; ['income_third_comp']; ['shock']; ['CropProduction_group']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_irrig_source_otherspecify']; ['crp_seed']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_']; ['crp_storage']; ['crp_all']; ['CropSales_group']; ['crp_sales_main_1']; ['crp_sales_main_2']; ['crp_salesdif']; ['crp_saledif']; ['crp_salesprice']; ['Livestock_group']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_diff']; ['ls_num']; ['ls_feed']; ['ls_proddif']; ['ls_proddif_']; ['ls_all']; ['LivestockSales_group']; ['ls_salesmain']; ['ls_salesdif']; ['ls_salesdif_']; ['ls_salesprice']; ['Fishing_group']; ['fish_main']; ['fish_change']; ['fish_proddif']; ['fish_proddif_otherspecify']; ['fish_inputdif']; ['fish_inputdif_otherspecify']; ['FishSales_group']; ['fish_salesmain']; ['fish_salesmain_otherspecify']; ['fish_salesdif']; ['fish_saledif']; ['fish_salesdif_otherspecify']; ['fish_salesprice']; ['FSI']; ['fies_intro']; ['fies_worried']; ['fies_healthy']; ['fies_fewfoods']; ['fies_skipped']; ['fies_ateless']; ['fies_ranout']; ['fies_ranout_hhs']; ['fies_hungry']; ['fies_hungry_hhs']; ['fies_whlday']; ['fies_whlday_hhs']; ['cs_stress_hh_assets']; ['cs_stress_spent_savings']; ['cs_stress_sold_more_animals']; ['cs_stress_credit']; ['cs_stress_borrowed_money']; ['cs_stress_changed_school']; ['cs_crisis_sold_prod_assets']; ['cs_crisis_no_school']; ['cs_crisis_reduced_health_exp']; ['cs_emergency_sold_house']; ['cs_emergency_sold_last_female']; ['cs_emergency_hh_migration']; ['hdds_intro']; ['hdds']; ['hdds_confirmation']; ['fcs_intro']; ['fcs_staple_days']; ['fcs_pulses_days']; ['fcs_vegetables_days']; ['fcs_fruit_days']; ['fcs_meat_fish_days']; ['fcs_dairy_days']; ['fcs_sugar_days']; ['fcs_oil_days']; ['fcs_condiments_days']; ['rcsi_intro']; ['rcsi_less_preferred_foods']; ['rcsi_borrowed_food']; ['rcsi_reduce_number_meals']; ['rcsi_limit_portions']; ['rcsi_restrict_adult_consumpt']; ['Assisstance_group']; ['need']; ['need_']; ['need_otherspecify']; ['need_received']; ['need_received_otherspecify']; ['assistance_quality']; ['assistance']; ['closing']; ['callback']; ['future_int_day']; ['future_int_time']; ['language2']; ['closeout']; ['Interview_End_Time']; ['enum_notes']; ['__version__']
+DETECTING DIFFERENCES IN QUESTIONS: appearance
+['cs_stress_hh_assets']; ['cs_stress_spent_savings']; ['cs_stress_sold_more_animals']; ['cs_stress_credit']; ['cs_stress_borrowed_money']; ['cs_stress_changed_school']; ['cs_crisis_sold_prod_assets']; ['cs_crisis_no_school']; ['cs_crisis_reduced_health_exp']; ['cs_emergency_sold_house']; ['cs_emergency_sold_last_female']; ['cs_emergency_hh_migration']
+DETECTING DIFFERENCES IN QUESTIONS: choice_filter
+['enumerator']
+
+Found 111 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 13 CS questions found in the country questionnaire
+Number of STRESS questions: 6
+Number of CRISIS questions: 4
+Number of EMERGENCY questions: 3
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/LBN/R6/validated_questionnaire_kobo_ar_LBN_20231023161647.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 10
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/LBN/R6/validated_questionnaire_kobo_ar_LBN_20231023161647.xlsx
+
+Survey edited by replacing values according the Additional Information sheet

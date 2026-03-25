@@ -1,0 +1,428 @@
+
+Country iso3: NGA
+Country round #: 5
+Country Questionnaire Language: en
+Country Questionnaire Type: geopoll
+Country Questionnaire File: GeoPoll_FAO_COVID-19 Livelihoods_Nigeria_2023_R5_V2.xlsx
+The template used to validate the country questionnaire is: 20230307
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 05/09/2023, 15:36:11
+
+QName Field - Number of questions in the Template Questionnaire: 184
+QName Field - Number of questions in the Country Questionnaire: 177
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 182
+SuggestedQName Field - Number of questions in the Country Questionnaire: 171
+
+Found 81 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- hh_asset_prod_
+
+1)hh_asset_prod_process
+2)hh_asset_prod_farmmach
+3)hh_asset_prod_sewing
+4)hh_asset_prod_taxi
+5)hh_asset_prod_truck
+6)hh_asset_prod_other
+7) hh_asset_prod_none
+8) hh_asset_prod_dk
+9) hh_asset_prod_ref
+- hh_admin2_3
+- hh_admin2_4
+- hh_admin2_5
+- hh_fish
+- o_ls_proddif_3
+- hh_admin2_2
+- hh_asset_transp_
+
+1) hh_asset_transp_bici
+2) hh_asset_transp_cart
+3) hh_asset_transp_boatmotor
+4) hh_asset_transp_boatnomotor
+5) hh_asset_transp_motorbike
+6) hh_asset_transp_car
+7) hh_asset_transp_van
+8) hh_asset_transp_other
+9) hh_asset_transp_none
+10) hh_asset_transp_dk
+11) hh_asset_transp_ref
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country):
+- income_third_amount_conf
+- cs_crisis_decrease_input_exp
+- cs_emergency_hh_migration
+- income_third_amount
+- cs_stress_credit
+- covid_
+
+1) covid_goodstransp
+2) covid_marketclosed
+3) covid_borderclosed
+4) covid_stayhome
+5) covid_gatherings
+6) covid_processclosed
+7) covid_curfew
+8) covid_school
+9) covid_other
+10) covid_none
+11) covid_dk
+12) covid_ref
+- cs_stress_changed_school
+- cs_stress_eat_elsewhere
+- crp_irrig_system
+- hh_wealth_light
+- income_third_gender
+- hh_asset_prod_
+
+1) hh_asset_prod_process
+2) hh_asset_prod_farmmach
+3) hh_asset_prod_sewing
+4) hh_asset_prod_taxi
+5) hh_asset_prod_truck
+6) hh_asset_prod_other
+7) hh_asset_prod_none
+8) hh_asset_prod_dk
+9) hh_asset_prod_ref
+- cs_stress_sold_more_animals
+- hh_wealth_water
+- cs_stress_borrowed_or_helped
+- hh_asset_transp_
+
+1) hh_asset_transp_bici
+2) hh_asset_transp_cart
+3) hh_asset_transp_boat
+4) hh_asset_transp_motorbike
+5) hh_asset_transp_car
+6) hh_asset_transp_van
+7) hh_asset_transp_other
+8) hh_asset_transp_none
+9) hh_asset_transp_dk
+10) hh_asset_transp_ref
+- income_third_control
+- cs_crisis_consume_seed_stock
+- crp_irrig_pay
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- hh_admin2_3
+- End poll callback
+- hh_admin2_4
+- CallBack-Confirmation
+- o_crp_proddif_3
+- hh_admin2_5
+- CallBack-Introduction
+- cs_stress_reduced_health_exp
+- hh_fish
+- o_ls_proddif_3
+- hh_admin2_2
+
+QName Field - Questions in template questionnaire only (therefore not collected in the country):
+- cs_stress_borrowed_or_helped
+- income_third_amount_conf
+- covid
+- cs_crisis_reduced_health_exp
+- income_third_amount
+- cs_crisis_decrease_input_exp
+- hh_wealth_light
+- income_third_control
+- cs_stress_credit
+- cs_crisis_consume_seed_stock
+- income_third_gender
+- cs_stress_changed_school
+- cs_stress_sold_more_animals
+- cs_stress_eat_elsewhere
+- crp_irrig_system
+- cs_emergency_hh_migration
+- crp_irrig_pay
+- hh_wealth_water
+
+1 hh_wealth_ question found in the country questionnaire: approved
+
+
+11 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 4
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 4  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harv_unit_kg']
+
+
+-------
+Domains have been changed for question:
+resp_language
+
+Template Questionnaire order # 2 - Other options (add as many as necessary) 
+
+ template value=Other options (add as many as necessary) 
+ country value=Hausa 
+ 
+Country Questionnaire order # 3 - Fulani 
+
+ template value= 
+ country value=Fulani 
+ 
+
+
+-------
+Domains have been changed for question:
+hh_admin1
+
+Country Questionnaire order # 1 - Admin1 
+
+ template value=Admin1 
+ country value=Borno 
+ 
+Country Questionnaire order # 2 - Don't know 
+
+ template value=Don't know 
+ country value=Adamawa 
+ 
+Country Questionnaire order # 3 - Refused 
+
+ template value=Refused 
+ country value=Yobe 
+ 
+Country Questionnaire order # 4 - Katsina 
+
+ template value= 
+ country value=Katsina 
+ 
+Country Questionnaire order # 5 - Zamfara 
+
+ template value= 
+ country value=Zamfara 
+ 
+Country Questionnaire order # 6 - Other 
+
+ template value= 
+ country value=Other 
+ 
+Country Questionnaire order # 7 - Don't know 
+
+ template value= 
+ country value=Don't know 
+ 
+Country Questionnaire order # 8 - Refused 
+
+ template value= 
+ country value=Refused 
+ 
+
+
+-------
+Domains have been changed for question:
+hh_admin2_1
+
+Country Questionnaire order # 1 - Admin2 
+
+ template value=Admin2 
+ country value=Abadam 
+ 
+Country Questionnaire order # 2 - Don't know 
+
+ template value=Don't know 
+ country value=Askira/uba 
+ 
+Country Questionnaire order # 3 - Refused 
+
+ template value=Refused 
+ country value=Bama 
+ 
+Country Questionnaire order # 4 - Bayo 
+
+ template value= 
+ country value=Bayo 
+ 
+Country Questionnaire order # 5 - Biu 
+
+ template value= 
+ country value=Biu 
+ 
+Country Questionnaire order # 6 - Chibok 
+
+ template value= 
+ country value=Chibok 
+ 
+Country Questionnaire order # 7 - Damboa 
+
+ template value= 
+ country value=Damboa 
+ 
+Country Questionnaire order # 8 - Dikwa 
+
+ template value= 
+ country value=Dikwa 
+ 
+Country Questionnaire order # 9 - Gubio 
+
+ template value= 
+ country value=Gubio 
+ 
+Country Questionnaire order # 10 - Guzamala 
+
+ template value= 
+ country value=Guzamala 
+ 
+Country Questionnaire order # 11 - Gwoza 
+
+ template value= 
+ country value=Gwoza 
+ 
+Country Questionnaire order # 12 - Hawul 
+
+ template value= 
+ country value=Hawul 
+ 
+Country Questionnaire order # 13 - Jere 
+
+ template value= 
+ country value=Jere 
+ 
+Country Questionnaire order # 14 - Kaga 
+
+ template value= 
+ country value=Kaga 
+ 
+Country Questionnaire order # 15 - Kala/balge 
+
+ template value= 
+ country value=Kala/balge 
+ 
+Country Questionnaire order # 16 - Konduga 
+
+ template value= 
+ country value=Konduga 
+ 
+Country Questionnaire order # 17 - Kukawa 
+
+ template value= 
+ country value=Kukawa 
+ 
+Country Questionnaire order # 18 - Kwaya kusar 
+
+ template value= 
+ country value=Kwaya kusar 
+ 
+Country Questionnaire order # 19 - Mafa 
+
+ template value= 
+ country value=Mafa 
+ 
+Country Questionnaire order # 20 - Magumeri 
+
+ template value= 
+ country value=Magumeri 
+ 
+Country Questionnaire order # 21 - Maiduguri 
+
+ template value= 
+ country value=Maiduguri 
+ 
+Country Questionnaire order # 22 - Marte 
+
+ template value= 
+ country value=Marte 
+ 
+Country Questionnaire order # 23 - Mobbar 
+
+ template value= 
+ country value=Mobbar 
+ 
+Country Questionnaire order # 24 - Monguno 
+
+ template value= 
+ country value=Monguno 
+ 
+Country Questionnaire order # 25 - Ngala 
+
+ template value= 
+ country value=Ngala 
+ 
+Country Questionnaire order # 26 - Nganzai 
+
+ template value= 
+ country value=Nganzai 
+ 
+Country Questionnaire order # 27 - Shani 
+
+ template value= 
+ country value=Shani 
+ 
+Country Questionnaire order # 28 - Don't know 
+
+ template value= 
+ country value=Don't know 
+ 
+Country Questionnaire order # 29 - Refused 
+
+ template value= 
+ country value=Refused 
+ 
+
+
+-------
+Domains have been changed for question:
+income_main
+
+Country Questionnaire order # 6 - Production and sale of fish 
+
+ template value=Production and sale of fish 
+ country value=Production and sale of fish or aquatic products 
+ 
+
+
+-------
+Domains have been changed for question:
+income_sec
+
+Country Questionnaire order # 6 - Production and sale of fish 
+
+ template value=Production and sale of fish 
+ country value=Production and sale of fish or aquatic products 
+ 
+
+
+-------
+Domains have been changed for question:
+income_third
+
+Country Questionnaire order # 6 - Production and sale of fish 
+
+ template value=Production and sale of fish 
+ country value=Production and sale of fish and aquatic products 
+ 
+
+
+-------
+Domains have been changed for question:
+language2
+
+Country Questionnaire order # 2 - Other languages (consistent with resp_language) 
+
+ template value=Other languages (consistent with resp_language) 
+ country value=Hausa 
+ 
+Country Questionnaire order # 3 - Fulani 
+
+ template value= 
+ country value=Fulani 
+ 
+
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['hh_asset_transp_boat', 'fish_inputdif_bait_feed', 'fish_inputdif_dk', 'fish_inputdif_fuel', 'covid_school', 'covid_processclosed', 'covid_goodstransp', 'fish_inputdif_ice', 'fish_inputdif_fingerling', 'covid_curfew', 'fish_inputdif_repairs', 'fish_inputdif_ref', 'covid_stayhome', 'fish_inputdif_labour', 'covid_borderclosed', 'fish_inputdif_gear', 'covid_gatherings', 'covid_marketclosed', 'covid_none', 'covid_ref', 'covid_dk']
+Derived field only in country (therefore not stored/published on the Hub): ['hh_asset_transp_boatnomotor', 'hh_asset_transp_boatmotor']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/NGA/R5/V2/validated_questionnaire_geopoll_en_NGA_20230905153611.xlsx
+
+Created Admin Info sheet with updated boundaries.

@@ -1,0 +1,72 @@
+
+Country Questionnaire File: household_questionnaire_kobo_EN_template_20230720_BGD_clean.xlsx
+Country Questionnaire Type: kobo
+Country Questionnaire Language: en
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: October 25, 2023
+
+All Fields in country questionnaire and not in template questionnaire: ['o_ls_prodfeed', 'o_crop_alter_fertilizer', 'call_status', 'o_hh_credit', 'o_pr_Fish', 'cs_crisis_sold_fish_assets', 'o_pr_Egg', 'Interview_Start_Time_check', 'o_mrk_cash', 'o_mrk_vegfruit', 'cs_emergency_draught', 'o_cropprodfertilizer', 'o_pr_Rice', 'o_pr_Leafy_vegetables', 'o_pr_Fruits', 'o_pr_Sugar', 'o_crp_storage_why', 'o_credit_denial_reason', 'o_pr_Cooking_Oil', 'o_ls_alter_feed', 'o_pr_Vegetables', 'begin', 'o_crp_fert_supply', 'o_crp_diffpower', 'o_pr_Potato', 'o_pr_Milk', 'o_crp_fert_avail', 'o_pr_garlic', 'grp_foodprice', 'o_pr_Pulses', 'cs_stress_spent_savingsdebt', 'o_mrk_livestock', 'Panelist', 'CallbackMessageEN', 'o_hh_flood', 'calldispo', 'cs_crisis_sentmembers', 'WhenCallBack', 'Interview_Start_Time', 'o_pr_onion', 'cs_stress_borrowed_formal', 'o_pr_Wheat', 'hh_id', 'o_crp_fert_subst', 'FoodPrice__intro', 'Interview_End_Time_check', 'o_hh_education_max', 'o_pr_Meat', 'o_mrk_staple', 'o_pr_ginger']
+All Fields in template questionnaire and not in country questionnaire: ['rcsi_reduce_number_meals', 'grp_rcsi', 'fcs_sugar_days', 'income_third_control', 'fish_inputdif_otherspecify', 'crp_irrig_system', 'gps_1', 'gps_2', 'hh_maritalstat', 'fcs_pulses_days', 'hh_explanation', 'income_third_amount', 'income_third_amount_conf', 'crp_irrig_pay', 'covid_otherspecify', 'fcs_dairy_days', 'income_third_gender', 'fcs_condiments_days', 'income_sec_gender', 'fcs_oil_days', 'cs_emergency_illegal', 'hh_wealth_water', 'fcs_vegetables_days', 'ls_all', 'fcs_staple_days', 'fcs_fruit_days', 'income_sec_control', 'hh_gender', 'hh_wealth_light', 'income_main_gender', 'cs_stress_eat_elsewhere', 'income_main_control', 'income_sec_amount_conf', 'rcsi_limit_portions', 'hh_residencetype', 'hh_asset_transp', 'fcs_intro', 'cs_stress_borrowed_money', 'crp_seed', 'hh_asset_prod', 'covid', 'grp_fcs', 'rcsi_intro', 'fish_inputdif', 'cs_stress_borrowed_or_helped', 'cs_crisis_no_school', 'cs_stress_changed_school', 'cs_stress_sold_more_animals', 'rcsi_borrowed_food', 'rcsi_restrict_adult_consumpt', 'cs_stress_spent_savings', 'rcsi_less_preferred_foods', 'fcs_meat_fish_days', 'income_main_amount_conf', 'income_main_amount', 'income_sec_amount']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: TYPE
+['Interview_End_Time']
+DETECTING DIFFERENCES IN QUESTIONS: label::English (en)
+['Interview_End_Time']
+DETECTING DIFFERENCES IN QUESTIONS: hint::English (en)
+['enum_notes']
+DETECTING DIFFERENCES IN QUESTIONS: required
+['enumerator']; ['introduction']; ['resp_agree']; ['Refusal']; ['eligibility']; ['resp_firstname']; ['resp_lastname']; ['resp_age']; ['resp_gender']; ['phone_number_personal']; ['contact_2']; ['phone_number_2']; ['contact_2_name']; ['contact_3']; ['phone_number_3']; ['contact_3_name']; ['adm1_pcode']; ['adm2_pcode ']; ['hh_agricactivity']; ['hh_fish']; ['generalInfo']; ['resp_id']; ['hh_education']; ['hh_wealth_toilet']; ['hh_size']; ['hh_age']; ['Income_Shocks_group']; ['income_main']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_main_comp']; ['income_sec']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_sec_comp']; ['income_third']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['income_third_comp']; ['shock']; ['CropProduction_group']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_irrig_source_otherspecify']; ['crp_area_change']; ['crp_harv_change']; ['crp_harv_vol']; ['crp_harv_unit']; ['crp_harv_unit_kg']; ['crp_harv_lastyr']; ['crp_proddif']; ['crp_proddif_']; ['crp_storage']; ['crp_all']; ['CropSales_group']; ['crp_sales_main_1']; ['crp_sales_main_2']; ['crp_salesdif']; ['crp_saledif']; ['crp_salesprice']; ['Livestock_group']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_diff']; ['ls_num']; ['ls_feed']; ['ls_proddif']; ['ls_proddif_']; ['LivestockSales_group']; ['ls_salesmain']; ['ls_salesdif']; ['ls_salesdif_']; ['ls_salesprice']; ['Fishing_group']; ['fish_main']; ['fish_change']; ['fish_proddif']; ['fish_proddif_otherspecify']; ['FishSales_group']; ['fish_salesmain']; ['fish_salesmain_otherspecify']; ['fish_salesdif']; ['fish_saledif']; ['fish_salesdif_otherspecify']; ['fish_salesprice']; ['FSI']; ['fies_intro']; ['fies_worried']; ['fies_healthy']; ['fies_fewfoods']; ['fies_skipped']; ['fies_ateless']; ['fies_ranout']; ['fies_ranout_hhs']; ['fies_hungry']; ['fies_hungry_hhs']; ['fies_whlday']; ['fies_whlday_hhs']; ['cs_stress_hh_assets']; ['cs_stress_credit']; ['cs_crisis_sold_prod_assets']; ['cs_crisis_reduced_health_exp']; ['cs_crisis_harv_immature_crops']; ['cs_crisis_consume_seed_stocks']; ['cs_crisis_decrease_input_exp']; ['cs_emergency_sold_house']; ['cs_emergency_begged']; ['cs_emergency_sold_last_female']; ['cs_emergency_hh_migration']; ['hdds_intro']; ['hdds']; ['hdds_confirmation']; ['Assisstance_group']; ['need']; ['need_']; ['need_otherspecify']; ['need_received']; ['need_received_otherspecify']; ['assistance_quality']; ['assistance']; ['closing']; ['callback']; ['future_int_day']; ['future_int_time']; ['language2']; ['closeout']; ['Interview_End_Time']; ['enum_notes']; ['__version__']
+DETECTING DIFFERENCES IN QUESTIONS: constraint
+['enum_team']
+DETECTING DIFFERENCES IN QUESTIONS: calculation
+['Interview_End_Time']
+DETECTING DIFFERENCES IN QUESTIONS: Mandatory
+['Interview_End_Time']; ['enum_notes']
+
+Found 111 mandatory questions in the template questionnaire
+No, country questionnaire does not contains all mandatory questions.
+Missing question: ['hh_gender'] 
+
+Found 111 mandatory questions in the template questionnaire
+No, country questionnaire does not contains all mandatory questions.
+Missing question: ['hh_gender'] 
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 16 CS questions found in the country questionnaire
+Number of STRESS questions: 4
+Number of CRISIS questions: 7
+Number of EMERGENCY questions: 5
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 5  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harvunit', 'crp_harv_unit_kg']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 5  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harvunit', 'crp_harv_unit_kg']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/BGD/R9/validated_questionnaire_kobo_en_BGD_20231025012314.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 10
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/BGD/R9/validated_questionnaire_kobo_en_BGD_20231025012314.xlsx
+
+Survey edited by replacing values according the Additional Information sheet

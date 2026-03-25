@@ -1,0 +1,602 @@
+
+Country iso3: PSE
+Country round #: 1
+Country Questionnaire Language: ar
+Country Questionnaire Type: geopoll
+Country Questionnaire File: household_questionnaire_geopoll_AR_20230720_WestBank_FAOPAL_DIEM review - For validation.xlsx
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 08/04/2024, 01:47:58
+
+
+detecting differences in column: Suggested Name
+['ls_all']
+detecting differences in column: English
+['crp_storage']; ['ls_main']; ['ls_salesmain']
+detecting differences in column: Length
+['crp_storage']; ['ls_main']; ['ls_salesmain']
+detecting differences in column: Q Type
+['crp_seed_supply']; ['crp_proddif_2']; ['crp_salesdif_2']; ['ls_num_change']; ['ls_feed']; ['ls_proddif_2']; ['ls_salesdif_2']
+detecting differences in column: Conditional
+['crp_intro']; ['crp_salesmain']; ['ls_intro']; ['ls_all']; ['ls_salesmain']; ['need']
+detecting differences in column: Skip Pattern
+['Agree']; ['resp_gender']; ['hh_admin2_1']; ['quotareached']; ['hh_agricactivity']; ['hh_education']; ['hh_size']; ['income_main']; ['income_main_amount']; ['income_main_amount_conf']; ['income_main_gender']; ['income_main_comp']; ['shock']; ['crp_irrig_source']; ['crp_irrig_system']; ['crp_irrig_pay']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_2']; ['crp_storage']; ['crp_salesdif']; ['crp_salesdif_2']; ['ls_main']; ['ls_num_change']; ['ls_proddif']; ['ls_proddif_2']; ['ls_salesmain']; ['ls_salesdif_2']; ['ls_salesprice']; ['fies_whlday']; ['fies_whlday_hhs']; ['lcsi_intro']; ['cs_stress_hh_assets']; ['cs_stress_spent_savings']; ['cs_stress_credit']; ['cs_stress_borrowed_money']; ['cs_crisis_sold_prod_assets']; ['cs_crisis_no_school']; ['cs_crisis_reduced_health_exp']; ['cs_crisis_decrease_input_exp']; ['cs_emergency_sold_house']; ['cs_emergency_begged']; ['cs_emergency_sold_last_female']; ['hdds_confirmation']; ['need']; ['assistance_quality']
+detecting differences in column: Codes
+['ls_proddif_2']; ['ls_all']; ['future_int_day']; ['future_int_time']
+detecting differences in column: Mandatory
+['cs_stress_credit']
+
+QName Field - Number of questions in the Template Questionnaire: 181
+QName Field - Number of questions in the Country Questionnaire: 134
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 179
+SuggestedQName Field - Number of questions in the Country Questionnaire: 132
+
+Found 81 mandatory questions in the template questionnaire
+No, country questionnaire does not contains all mandatory questions. Missing question: ['fish_intro', 'income_sec_comp', 'income_sec_fish_check', 'fish_salesdif', 'need_received', 'resp_lastname', 'resp_firstname', 'income_main_fish_check', 'income_main_ls_check', 'fish_salesmain', 'fish_salesdif_2', 'income_main_crop_check', 'income_third_crop_check', 'fish_proddif_2', 'income_third_comp', 'fish_main', 'need_2', 'income_sec_crop_check', 'income_sec', 'income_third_ls_check', 'income_third', 'income_sec_ls_check', 'fish_change', 'fish_salesprice', 'fish_proddif', 'income_third_fish_check'] 
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- o_hh_wealth_electricity
+- o_hh_wealth_toilet
+- o_displace_where
+- o_income_before_mitigate
+- o_displace_any
+- hh_wealth_other
+- o_hh_area
+- o_conflict_agri
+
+1)o_confl_agri_land_occupied
+2)o_confl_agri_land_damage
+3)o_confl_agri_land_boundaries
+4)o_confl_agri_nonfarm_occupied
+5)o_confl_agri_water_hh_use
+6)o_confl_agri_water_agri
+7)o_confl_agri_livestock_confisc
+8)o_confl_agri_other
+9)o_confl_agri_dk
+10)o_confl_agri_ref
+- o_movement_type
+
+1)o_mvt_checkpt
+2)o_mvt_flyingcheckpt
+3)o_mvt_permits
+4)o_mvt_insecurity
+5)o_mvt_other
+6)o_mvt_dk
+7)o_mvt_ref
+- o_movement_any
+- o_income_other
+
+1) o_income_ag_prod_staple_crp
+2) o_income_ag_prod_veg_fruit
+3) o_income_ag_prod_cash_crp
+4) o_income_ag_prod_livestock
+5) o_income_ag_prod_bee
+6) o_income_ag_prod_aquatic
+7) o_income_ag_prod_forestry
+8) o_income_ag_trade_nonprod
+9) o_income_ag_dailywage
+10) o_income_ag_stable_employ
+11) o_income_nonag_selfemploy
+12) o_income_nonag_dailywage
+13) o_income_nonag_stable_employ
+14) o_income_nonag_public_employ
+15) o_income_charity
+16) o_income_welfare
+17) o_income_remittances
+18) o_income_rents
+19) o_income_no_other
+20) o_income_dk
+21) o_income_ref
+- o_income_before_change
+- ls_all_
+
+1)ls_all_cattle
+2)ls_all_goats
+3)ls_all_sheep
+4)ls_all_equine
+5)ls_all_smallmammals
+6)ls_all_poultry
+7)ls_all_camelids
+8)ls_all_other
+9)ls_all_none
+10)ls_all_dk
+11)ls_all_ref
+- o_conflict_any
+- o_hh_wealth_water_drinking
+- o_crp_proddif_conflict_damage
+
+1) o_crp_pd_confl_dam_confiscation
+2) o_crp_pd_confl_dam_water_infra
+3) o_crp_pd_confl_dam_agri_prod
+4) o_crp_pd_confl_dam_farm_infra
+5) o_crp_pd_confl_dam_dk
+6) o_crp_pd_confl_dam_ref
+- o_income_before_ag
+- o_need_received_
+
+1) o_need_received_food
+2) o_need_received_cash
+3) o_need_received_vouchers_fair
+4) o_need_received_crop_assist
+5) o_need_received_ls_assist
+6) o_need_received_training
+7) o_need_received_rehabilitation
+8) o_need_received_sales_support
+9) o_need_received_other
+10) o_need_received_none
+11) o_need_received_dk
+12) o_need_received_ref
+- o_conflict_food
+
+1)o_confl_food_prices
+2)o_confl_food_lack_income
+3)o_confl_food_lack_assist
+4)o_confl_food_market_access
+5)o_confl_food_demand_illicit
+6)o_confl_food_lack_mktprod
+7)o_confl_food_lack_selfprod
+8)o_confl_food_lack_hh_stock
+9)o_confl_food_none
+10)o_confl_food_other
+11)o_confl_food_dk
+12)o_confl_food_ref
+- o_ls_pd_settler
+- o_ls_proddif_conflict_damage
+
+1) o_ls_pd_confl_dam_confiscation
+2) o_ls_pd_confl_dam_water_infra
+3) o_ls_pd_confl_dam_agri_prod
+4) o_ls_pd_confl_dam_farm_infra
+5) o_ls_pd_confl_dam_dk
+6) o_ls_pd_confl_dam_ref
+- o_income_before
+- o_income_before_lost
+- o_crp_salesdif_conflict
+
+1)o_crp_saledifconfl_mkt_access
+2)o_crp_saledifconfl_transport
+3)o_crp_saledifconfl_damage_loss
+4)o_crp_saledifconfl_low_demand
+5)o_crp_saledifconfl_pay_delay
+6)o_crp_saledifconfl_processing
+7)o_crp_saledifconfl_none
+8)o_crp_saledifconfl_other
+9)o_crp_saledifconfl_dk
+10)o_crp_saledifconfl_ref
+- o_ls_proddif_conflict
+
+1) o_ls_pd_confl_loss_land
+2) o_ls_pd_confl_ls_loss
+3) o_ls_pd_confl_pasture
+4) o_ls_pd_confl_loss_assets
+5) o_ls_pd_confl_stop_prod
+6) o_ls_pd_confl_labour
+7) o_ls_pd_confl_agri_input
+8) o_ls_pd_confl_none
+9) o_ls_pd_confl_other
+10) o_ls_pd_confl_dk
+11) o_ls_pd_confl_ref
+- o_assistance_provider
+
+1)o_assistance_fao
+2)o_assistance_wfp
+3)o_assistance_unrwa
+4)o_assistance_otherun
+5)o_assistance_gov
+6)o_assistance_ngo
+7)o_assistance_dk
+8)o_assistance_ref
+- o_income_tot_amount
+- o_crp_proddif_conflict
+
+1) o_crp_pd_conf_field_access
+2)  o_crp_pd_conf_field_abandon
+3)  o_crp_pd_conf_crp_damage
+4) o_crp_pd_conf_asset_damage
+5) o_crp_pd_conf_loss_harv
+6) o_crp_pd_conf_stop_prod
+7) o_crp_pd_conf_labour
+8) o_crp_pd_conf_agri_input
+9) o_crp_pd_conf_none
+10) o_crp_pd_conf_other
+11) o_crp_pd_conf_dk
+12) o_crp_pd_conf_ref
+- o_conflict_type
+
+1)o_confl_type_land_agri
+2)o_confl_type_criminality
+3)o_confl_type_community_gp
+4)o_confl_type_armed_conflict
+5)o_confl_type_assistance
+6)o_confl_type_other
+7)o_confl_type_dk
+8)o_confl_type_ref
+- o_income_tot_amount_conf
+- o_need_
+
+1) o_need_food
+2) o_need_cash
+3) o_need_vouchers_fair
+4) o_need_crop_inputs
+5) o_need_crop_infrastructure
+6) o_need_crop_knowledge
+7) o_need_ls_feed
+8) o_need_ls_vet_service
+9) o_need_ls_infrastructure
+10) o_need_ls_knowledge
+11) o_need_env_infra_rehab
+12) o_need_cold_storage
+13) o_need_marketing_supp
+14) o_need_other
+15) o_need_dk
+16) o_need_ref
+- o_crp_sales_markets
+- o_ls_salesdif_conflict
+
+1) o_ls_salesdif_conf_mkt_access
+2) o_ls_salesdif_conf_transp
+3) o_ls_salesdif_conf_loss_storage
+4) o_ls_salesdif_conf_lack_demand
+5) o_ls_salesdif_conf_pay_delay
+6) o_ls_salesdif_conf_process
+7) o_ls_salesdif_conf_none
+8) o_ls_salesdif_conf_other
+9) o_ls_salesdif_conf_dk
+10) o_ls_salesdif_conf_ref
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country):
+- fish_intro
+- income_sec_comp
+- resp_lastname
+- need_received_
+
+1) need_received_food
+2) need_received_cash
+3) need_received_vouchers_fair
+4) need_received_crop_assist
+5) need_received_ls_assist
+6) need_received_fish_assist
+7) need_received_rehabilitation
+8) need_received_sales_support
+9) need_received_other
+10) need_received_none
+11) need_received_dk
+12) need_received_ref
+- income_main_ls_check
+- rcsi_borrowed_food
+- fish_salesmain
+- income_main_crop_check
+- rcsi_less_preferred_foods
+- income_sec_amount
+- income_sec
+- income_third_ls_check
+- rcsi_intro
+- need_
+
+1) need_food
+2) need_cash
+3) need_vouchers_fair
+4) need_crop_inputs
+5) need_crop_infrastructure
+6) need_crop_knowledge
+7) need_ls_feed
+8) need_ls_vet_service
+9) need_ls_infrastructure
+10) need_ls_knowledge
+11) need_fish_inputs
+12) need_fish_infrastructure
+13) need_fish_knowledge
+14) need_env_infra_rehab
+15) need_cold_storage
+16) need_marketing_supp
+17) need_other
+18) need_dk
+19) need_ref
+- fish_change
+- cs_stress_eat_elsewhere
+- cs_stress_sold_more_animals
+- hh_asset_transp_
+
+1) hh_asset_transp_bici
+2) hh_asset_transp_cart
+3) hh_asset_transp_boatmotor
+4) hh_asset_transp_boatnomotor
+5) hh_asset_transp_motorbike
+6) hh_asset_transp_car
+7) hh_asset_transp_van
+8) hh_asset_transp_other
+9) hh_asset_transp_none
+10) hh_asset_transp_dk
+11) hh_asset_transp_ref
+- income_third_amount
+- hh_wealth_light
+- fcs_sugar_days
+- crp_all_[name of crop as per crop list]
+- income_sec_fish_check
+- cs_stress_borrowed_or_helped
+- ls_all_
+
+1)ls_all_cattle
+2)ls_all_goats
+3)ls_all_sheep
+4)ls_all_swine
+5)ls_all_equine
+6)ls_all_smallmammals
+7)ls_all_poultry
+8)ls_all_camelids
+9)ls_all_other
+10)ls_all_none
+11)ls_all_dk
+12)ls_all_ref
+- fcs_fruit_days
+- rcsi_limit_portions
+- income_third_crop_check
+- hh_explanation
+- phone_number_2
+- rcsi_reduce_number_meals
+- covid_
+
+1) covid_goodstransp
+2) covid_marketclosed
+3) covid_borderclosed
+4) covid_stayhome
+5) covid_gatherings
+6) covid_processclosed
+7) covid_curfew
+8) covid_school
+9) covid_other
+10) covid_none
+11) covid_dk
+12) covid_ref
+- hh_wealth_water
+- fish_inputdif_
+
+1) fish_inputdif_bait_feed
+2)fish_inputdif_fingerling
+3) fish_inputdif_gear
+4) fish_inputdif_ice
+5) fish_inputdif_fuel
+6) fish_inputdif_repairs
+7) fish_inputdif_labour
+8) fish_inputdif_other 
+9)fish_inputdif_dk
+10) fish_inputdif_ref
+- phone_number_pers
+- hh_residencetype
+- income_sec_control
+- income_sec_ls_check
+- fish_salesprice
+- fish_proddif
+- cs_crisis_harv_immature_crops
+- assistance_provider
+
+1) assistance_fao
+2) assistance_wfp
+3) assistance_otherun
+4) assistance_gov
+5) assistance_ngo
+6) assistance_dk
+7) assistance_ref
+- contact_3
+- income_sec_amount_conf
+- fish_salesdif
+- fcs_pulses_days
+- cs_stress_changed_school
+- income_third_gender
+- contact_2_name
+- income_third_comp
+- cs_emergency_illegal
+- contact_2
+- phone_number_conf
+- hh_fish
+- fcs_staple_days
+- fish_main_
+
+1) fish_main_coastal
+2) fish_main_offshore_sea
+3) fish_main_freshwater
+4) fish_main_aquaculture
+5) fish_main_dk
+6) fish_main_ref
+- income_third_control
+- fcs_meat_fish_days
+- cs_emergency_hh_migration
+- rcsi_restrict_adult_consumpt
+- fcs_intro
+- hh_wealth_toilet
+- phone_number_3_name
+- cs_crisis_consume_seed_stock
+- resp_firstname
+- income_main_fish_check
+- phone_number_3
+- fcs_dairy_days
+- income_sec_crop_check
+- fish_saledif_
+
+1) fish_saledif_marketing_cost
+2) fish_saledif_damage_losses
+3) fish_saledif_low_demand
+4) fish_saledif_pay_delay
+5) fish_saledif_low_prices
+6) fish_saledif_processing
+7) fish_saledif_competition
+8) fish_saledif_other
+9) fish_saledif_dk
+10) fish_saledif_ref
+- fcs_oil_days
+- income_sec_gender
+- income_third
+- income_third_amount_conf
+- fcs_vegetables_days
+- income_third_fish_check
+- fish_proddif_
+
+1) fish_proddif_find_fish
+2) fish_proddif_pests
+3) fish_proddif_access_area
+4) fish_proddif_fuel
+5) fish_proddif_input_access
+6) fish_proddif_labour
+7) fish_proddif_infrastructure
+8) fish_proddif_damage_equip
+9) fish_proddif_other
+10) fish_proddif_dk
+11) fish_proddif_ref
+- fcs_condiments_days
+- hh_asset_prod_
+
+1)hh_asset_prod_process
+2)hh_asset_prod_farmmach
+3)hh_asset_prod_sewing
+4)hh_asset_prod_taxi
+5)hh_asset_prod_truck
+6)hh_asset_prod_other
+7) hh_asset_prod_none
+8) hh_asset_prod_dk
+9) hh_asset_prod_ref
+- id_panel
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- o_hh_wealth_electricity
+- o_hh_wealth_toilet
+- o_displace_where
+- o_income_before_mitigate
+- o_displace_any
+- o_hh_area
+- o_movement_any
+- o_crp_salesdif_conflict
+- o_income_before_change
+- o_ls_proddif_settler
+- o_movement_type
+- o_conflict_type
+- o_ls_salesdif_conflict
+- o_hh_wealth_water_drinking
+- o_income_before_ag
+- o_conflict_agri
+- o_ls_proddif_conflict_damage
+- o_crp_proddif_conflict
+- o_hh_wealth_water
+- o_income_before
+- o_income_before_lost
+- o_conflict_food
+- o_need_received
+- o_assistance_provider
+- o_ls_proddif_conflict
+- o_income_other
+- o_need_2
+- o_crp_proddif_conflict_damage
+- o_income_tot_amount
+- o_income_tot_amount_conf
+- o_crp_sales_markets
+- o_conflict_any
+
+QName Field - Questions in template questionnaire only (therefore not collected in the country):
+- fish_intro
+- income_sec_comp
+- need_received
+- resp_lastname
+- income_main_ls_check
+- rcsi_borrowed_food
+- fish_salesmain
+- income_main_crop_check
+- rcsi_less_preferred_foods
+- hh_asset_prod
+- fish_main
+- income_sec_amount
+- need_2
+- crp_all
+- income_sec
+- income_third_ls_check
+- rcsi_intro
+- fish_change
+- cs_stress_eat_elsewhere
+- cs_stress_sold_more_animals
+- income_third_amount
+- phone_number_personal
+- hh_wealth_light
+- fcs_sugar_days
+- income_sec_fish_check
+- cs_stress_borrowed_or_helped
+- fcs_fruit_days
+- rcsi_limit_portions
+- income_third_crop_check
+- hh_explanation
+- fish_proddif_2
+- phone_number_2
+- hh_asset_transp
+- rcsi_reduce_number_meals
+- hh_wealth_water
+- hh_residencetype
+- income_sec_control
+- income_sec_ls_check
+- fish_salesprice
+- fish_proddif
+- cs_crisis_harv_immature_crops
+- contact_3
+- income_sec_amount_conf
+- fish_salesdif
+- fcs_pulses_days
+- fish_salesdif_2
+- cs_stress_changed_school
+- income_third_gender
+- contact_2_name
+- income_third_comp
+- cs_emergency_illegal
+- contact_2
+- phone_number_conf
+- contact_3_name
+- hh_fish
+- fcs_staple_days
+- income_third_control
+- fcs_meat_fish_days
+- cs_emergency_hh_migration
+- rcsi_restrict_adult_consumpt
+- fish_inputdif
+- fcs_intro
+- hh_wealth_toilet
+- cs_crisis_consume_seed_stock
+- resp_firstname
+- income_main_fish_check
+- phone_number_3
+- fcs_dairy_days
+- covid
+- assistance_provider
+- income_sec_crop_check
+- fcs_oil_days
+- income_sec_gender
+- income_third
+- income_third_amount_conf
+- fcs_vegetables_days
+- income_third_fish_check
+- fcs_condiments_days
+- id_panel
+
+0 hh_wealth_ questions found in the country questionnaire: it should be at least one!
+
+
+0 hh_wealth_ questions found in the country questionnaire: it should be at least one!
+
+
+11 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 4
+Number of EMERGENCY questions: 3
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 4  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harv_unit_kg']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/PSE/R1/V2/validated_questionnaire_geopoll_ar_PSE_20240408014758.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 21
+
+Survey edited by replacing values according the Additional Information sheet

@@ -1,0 +1,61 @@
+
+Country Questionnaire File: validated_questionnaire_kobo_en_UKR_20231121142721 - Revised 24Nov_2lang_v06.xlsx
+Country Questionnaire Type: kobo
+Country Questionnaire Language: en
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: November 30, 2023
+
+All Fields in country questionnaire and not in template questionnaire: ['o_fish_mines', 'o_crp_mines', 'o_crp_landsize_unit', 'o_crp_irrig_kd_3', 'o_crp_landsize_num', 'o_hh_ill', 'o_crp_irrig_kd_2', 'o_fish_dl_eq_num', 'o_fish_dl', 'o_crp_dl_eq_num', 'o_ls_dl_eq_value2', 'o_fish_dlmsg', 'o_ls_dl_eq', 'o_crp_dl_inf_value1', 'o_income_intro', 'o_frontline', 'o_crp_landsize_calc_ha', 'o_hh_residencetype', 'o_hh_65plus', 'o_ls_num_check2', 'o_ls_dl_inf_value2', 'LivestockDL_group', 'o_hh_plw', 'o_crp_irrig_kd_1', 'o_crp_dl_eq_value1', 'o_fish_dl_eq', 'o_ls_dl_inf_value1', 'o_ls_dl', 'o_ls_num_check1', 'o_crp_dl_inf_num', 'o_ls_dl_eq_value1', 'o_fish_dl_inf', 'o_ls_dl_inf', 'o_fish_dl_eq_value2', 'o_crp_landsize_calc_ar', 'CropDL_group', 'o_crp_landsize_check_sqf', 'o_crp_landsize_check_ha', 'o_hh_label', 'o_kakhovka_explain', 'o_crp_landsize_check_ar', 'hhmodule', 'o_crp_landsize_check_sqm', 'o_crp_dl_eq', 'o_crp_landsize_calc_sqf', 'o_crp_dl_inf', 'o_fish_check', 'o_crp_dlmsg', 'o_ls_dl_eq_num', 'FishDL_group', 'o_kakhovka', 'o_crp_landsize_calc_sqm', 'o_ls_mines', 'o_fish_dl_inf_value2', 'o_fish_dl_inf_value1', 'o_crp_landsize_check_acres', 'o_fish_dl_eq_value1', 'o_hh_under5', 'o_crp_dl_eq_value2', 'o_adm3_pcode', 'o_hh_education', 'o_rural_urban', 'o_crp_landsize_change', 'o_crp_landsize_calc_acres', 'o_crp_dl', 'o_ls_dlmsg', 'o_adm3_name', 'o_crp_dl_inf_value2', 'o_ls_dl_inf_num', 'o_crp_irrig_kd_3_oth', 'o_fish_dl_inf_num']
+All Fields in template questionnaire and not in country questionnaire: ['fcs_vegetables_days', 'cs_stress_sold_more_animals', 'incomethird', 'fcs_oil_days', 'crp_irrig_system', 'crp_seed', 'cs_stress_borrowed_or_helped', 'contact_3', 'fcs_meat_fish_days', 'income_third_gender', 'cs_stress_changed_school', 'fcs_pulses_days', 'covid_otherspecify', 'gps_2', 'income_sec_amount_conf', 'income_third_ls_check', 'crp_all', 'cs_crisis_no_school', 'resp_lastname', 'fcs_sugar_days', 'fcs_fruit_days', 'income_third_amount', 'contact_2', 'contact_2_name', 'assistance_quality', 'grp_fcs', 'rcsi_borrowed_food', 'cs_stress_borrowed_money', 'fcs_condiments_days', 'cs_crisis_harv_immature_crops', 'income_third_comp', 'hh_wealth_toilet', 'fcs_intro', 'income_third_fish_check', 'income_main_amount_conf', 'crp_storage', 'cs_crisis_consume_seed_stocks', 'rcsi_less_preferred_foods', 'hh_explanation', 'fcs_staple_days', 'enum_team', 'income_third_crop_check', 'cs_emergency_begged', 'cs_emergency_illegal', 'fcs_dairy_days', 'rcsi_intro', 'income_third_amount_conf', 'rcsi_reduce_number_meals', 'hh_asset_transp', 'gps_1', 'income_third_control', 'ls_all', 'hh_asset_prod', 'income_third', 'contact_3_name', 'grp_rcsi', 'phone_number_3', 'income_sec_amount', 'covid', 'rcsi_limit_portions', 'hh_wealth_light', 'income_main_amount', 'crp_irrig_pay', 'phone_number_2', 'rcsi_restrict_adult_consumpt']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: TYPE
+['enumerator']
+DETECTING DIFFERENCES IN QUESTIONS: label::English (en)
+['adm1_pcode']; ['adm2_pcode ']; ['income_main_comp']; ['income_sec_comp']; ['crp_intro']; ['crp_main']; ['crp_main_check']; ['crp_area_change']; ['crp_harv_change']; ['crp_harv_vol']; ['crp_proddif']; ['crp_proddif_']; ['crp_salesprice']; ['ls_intro']; ['ls_salesprice']; ['fish_intro']; ['fish_salesprice']
+DETECTING DIFFERENCES IN QUESTIONS: hint::English (en)
+['hh_agricactivity']; ['hh_fish']; ['hh_age']; ['crp_landsize_num']; ['ls_num']; ['intro_foodsec']
+DETECTING DIFFERENCES IN QUESTIONS: required
+['enumerator']; ['introduction']; ['resp_agree']; ['Refusal']; ['eligibility']; ['resp_firstname']; ['resp_age']; ['resp_gender']; ['phone_number_personal']; ['adm1_pcode']; ['adm2_pcode ']; ['hh_agricactivity']; ['hh_fish']; ['generalInfo']; ['resp_id']; ['hh_gender']; ['hh_education']; ['hh_wealth_water']; ['hh_residencetype']; ['hh_size']; ['hh_maritalstat']; ['hh_age']; ['Income_Shocks_group']; ['income_main']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_main_gender']; ['income_main_control']; ['income_main_comp']; ['income_sec']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_sec_gender']; ['income_sec_control']; ['income_sec_comp']; ['shock']; ['CropProduction_group']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_irrig_source_otherspecify']; ['crp_area_change']; ['crp_harv_change']; ['crp_harv_vol']; ['crp_harv_unit']; ['crp_harv_unit_kg']; ['crp_harv_lastyr']; ['crp_proddif']; ['crp_proddif_']; ['CropSales_group']; ['crp_sales_main_1']; ['crp_sales_main_2']; ['crp_salesdif']; ['crp_saledif']; ['crp_salesprice']; ['Livestock_group']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_diff']; ['ls_num']; ['ls_feed']; ['ls_proddif']; ['ls_proddif_']; ['LivestockSales_group']; ['ls_salesmain']; ['ls_salesdif']; ['ls_salesdif_']; ['ls_salesprice']; ['Fishing_group']; ['fish_main']; ['fish_change']; ['fish_proddif']; ['fish_proddif_']; ['fish_proddif_otherspecify']; ['fish_inputdif']; ['fish_inputdif_otherspecify']; ['FishSales_group']; ['fish_salesmain']; ['fish_salesmain_otherspecify']; ['fish_salesdif']; ['fish_saledif']; ['fish_salesdif_otherspecify']; ['fish_salesprice']; ['FSI']; ['fies_intro']; ['fies_worried']; ['fies_healthy']; ['fies_fewfoods']; ['fies_skipped']; ['fies_ateless']; ['fies_ranout']; ['fies_ranout_hhs']; ['fies_hungry']; ['fies_hungry_hhs']; ['fies_whlday']; ['fies_whlday_hhs']; ['cs_stress_hh_assets']; ['cs_stress_spent_savings']; ['cs_stress_eat_elsewhere']; ['cs_stress_credit']; ['cs_crisis_sold_prod_assets']; ['cs_crisis_reduced_health_exp']; ['cs_crisis_decrease_input_exp']; ['cs_emergency_sold_house']; ['cs_emergency_sold_last_female']; ['cs_emergency_hh_migration']; ['hdds_intro']; ['hdds']; ['hdds_confirmation']; ['Assisstance_group']; ['need']; ['need_']; ['need_otherspecify']; ['need_received']; ['need_received_otherspecify']; ['assistance']; ['closing']; ['callback']; ['future_int_day']; ['future_int_time']; ['language2']; ['closeout']; ['Interview_End_Time']; ['enum_notes']; ['__version__']
+DETECTING DIFFERENCES IN QUESTIONS: constraint
+['resp_age']; ['phone_number_personal']
+DETECTING DIFFERENCES IN QUESTIONS: choice_filter
+['enumerator']
+
+Found 111 mandatory questions in the template questionnaire
+No, country questionnaire does not contains all mandatory questions.
+Missing question: ['income_third', 'resp_lastname', 'incomethird', 'income_third_crop_check', 'income_third_comp', 'income_third_fish_check', 'income_third_ls_check'] 
+
+Found 111 mandatory questions in the template questionnaire
+No, country questionnaire does not contains all mandatory questions.
+Missing question: ['income_third', 'resp_lastname', 'incomethird', 'income_third_crop_check', 'income_third_comp', 'income_third_fish_check', 'income_third_ls_check'] 
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 10 CS questions found in the country questionnaire
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 10 CS questions found in the country questionnaire
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 5  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harvunit', 'crp_harv_unit_kg']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/UKR/V2/validated_questionnaire_kobo_en_UKR_20231130140030.xlsx

@@ -1,0 +1,103 @@
+
+Country Questionnaire File: household_questionnaire_geopoll_AR_template_20230307_IRQ11.xlsx
+Country Questionnaire Type: geopoll
+Country Questionnaire Language: ar
+The template used to validate the country questionnaire is: 20230307
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 20230524135912
+
+
+detecting differences in column: English
+['resp_language']; ['cs_stress_hh_assets']; ['cs_crisis_sold_prod_assets']; ['cs_emergency_sold_house']; ['language2']
+detecting differences in column: Length
+['resp_language']; ['cs_emergency_sold_house']; ['language2']
+detecting differences in column: Skip Pattern
+['resp_language']; ['Agree']; ['hh_wealth_toilet']; ['hh_size']; ['income_main']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_main_comp']; ['income_sec']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_third']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['shock']; ['crp_irrig_source']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_2']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_num_change']; ['ls_proddif']; ['ls_proddif_2']; ['ls_salesdif_2']; ['ls_salesprice']; ['fish_proddif']; ['fish_proddif_2']; ['fies_whlday']; ['fies_whlday_hhs']; ['lcsi_intro']; ['cs_stress_hh_assets']; ['cs_stress_spent_savings']; ['cs_stress_borrowed_or_helped']; ['cs_crisis_sold_prod_assets']; ['cs_emergency_sold_house']; ['cs_emergency_hh_migration']; ['hdds_confirmation']; ['fcs_condiments_days']; ['assistance_quality']
+detecting differences in column: Default skip patterns & conditional 
+['hh_wealth_toilet']; ['hh_size']; ['hh_age']
+detecting differences in column: Core questions only
+['crp_intro']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesdif']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_intro']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_change']; ['ls_proddif']; ['ls_proddif_2']; ['ls_salesmain']; ['ls_salesdif']; ['ls_salesdif_2']; ['ls_salesprice']; ['fish_intro']; ['fish_main']; ['fish_change']; ['fish_proddif']; ['fish_proddif_2']; ['fish_salesmain']; ['fish_salesdif']; ['fish_salesdif_2']; ['fish_salesprice']
+
+QName Field - Number of questions in the Template Questionnaire: 184
+QName Field - Number of questions in the Country Questionnaire: 157
+
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 182
+SuggestedQName Field - Number of questions in the Country Questionnaire: 138
+
+Found 81 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['cs_stress_reduced_health_exp', 'cs_crisis_change_residence', 'cs_emergency_no_school', 'cs_crisis_work_children']
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country): ['income_main_control', 'crp_harv_unit_kg', 'hh_maritalstat', 'cs_crisis_harv_immature_crops', 'cs_stress_changed_school', 'ls_all_\n\n1)ls_all_cattle\n2)ls_all_goats\n3)ls_all_sheep\n4)ls_all_swine\n5)ls_all_equine\n6)ls_all_smallmammals\n7)ls_all_poultry\n8)ls_all_camelids\n9)ls_all_other\n10)ls_all_none\n11)ls_all_dk\n12)ls_all_ref', 'rcsi_intro', 'income_sec_amount_conf', 'crp_harv_lastyr', 'income_main_amount', 'income_third_control', 'cs_crisis_reduced_health_exp', 'hh_asset_transp_\n\n1) hh_asset_transp_bici\n2) hh_asset_transp_cart\n3) hh_asset_transp_boat\n4) hh_asset_transp_motorbike\n5) hh_asset_transp_car\n6) hh_asset_transp_van\n7) hh_asset_transp_other\n8) hh_asset_transp_none\n9) hh_asset_transp_dk\n10) hh_asset_transp_ref', 'rcsi_limit_portions', 'hh_wealth_water', 'covid_\n\n1) covid_goodstransp\n2) covid_marketclosed\n3) covid_borderclosed\n4) covid_stayhome\n5) covid_gatherings\n6) covid_processclosed\n7) covid_curfew\n8) covid_school\n9) covid_other\n10) covid_none\n11) covid_dk\n12) covid_ref', 'rcsi_restrict_adult_consumpt', 'income_sec_gender', 'hh_explanation', 'crp_irrig_system', 'hh_asset_prod_\n\n1) hh_asset_prod_process\n2) hh_asset_prod_farmmach\n3) hh_asset_prod_sewing\n4) hh_asset_prod_taxi\n5) hh_asset_prod_truck\n6) hh_asset_prod_other\n7) hh_asset_prod_none\n8) hh_asset_prod_dk\n9) hh_asset_prod_ref', 'cs_stress_eat_elsewhere', 'rcsi_borrowed_food', 'rcsi_less_preferred_foods', 'income_third_amount', 'cs_crisis_decrease_input_exp', 'income_third_gender', 'cs_emergency_begged', 'income_sec_control', 'income_third_amount_conf', 'income_main_amount_conf', 'crp_all_[name of crop as per crop list]', 'crp_storage', 'income_sec_amount', 'cs_crisis_no_school', 'income_main_gender', 'crp_harv_unit', 'cs_stress_credit', 'cs_emergency_illegal', 'hh_wealth_light', 'cs_emergency_sold_last_female', 'cs_crisis_consume_seed_stock', 'cs_stress_borrowed_money', 'cs_stress_sold_more_animals', 'rcsi_reduce_number_meals', 'hh_residencetype', 'crp_harv_vol', 'crp_irrig_pay']
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['o_crp_area_change_reason', 'o_climate_change_crop', 'o_climate_change_livestock_reason', 'cs_stress_reduced_health_exp', 'o_crp_proddif_reason2', 'o_proddif_reason3', 'o_crp_proddif_reason1', 'o_climate_change_croptype', 'o_crp_salesdif_2_lowprice', 'cs_crisis_work_children', 'o_proddif_reason1', 'o_proddif_reason2', 'cs_emergency_no_school', 'cs_crisis_change_residence', 'o_ls_salesprice_decrease', 'o_income_main_comp_reason', 'o_ls_salesdif_2_lowprice', 'o_crp_salesprice_decrease', 'o_crp_proddif_reason3', 'o_climate_change_crop_reason', 'o_climate_change_herd']
+QName Field - Questions in template questionnaire only (therefore not collected in the country): ['income_main_control', 'crp_harv_unit_kg', 'hh_maritalstat', 'cs_crisis_harv_immature_crops', 'cs_stress_changed_school', 'rcsi_intro', 'income_sec_amount_conf', 'crp_harv_lastyr', 'income_main_amount', 'crp_all', 'income_third_control', 'hh_asset_transp', 'cs_crisis_reduced_health_exp', 'rcsi_limit_portions', 'hh_wealth_water', 'rcsi_restrict_adult_consumpt', 'income_sec_gender', 'hh_explanation', 'crp_irrig_system', 'hh_asset_prod', 'cs_stress_eat_elsewhere', 'rcsi_borrowed_food', 'rcsi_less_preferred_foods', 'income_third_amount', 'cs_crisis_decrease_input_exp', 'income_third_gender', 'cs_emergency_begged', 'income_sec_control', 'covid', 'income_third_amount_conf', 'income_main_amount_conf', 'crp_storage', 'income_sec_amount', 'cs_crisis_no_school', 'income_main_gender', 'crp_harv_unit', 'cs_stress_credit', 'cs_emergency_illegal', 'hh_wealth_light', 'cs_emergency_sold_last_female', 'ls_all', 'cs_crisis_consume_seed_stock', 'cs_stress_borrowed_money', 'cs_stress_sold_more_animals', 'rcsi_reduce_number_meals', 'hh_residencetype', 'crp_harv_vol', 'crp_irrig_pay']
+
+1 hh_wealth_ question found in the country questionnaire: approved
+
+
+10 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+
+-------------------------
+
+Domains have been changed for question: resp_language
+   code                      label
+1     2  خيارات أخرى (أضف ما يلزم)
+1     2                       كردي
+
+-------------------------
+
+Domains have been changed for question: language2
+   code                                 label
+1     2  لغات أخرى (متوافقة مع resp_language)
+1     2                               الكردية
+
+-------------------------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['hh_asset_transp_ref', 'ls_all_equine', 'hh_asset_prod_taxi', 'hh_asset_transp_bici', 'ls_all_camelids', 'covid_stayhome', 'hh_asset_prod_sewing', 'ls_all_cattle', 'covid_curfew', 'ls_all_swine', 'covid_dk', 'hh_asset_transp_boat', 'covid_borderclosed', 'hh_asset_transp_dk', 'ls_all_dk', 'hh_asset_prod_dk', 'hh_asset_prod_farmmach', 'covid_none', 'hh_asset_transp_car', 'hh_asset_transp_motorbike', 'covid_marketclosed', 'covid_ref', 'hh_asset_prod_process', 'ls_all_goats', 'ls_all_poultry', 'ls_all_none', 'ls_all_smallmammals', 'hh_asset_prod_none', 'covid_school', 'covid_gatherings', 'covid_goodstransp', 'hh_asset_transp_van', 'hh_asset_prod_truck', 'ls_all_ref', 'covid_processclosed', 'hh_asset_transp_cart', 'ls_all_sheep', 'hh_asset_transp_none', 'hh_asset_prod_ref']
+Derived field only in country (therefore not stored/published on the Hub): []
+
+-------------------------
+
+Domains have been changed for question: resp_language
+   code                                     label
+1     2  Other options (add as many as necessary)
+1     2                                   Kurdish
+
+-------------------------
+
+Domains have been changed for question: language2
+   code                                            label
+1     2  Other languages (consistent with resp_language)
+1     2                                          Kurdish
+
+-------------------------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['hh_asset_transp_ref', 'ls_all_equine', 'hh_asset_prod_taxi', 'hh_asset_transp_bici', 'ls_all_camelids', 'covid_stayhome', 'hh_asset_prod_sewing', 'ls_all_cattle', 'covid_curfew', 'ls_all_swine', 'covid_dk', 'hh_asset_transp_boat', 'covid_borderclosed', 'hh_asset_transp_dk', 'ls_all_dk', 'hh_asset_prod_dk', 'hh_asset_prod_farmmach', 'covid_none', 'hh_asset_transp_car', 'hh_asset_transp_motorbike', 'covid_marketclosed', 'covid_ref', 'hh_asset_prod_process', 'ls_all_goats', 'ls_all_poultry', 'ls_all_none', 'ls_all_smallmammals', 'hh_asset_prod_none', 'covid_school', 'covid_gatherings', 'covid_goodstransp', 'hh_asset_transp_van', 'hh_asset_prod_truck', 'ls_all_ref', 'covid_processclosed', 'hh_asset_transp_cart', 'ls_all_sheep', 'hh_asset_transp_none', 'hh_asset_prod_ref']
+Derived field only in country (therefore not stored/published on the Hub): []
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/IRQ/validated_questionnaire_geopoll_ar_IRQ_20230524135912.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 15
+
+Survey edited by replacing values according the Additional Information sheet

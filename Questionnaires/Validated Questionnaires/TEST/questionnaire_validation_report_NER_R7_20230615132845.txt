@@ -1,0 +1,106 @@
+
+Country iso3: NER
+Country round #: 7
+Country Questionnaire Language: en
+Country Questionnaire Type: geopoll
+Country Questionnaire File: household_questionnaire_geopoll_EN_template_20230307_PREVIOUS_LEB12.xlsx
+The template used to validate the country questionnaire is: 20230307
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 15/06/2023, 13:28:45
+
+
+detecting differences in column: English
+['hh_admin1']; ['hh_admin2_1']
+detecting differences in column: Length
+['hh_admin1']; ['hh_admin2_1']
+
+QName Field - Number of questions in the Template Questionnaire: 184
+QName Field - Number of questions in the Country Questionnaire: 184
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 182
+SuggestedQName Field - Number of questions in the Country Questionnaire: 182
+
+Found 81 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country):
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+
+QName Field - Questions in template questionnaire only (therefore not collected in the country):
+
+3 hh_wealth_ questions found in the country questionnaire: it should be only one!
+
+
+19 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 8
+Number of CRISIS questions: 6
+Number of EMERGENCY questions: 5
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 4  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harv_unit_kg']
+
+
+-------
+Domains have been changed for question:
+hh_admin1
+
+Template Questionnaire order # 1 - Admin1 
+
+ template value=Admin1 
+ country value= 
+ 
+Country Questionnaire order # 2 - Don't know 
+
+ template value=Don't know 
+ country value= 
+ 
+Country Questionnaire order # 3 - Refused 
+
+ template value=Refused 
+ country value= 
+ 
+
+
+-------
+Domains have been changed for question:
+hh_admin2_1
+
+Country Questionnaire order # 1 - Admin2 
+
+ template value=Admin2 
+ country value= 
+ 
+Country Questionnaire order # 2 - Don't know 
+
+ template value=Don't know 
+ country value= 
+ 
+Country Questionnaire order # 3 - Refused 
+
+ template value=Refused 
+ country value= 
+ 
+
+
+-------
+
+Derived fields analysis: 
+Derived fields have been respected
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/TEST/validated_questionnaire_geopoll_en_NER_20230615132845.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 10
+
+Survey edited by replacing values according the Additional Information sheet

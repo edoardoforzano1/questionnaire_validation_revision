@@ -1,0 +1,549 @@
+
+Country iso3: ZWE
+Country round #: 9
+Country Questionnaire Language: en
+Country Questionnaire Type: geopoll
+Country Questionnaire File: GeoPoll_FAO Zimbabwe Needs Assessement_EN_R9_V6.xlsx
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 16/11/2023, 16:31:54
+
+QName Field - Number of questions in the Template Questionnaire: 181
+QName Field - Number of questions in the Country Questionnaire: 181
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 179
+SuggestedQName Field - Number of questions in the Country Questionnaire: 171
+
+Found 81 mandatory questions in the template questionnaire
+No, country questionnaire does not contains all mandatory questions. Missing question: ['hh_admin2_1'] 
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- o_crp_fertilizer_availability
+- shock_
+
+1) shock_noshock
+2) shock_sicknessordeathofhh
+3) shock_lostemplorwork
+4) shock_otherintrahhshock
+5) shock_higherfoodprices
+6) shock_higherfuelprices
+7) shock_mvtrestrict
+8) shock_othereconomicshock
+9) shock_pestoutbreak
+10) shock_plantdisease
+11) shock_animaldisease
+12) shock_napasture
+13) shock_othercropandlivests
+14)shock_coldtemporhail
+15) shock_flood
+16) shock_hurricane
+17) shock_drought
+18) shock_earthquake
+19) shock_landslides
+20) shock_firenatural
+21) shock_othernathazard
+22) shock_violenceinsecconf
+23) shock_theftofprodassets
+24) shock_firemanmade
+25) shock_othermanmadehazard
+26) shock_dk
+27) shock_ref
+- rcsi_restrict_adult_consumption
+- fish_main_
+
+1) fish_main_coastal
+2) fish_main_offshore_sea
+3)fish_main_freshwater
+4) fish_main_aquaculture
+5) fish_main_dk
+6) fish_main_ref
+- o_crp_fertilizer_supply
+
+1) crp_fert_market
+2) crp_fert_company
+3) crp_fert_ngo
+4) crp_fert_organized_community
+5) crp_fert_gov
+6) crp_fert_relatives_friends
+7) crp_fert_other
+8) crp_fert_dk
+9) crp_fert_ref
+- hh_admin2_10
+- hh_admin2_5
+- fish_saledif_2
+
+1) fish_saledif_marketing_cost
+2) fish_saledif_damage_losses
+3) fish_saledif_low_demand
+4)fish_saledif_pay_delay
+5) fish_saledif_low_prices
+6) fish_saledif_processing
+7) fish_saledif_competition
+8) fish_saledif_other
+9) fish_saledif_dk
+10) fish_saledif_ref
+- future_int_day_
+1) future_int_day_mon
+2) future_int_day_tues
+3) future_int_day_wed
+4) future_int_day_thurs
+5) future_int_day_fri
+6) future_int_day_sat
+7) future_int_day_sun
+- o_crp_seed_availability
+- ls_salesdif_
+
+1) ls_salesdif_marketing_cost
+2) ls_salesdif_damage_losses
+3) ls_salesdif_low_demand
+4)ls_salesdif_pay_delay
+5) ls_salesdif_low_price
+6)  ls_salesdif_slaughterhouse
+7) ls_salesdif_processing
+8) ls_salesdif_competition
+9) ls_salesdif_other
+10) ls_salesdif_dk
+11) ls_salesdif_ref
+- hh_admin2_7
+- ls_cond
+- future_int_time_ 
+1) future_int_time_morn
+2) future_int_time_aft
+3) future_int_time_eve
+- hh_admin2_9
+- hh_admin2_4
+- ls_num_
+
+1)ls_num_no_change
+2) ls_num_inc_less_sales
+3) ls_num_inc_more_birth
+4) ls_num_inc_more_acquired
+5) ls_num_inc_received_free
+6)ls_num_dec_poor_health
+7)ls_num_dec_death
+8)ls_num_dec_sales_good_price
+9)ls_num_dec_sales_distress
+10)ls_num_dec_escape_stolen
+11)ls_num_dec_consumed
+12)ls_num_inc_dec_other
+13)ls_num_inc_dec_dk
+14)ls_num_inc_dec_ref
+- hh_admin2_8
+- ls_water
+- ls_pasture
+- hh_asset_prod_
+
+1) hh_asset_prod_process
+2) hh_asset_prod_farmmach
+3) hh_asset_prod_sewing
+4) hh_asset_prod_taxi
+5) hh_asset_prod_truck
+6) hh_asset_prod_other
+7) hh_asset_prod_none
+8) hh_asset_prod_dk
+9) hh_asset_prod_ref
+- hh_admin2_3
+- o_ls_mortality
+- hh_admin2_6
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country):
+- cs_stress_spent_savings
+- cs_emergency_hh_migration
+- hh_wealth_toilet
+- crp_harv_lastyr
+- future_int_time_ 
+
+1) future_int_time_morn
+2) future_int_time_aft
+3) future_int_time_eve
+- cs_crisis_reduced_health_exp
+- covid_
+
+1) covid_goodstransp
+2) covid_marketclosed
+3) covid_borderclosed
+4) covid_stayhome
+5) covid_gatherings
+6) covid_processclosed
+7) covid_curfew
+8) covid_school
+9) covid_other
+10) covid_none
+11) covid_dk
+12) covid_ref
+- crp_harv_unit
+- hh_wealth_water
+- rcsi_restrict_adult_consumpt
+- hh_asset_transp_
+
+1) hh_asset_transp_bici
+2) hh_asset_transp_cart
+3) hh_asset_transp_boatmotor
+4) hh_asset_transp_boatnomotor
+5) hh_asset_transp_motorbike
+6) hh_asset_transp_car
+7) hh_asset_transp_van
+8) hh_asset_transp_other
+9) hh_asset_transp_none
+10) hh_asset_transp_dk
+11) hh_asset_transp_ref
+- fish_main_
+
+1) fish_main_coastal
+2) fish_main_offshore_sea
+3) fish_main_freshwater
+4) fish_main_aquaculture
+5) fish_main_dk
+6) fish_main_ref
+- cs_crisis_consume_seed_stock
+- ls_salesdif_
+
+1) ls_salesdif_marketing_cost
+2) ls_salesdif_damage_losses
+3) ls_salesdif_low_demand
+4) ls_salesdif_pay_delay
+5) ls_salesdif_low_price
+6)  ls_salesdif_slaughterhouse
+7) ls_salesdif_processing
+8) ls_salesdif_competition
+9) ls_salesdif_other
+10) ls_salesdif_dk
+11) ls_salesdif_ref
+- NA
+- cs_emergency_sold_house
+- crp_irrig_system
+- cs_stress_eat_elsewhere
+- fish_saledif_
+
+1) fish_saledif_marketing_cost
+2) fish_saledif_damage_losses
+3) fish_saledif_low_demand
+4) fish_saledif_pay_delay
+5) fish_saledif_low_prices
+6) fish_saledif_processing
+7) fish_saledif_competition
+8) fish_saledif_other
+9) fish_saledif_dk
+10) fish_saledif_ref
+- crp_harv_unit_kg
+- ls_all_
+
+1) ls_all_cattle
+2) ls_all_goats
+3) ls_all_sheep
+4) ls_all_swine
+5) ls_all_equine
+6) ls_all_smallmammals
+7) ls_all_poultry
+8) ls_all_camelids
+9) ls_all_other
+10) ls_all_none
+11) ls_all_dk
+12) ls_all_ref
+- cs_crisis_decrease_input_exp
+- crp_main_check
+- future_int_day_
+
+1) future_int_day_mon
+2) future_int_day_tues
+3) future_int_day_wed
+4) future_int_day_thurs
+5) future_int_day_fri
+6) future_int_day_sat
+7) future_int_day_sun
+- crp_irrig_pay
+- ls_num_
+
+1) ls_num_no_change
+2) ls_num_inc_less_sales
+3) ls_num_inc_more_birth
+4) ls_num_inc_more_acquired
+5) ls_num_inc_received_free
+6) ls_num_dec_poor_health
+7) ls_num_dec_death
+8) ls_num_dec_sales_good_price
+9) ls_num_dec_sales_distress
+10) ls_num_dec_escape_stolen
+11) ls_num_dec_consumed
+12) ls_num_inc_dec_other
+13) ls_num_inc_dec_dk
+14) ls_num_inc_dec_ref
+- hh_admin2_1
+- cs_stress_changed_school
+- shock_
+
+1) shock_noshock
+2) shock_sicknessordeathofhh
+3) shock_lostemplorwork
+4) shock_otherintrahhshock
+5) shock_higherfoodprices
+6) shock_higherfuelprices
+7) shock_mvtrestrict
+8) shock_othereconomicshock
+9) shock_pestoutbreak
+10) shock_plantdisease
+11) shock_animaldisease
+12) shock_napasture
+13) shock_othercropandlivests
+14) shock_coldtemporhail
+15) shock_flood
+16) shock_hurricane
+17) shock_drought
+18) shock_earthquake
+19) shock_landslides
+20) shock_firenatural
+21) shock_othernathazard
+22) shock_violenceinsecconf
+23) shock_theftofprodassets
+24) shock_firemanmade
+25) shock_othermanmadehazard
+26) shock_dk
+27) shock_ref
+- cs_stress_borrowed_or_helped
+- hh_asset_prod_
+
+1)hh_asset_prod_process
+2)hh_asset_prod_farmmach
+3)hh_asset_prod_sewing
+4)hh_asset_prod_taxi
+5)hh_asset_prod_truck
+6)hh_asset_prod_other
+7) hh_asset_prod_none
+8) hh_asset_prod_dk
+9) hh_asset_prod_ref
+- crp_harv_vol
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- CallBack-Confirmation
+- o_physical_visit
+- o_ward_number
+- o_crp_fertilizer_availability
+- CallBack-Introduction
+- o_ls_water
+- o_ls_cond
+- hh_admin2_10
+- hh_admin2_5
+- o_crp_seed_availability
+- o_crp_fertilizer_supply
+- hh_admin2_7
+- o_village_name
+- hh_admin2_9
+- hh_admin2_4
+- hh_admin2_8
+- o_ls_pasture
+- End poll callback
+- hh_admin2_3
+- o_ls_mortality
+- hh_admin2_6
+
+QName Field - Questions in template questionnaire only (therefore not collected in the country):
+- ls_all
+- cs_stress_spent_savings
+- hh_asset_transp
+- cs_crisis_harv_immature_crops
+- cs_emergency_hh_migration
+- hh_wealth_toilet
+- crp_harv_lastyr
+- cs_crisis_reduced_health_exp
+- covid
+- crp_harv_unit
+- hh_wealth_water
+- crp_harv_vol
+- cs_emergency_sold_house
+- crp_irrig_system
+- cs_stress_eat_elsewhere
+- crp_harv_unit_kg
+- crp_irrig_pay
+- hh_admin2_1
+- cs_stress_changed_school
+- cs_stress_borrowed_or_helped
+- cs_crisis_consume_seed_stock
+
+1 hh_wealth_ question found in the country questionnaire: approved
+
+
+10 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+
+-------
+Domains have been changed for question:
+resp_language
+
+Template Questionnaire order # 2 - Other options (add as many as necessary) 
+
+ template value=Other options (add as many as necessary) 
+ country value=Shona 
+ 
+Country Questionnaire order # 3 - Ndebele 
+
+ template value= 
+ country value=Ndebele 
+ 
+
+
+-------
+Domains have been changed for question:
+hh_admin1
+
+Country Questionnaire order # 1 - Admin1 
+
+ template value=Admin1 
+ country value=Bulawayo 
+ 
+Country Questionnaire order # 2 - Don't know 
+
+ template value=Don't know 
+ country value=Harare 
+ 
+Country Questionnaire order # 3 - Refused 
+
+ template value=Refused 
+ country value=Manicaland 
+ 
+Country Questionnaire order # 4 - Mashonaland central 
+
+ template value= 
+ country value=Mashonaland central 
+ 
+Country Questionnaire order # 5 - Mashonaland east 
+
+ template value= 
+ country value=Mashonaland east 
+ 
+Country Questionnaire order # 6 - Mashonaland west 
+
+ template value= 
+ country value=Mashonaland west 
+ 
+Country Questionnaire order # 7 - Masvingo 
+
+ template value= 
+ country value=Masvingo 
+ 
+Country Questionnaire order # 8 - Matabeleland north 
+
+ template value= 
+ country value=Matabeleland north 
+ 
+Country Questionnaire order # 9 - Matabeleland south 
+
+ template value= 
+ country value=Matabeleland south 
+ 
+Country Questionnaire order # 10 - Midlands 
+
+ template value= 
+ country value=Midlands 
+ 
+Country Questionnaire order # 11 - Don't know 
+
+ template value= 
+ country value=Don't know 
+ 
+Country Questionnaire order # 12 - Refused 
+
+ template value= 
+ country value=Refused 
+ 
+
+
+-------
+Domains have been changed for question:
+income_main
+
+Country Questionnaire order # 16 - Income not derived from work, welfare transfer, pension, humanitarian aid 
+
+ template value=Income not derived from work, welfare transfer, pension, humanitarian aid 
+ country value=Income not derived from work, welfare transfer/pension/humanitarian aid 
+ 
+
+
+-------
+Domains have been changed for question:
+income_sec
+
+Country Questionnaire order # 16 - Income not derived from work, welfare transfer, pension, humanitarian aid 
+
+ template value=Income not derived from work, welfare transfer, pension, humanitarian aid 
+ country value=Income not derived from work, welfare transfer/pension/humanitarian aid 
+ 
+
+
+-------
+Domains have been changed for question:
+income_third
+
+Country Questionnaire order # 6 - Production and sale of fish and aquatic products 
+
+ template value=Production and sale of fish and aquatic products 
+ country value=Production and sale of fish or aquatic products 
+ 
+Country Questionnaire order # 8 - Agricultural trade excluding producers (formal and informal) 
+
+ template value=Agricultural trade excluding producers (formal and informal) 
+ country value=Agricultural trade excluding producers (formal or informal) 
+ 
+Country Questionnaire order # 16 - Income not derived from work, welfare transfer, pension, humanitarian aid 
+
+ template value=Income not derived from work, welfare transfer, pension, humanitarian aid 
+ country value=Income not derived from work, welfare transfer/pension/humanitarian aid 
+ 
+
+
+-------
+Domains have been changed for question:
+ls_main
+
+Country Questionnaire order # 2 - Goat 
+
+ template value=Goat 
+ country value=Goats 
+ 
+
+
+-------
+Domains have been changed for question:
+ls_salesmain
+
+Country Questionnaire order # 2 - Goat 
+
+ template value=Goat 
+ country value=Goats 
+ 
+
+
+-------
+Domains have been changed for question:
+language2
+
+Country Questionnaire order # 2 - Other languages (consistent with resp_language) 
+
+ template value=Other languages (consistent with resp_language) 
+ country value=Shona 
+ 
+Country Questionnaire order # 3 - Ndebele 
+
+ template value= 
+ country value=Ndebele 
+ 
+
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['hh_asset_transp_dk', 'covid_none', 'covid_curfew', 'need_crop_infrastructure', 'fish_inputdif_ice', 'hh_asset_transp_bici', 'need_ls_infrastructure', 'need_crop_inputs', 'need_received_ls_assist', 'fish_inputdif_labour', 'covid_dk', 'hh_asset_transp_motorbike', 'need_received_fish_assist', 'covid_ref', 'ls_all_sheep', 'hh_asset_transp_ref', 'fish_inputdif_fingerling', 'need_ls_feed', 'fish_inputdif_repairs', 'hh_asset_transp_van', 'hh_asset_transp_boatnomotor', 'covid_borderclosed', 'fish_inputdif_bait_feed', 'need_fish_knowledge', 'need_vouchers_fair', 'need_env_infra_rehab', 'need_marketing_supp', 'ls_all_dk', 'need_ls_knowledge', 'need_dk', 'need_received_dk', 'need_cold_storage', 'covid_school', 'ls_all_ref', 'ls_all_smallmammals', 'fish_inputdif_dk', 'need_food', 'need_received_none', 'hh_asset_transp_boatmotor', 'covid_marketclosed', 'need_fish_inputs', 'need_crop_knowledge', 'covid_gatherings', 'ls_all_equine', 'need_ls_vet_service', 'ls_all_goats', 'fish_inputdif_fuel', 'need_ref', 'ls_all_cattle', 'need_received_sales_support', 'need_received_crop_assist', 'need_fish_infrastructure', 'fish_inputdif_ref', 'ls_all_swine', 'covid_goodstransp', 'ls_all_none', 'covid_processclosed', 'ls_all_camelids', 'hh_asset_transp_none', 'ls_all_poultry', 'covid_stayhome', 'need_received_cash', 'need_cash', 'need_received_food', 'hh_asset_transp_cart', 'hh_asset_transp_car', 'fish_inputdif_gear', 'need_received_ref', 'need_received_rehabilitation', 'need_received_vouchers_fair']
+Derived field only in country (therefore not stored/published on the Hub): []
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/ZWE/R9/validated_questionnaire_geopoll_en_ZWE_20231116163154.xlsx

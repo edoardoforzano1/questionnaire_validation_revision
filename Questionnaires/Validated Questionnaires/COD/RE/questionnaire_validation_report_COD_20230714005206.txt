@@ -1,0 +1,44 @@
+
+Country Questionnaire File: DRC_Ituri_hh_conflict_questionnaire_fr_kobo_ V3.xlsx
+Country Questionnaire Type: kobo
+Country Questionnaire Language: fr
+The template used to validate the country questionnaire is: 20230307
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: July 14, 2023
+
+All Fields in country questionnaire and not in template questionnaire: ['o_dispute_resolution', 'o_hh_displacement_income', 'o_conflict_lines', 'o_hh_host_displaced', 'o_conflict-exposure', 'o_benefao', 'o_crpnoaccess', 'o_crpaccesok', 'o_conflict_sensitivity', 'o_hh_displacement_incomesource', 'o_crp_water', 'o_hh_displacement_assets', 'o_sustainoption', 'o_conflict_causality', 'o_conditionsreturn', 'o_idp', 'o_actors', 'o_conflict_type', 'o_resolution_dispute', 'o_conflict_imapct', 'o_hh_returnee_reason', 'O_pdi', 'o_crp_land_returnee', 'o_crpaccess', 'o_hh_displacement_place', 'o_conditionsstay', 'o_conflict_impact_access', 'Conflict ananlysis', 'o_hh_residencetime', 'o_hh_residencetype', 'o_conflit_impact_utilization', 'o_returnees', 'o_intensity', 'o_intercommunity_relation', 'o_hh_displacement_number', 'o_crp_land_returnee_reason']
+All Fields in template questionnaire and not in country questionnaire: ['fish_inputdif_otherspecify', 'covid', 'cs_emergency_illegal', 'covid_otherspecify', 'crp_seed', 'crp_irrig_system', 'crp_irrig_pay', 'hh_maritalstat', 'cs_emergency_sold_house', 'hh_residencetype', 'crp_all', 'cs_stress_eat_elsewhere', 'cs_crisis_no_school', 'enum_team', 'cs_stress_changed_school', 'cs_crisis_decrease_input_exp', 'ls_all']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: label::French (fr)
+['crp_intro']
+
+Found 111 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 13 CS questions found in the country questionnaire
+Number of STRESS questions: 6
+Number of CRISIS questions: 4
+Number of EMERGENCY questions: 3
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 5  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harvunit', 'crp_harv_unit_kg']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/COD/RE/validated_questionnaire_kobo_fr_COD_20230717005206.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 12
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/COD/RE/validated_questionnaire_kobo_fr_COD_20230717005206.xlsx
+
+Survey edited by replacing values according the Additional Information sheet

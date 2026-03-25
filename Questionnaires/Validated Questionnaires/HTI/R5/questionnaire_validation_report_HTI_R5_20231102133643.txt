@@ -1,0 +1,516 @@
+
+Country iso3: HTI
+Country round #: 5
+Country Questionnaire Language: fr
+Country Questionnaire Type: geopoll
+Country Questionnaire File: HTI_R5_questionnaire_geopoll_FR_forvalidation_V2.xlsx
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 02/11/2023, 13:36:43
+
+
+detecting differences in column: English
+['resp_language']; ['introduction']; ['hh_admin1']; ['hh_admin2_1']; ['income_main_amount']; ['income_main_amount_conf']; ['income_main_comp']; ['income_sec_amount']; ['income_sec_amount_conf']; ['income_sec_comp']; ['income_third_comp']; ['crp_intro']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesprice']; ['ls_salesprice']; ['fish_salesprice']
+detecting differences in column: Length
+['resp_language']; ['introduction']; ['hh_admin1']; ['hh_admin2_1']; ['income_main_amount']; ['income_main_amount_conf']; ['income_main_comp']; ['income_sec_amount']; ['income_sec_amount_conf']; ['income_sec_comp']; ['income_third_comp']; ['crp_intro']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesprice']; ['ls_salesprice']; ['fish_salesprice']; ['cs_crisis_sold_prod_assets']
+detecting differences in column: Skip Pattern
+['fish_salesprice']; ['callback']
+detecting differences in column: Default skip patterns & conditional 
+['Agree']; ['quotareached']; ['hh_agricactivity']; ['hh_education']; ['hh_wealth_water']; ['hh_size']; ['income_main']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_main_amount']; ['income_main_amount_conf']; ['income_main_gender']; ['income_sec']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_third']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['income_third_comp']; ['shock']; ['crp_irrig_source']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_2']; ['crp_storage']; ['ls_num_change']; ['ls_proddif']; ['ls_proddif_2']; ['fish_proddif']; ['fish_proddif_2']; ['fish_salesprice']; ['fies_whlday']; ['fies_whlday_hhs']; ['lcsi_intro']; ['cs_stress_hh_assets']; ['cs_stress_sold_more_animals']; ['cs_stress_eat_elsewhere']; ['cs_stress_credit']; ['cs_crisis_sold_prod_assets']; ['cs_crisis_no_school']; ['cs_crisis_reduced_health_exp']; ['cs_emergency_begged']; ['cs_emergency_illegal']; ['cs_emergency_hh_migration']; ['fcs_condiments_days']; ['assistance_quality']; ['callback']
+detecting differences in column: Mandatory
+['crp_proddif']
+detecting differences in column: Core questions only
+['crp_intro']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesdif']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_intro']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_change']; ['ls_proddif']; ['ls_proddif_2']; ['ls_salesmain']; ['ls_salesdif']; ['ls_salesdif_2']; ['ls_salesprice']; ['fish_intro']; ['fish_main']; ['fish_change']; ['fish_proddif']; ['fish_proddif_2']; ['fish_salesmain']; ['fish_salesdif']; ['fish_salesdif_2']; ['fish_salesprice']
+
+QName Field - Number of questions in the Template Questionnaire: 181
+QName Field - Number of questions in the Country Questionnaire: 152
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 179
+SuggestedQName Field - Number of questions in the Country Questionnaire: 150
+
+Found 81 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- o_hh_friends
+- hh_asset_prod_
+
+1) hh_asset_cart
+2) hh_asset_boat
+2) hh_asset_radio
+3) hh_asset_tv
+4) hh_asset_fridge
+5) hh_asset_bike
+6) hh_asset_moto
+7) hh_asset_car
+8) hh_asset_dk
+9) hh_asset_ref
+- o_hh_asset_num
+- o_hh_association
+- o_hh_dep
+- o_income_farmlabor
+- o_income_farm_importance
+- o_hh_access_
+
+1) o_hh_access_market
+2) o_hh_access_health
+3) o_hh_access_school 
+4) o_hh_access_transp
+- o_hh_ruralurban
+- hh_asset_agr_
+
+1) hh_asset_agr_wheel
+2) hh_asset_agr_axe
+3) hh_asset_agr_shov
+4) hh_asset_agr_hoe
+5) hh_asset_agr_rake
+6) hh_asset_agr_plo
+7) hh_asset_agr_proc
+8) hh_asset_agr_mach
+9) hh_asset_agr_none
+10) hh_asset_agr_dk
+11) hh_asset_agr_ref
+- o_income_remittances
+- o_shock_main_
+
+2)o_shock_main_sicknessordeathofhh
+3) o_shock_main_lostemplorwork
+4) o_shock_main_otherintrahhshock
+5) o_shock_main_higherfoodprices
+6) o_shock_main_higherfuelprices
+7) o_shock_main_mvtrestrict
+8) o_shock_main_othereconomicshock
+9) o_shock_main_pestoutbreak
+10) o_shock_main_plantdisease
+11) o_shock_main_animaldisease
+12) o_shock_main_napasture
+13) o_shock_main_othercropandlivests
+14) o_shock_main_coldtemporhail
+15) o_shock_main__flood
+16) o_shock_main_hurricane
+17) o_shock_main_drought
+18) o_shock_main_earthquake
+19) o_shock_main_landslides
+20) o_shock_main_firenatural
+21) o_shock_main_othernathazard
+22) o_shock_main_violenceinsecconf
+23) o_shock_main_theftofprodassets
+24) o_shock_main_firemanmade
+25) o_shock_main_othermanmadehazard
+- o_hh_wealth_electricity
+- o_hh_training
+- o_crp_already_harv
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country):
+- crp_seed_supply
+
+1) crp_seed_ownprod
+2) crp_seed_market
+3) crp_seed_company
+4) crp_seed_ngo
+5) crp_seed_organized_community
+6) crp_seed_gov
+7) crp_seed_relatives_friends
+8) crp_seed_other
+9) crp_seed_dk
+10) crp_seed_ref
+- cs_crisis_consume_seed_stock
+- income_main_control
+- rcsi_limit_portions
+- ls_all_
+
+1)ls_all_cattle
+2)ls_all_goats
+3)ls_all_sheep
+4)ls_all_swine
+5)ls_all_equine
+6)ls_all_smallmammals
+7)ls_all_poultry
+8)ls_all_camelids
+9)ls_all_other
+10)ls_all_none
+11)ls_all_dk
+12)ls_all_ref
+- income_third_control
+- hh_asset_transp_
+
+1) hh_asset_transp_bici
+2) hh_asset_transp_cart
+3) hh_asset_transp_boatmotor
+4) hh_asset_transp_boatnomotor
+5) hh_asset_transp_motorbike
+6) hh_asset_transp_car
+7) hh_asset_transp_van
+8) hh_asset_transp_other
+9) hh_asset_transp_none
+10) hh_asset_transp_dk
+11) hh_asset_transp_ref
+- income_third_amount
+- hh_wealth_light
+- hh_maritalstat
+- hh_asset_prod_
+
+1) hh_asset_prod_process
+2) hh_asset_prod_farmmach
+3) hh_asset_prod_sewing
+4) hh_asset_prod_taxi
+5) hh_asset_prod_truck
+6) hh_asset_prod_other
+7) hh_asset_prod_none
+8) hh_asset_prod_dk
+9) hh_asset_prod_ref
+- hh_residencetype
+- rcsi_intro
+- cs_emergency_sold_house
+- ls_feed
+
+1) ls_feed_open_pasture
+2) ls_feed_common_pasture
+3) ls_feed_self_produced
+4) ls_feed_purchased
+5) ls_feed_free_dist
+6) ls_feed_other
+7) ls_feed_dk
+8) ls_feed_ref
+- cs_crisis_decrease_input_exp
+- crp_irrig_pay
+- income_sec_control
+- hh_age
+- income_third_gender
+- rcsi_restrict_adult_consumpt
+- income_sec_gender
+- crp_harv_unit
+- assistance_provider
+
+1) assistance_fao
+2) assistance_wfp
+3) assistance_otherun
+4) assistance_gov
+5) assistance_ngo
+6) assistance_dk
+7) assistance_ref
+- crp_irrig_system
+- cs_stress_borrowed_money
+- cs_emergency_sold_last_female
+- crp_harv_lastyr
+- rcsi_less_preferred_foods
+- cs_stress_changed_school
+- cs_stress_spent_savings
+- cs_stress_borrowed_or_helped
+- income_third_amount_conf
+- covid_
+
+1) covid_goodstransp
+2) covid_marketclosed
+3) covid_borderclosed
+4) covid_stayhome
+5) covid_gatherings
+6) covid_processclosed
+7) covid_curfew
+8) covid_school
+9) covid_other
+10) covid_none
+11) covid_dk
+12) covid_ref
+- cs_crisis_harv_immature_crops
+- fish_inputdif_
+
+1) fish_inputdif_bait_feed
+2)fish_inputdif_fingerling
+3) fish_inputdif_gear
+4) fish_inputdif_ice
+5) fish_inputdif_fuel
+6) fish_inputdif_repairs
+7) fish_inputdif_labour
+8) fish_inputdif_other 
+9)fish_inputdif_dk
+10) fish_inputdif_ref
+- crp_all_[name of crop as per crop list]
+- hh_wealth_toilet
+- crp_harv_vol
+- rcsi_reduce_number_meals
+- rcsi_borrowed_food
+- hh_fish
+- crp_harv_unit_kg
+- hh_explanation
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- o_hh_friends
+- o_hh_asset_num
+- o_hh_association
+- o_shock_main
+- o_income_farmlabor
+- o_hh_dep
+- o_income_farm_importance
+- o_hh_ruralurban
+- o_income_remittances
+- o_hh_wealth_electricity
+- o_hh_training
+- o_crp_already_harv
+- o_hh_asset_agr
+- o_hh_asset
+- o_hh_access
+
+QName Field - Questions in template questionnaire only (therefore not collected in the country):
+- crp_all
+- hh_asset_transp
+- cs_crisis_consume_seed_stock
+- crp_seed_supply
+- income_main_control
+- rcsi_limit_portions
+- income_third_control
+- income_third_amount
+- hh_wealth_light
+- hh_maritalstat
+- covid
+- hh_residencetype
+- fish_inputdif
+- rcsi_intro
+- cs_emergency_sold_house
+- cs_crisis_decrease_input_exp
+- crp_irrig_pay
+- income_sec_control
+- hh_age
+- income_third_gender
+- rcsi_restrict_adult_consumpt
+- income_sec_gender
+- hh_asset_prod
+- crp_harv_unit
+- crp_irrig_system
+- cs_stress_borrowed_money
+- cs_emergency_sold_last_female
+- crp_harv_lastyr
+- rcsi_less_preferred_foods
+- cs_stress_changed_school
+- cs_stress_spent_savings
+- assistance_provider
+- cs_stress_borrowed_or_helped
+- income_third_amount_conf
+- cs_crisis_harv_immature_crops
+- hh_wealth_toilet
+- crp_harv_vol
+- rcsi_reduce_number_meals
+- ls_all
+- rcsi_borrowed_food
+- hh_fish
+- ls_feed
+- crp_harv_unit_kg
+- hh_explanation
+
+1 hh_wealth_ question found in the country questionnaire: approved
+
+
+10 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+
+-------
+Domains have been changed for question:
+resp_language
+
+Template Questionnaire order # 2 - Autre (ajouter autant d'options que nécessaire) 
+
+ template value=Autre (ajouter autant d'options que nécessaire) 
+ country value=Creole 
+ 
+
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['hh_asset_transp_boatmotor', 'hh_asset_prod_ref', 'assistance_gov', 'fish_inputdif_dk', 'covid_none', 'hh_asset_prod_process', 'hh_asset_transp_ref', 'fish_inputdif_fingerling', 'fish_inputdif_bait_feed', 'hh_asset_prod_none', 'ls_all_cattle', 'hh_asset_transp_bici', 'hh_asset_transp_boatnomotor', 'covid_stayhome', 'hh_asset_transp_van', 'hh_asset_prod_truck', 'ls_all_none', 'assistance_otherun', 'ls_all_equine', 'hh_asset_prod_taxi', 'covid_curfew', 'covid_processclosed', 'hh_asset_prod_sewing', 'assistance_dk', 'hh_asset_prod_dk', 'covid_school', 'hh_asset_transp_cart', 'assistance_ref', 'covid_borderclosed', 'covid_ref', 'hh_asset_transp_motorbike', 'assistance_wfp', 'ls_all_ref', 'hh_asset_transp_car', 'hh_asset_transp_dk', 'fish_inputdif_fuel', 'hh_asset_transp_none', 'covid_goodstransp', 'covid_marketclosed', 'ls_all_goats', 'ls_all_dk', 'fish_inputdif_labour', 'fish_inputdif_ice', 'assistance_fao', 'covid_dk', 'fish_inputdif_ref', 'hh_asset_prod_farmmach', 'ls_all_swine', 'ls_all_poultry', 'fish_inputdif_repairs', 'covid_gatherings', 'ls_all_smallmammals', 'assistance_ngo', 'fish_inputdif_gear', 'ls_all_camelids', 'ls_all_sheep']
+Derived field only in country (therefore not stored/published on the Hub): ['hh_asset_ref', 'hh_asset_agr_shov', 'hh_asset_agr_none', 'hh_asset_car', 'hh_asset_cart', 'hh_asset_agr_wheel', 'hh_asset_moto', 'hh_asset_agr_mach', 'hh_asset_fridge', 'hh_asset_agr_axe', 'hh_asset_agr_ref', 'hh_asset_agr_dk', 'hh_asset_bike', 'hh_asset_agr_plo', 'hh_asset_dk', 'hh_asset_agr_proc', 'hh_asset_agr_rake', 'hh_asset_boat\n2) hh_asset_radio', 'hh_asset_agr_hoe', 'hh_asset_tv']
+
+-------
+Domains have been changed for question:
+resp_language
+
+Country Questionnaire order # 2 - Other options (add as many as necessary) 
+
+ template value=Other options (add as many as necessary) 
+ country value=Creole 
+ 
+
+
+-------
+Domains have been changed for question:
+hh_admin1
+
+Country Questionnaire order # 1 - Admin1 
+
+ template value=Admin1 
+ country value=Artibonite 
+ 
+Country Questionnaire order # 2 - Don't know 
+
+ template value=Don't know 
+ country value=Centre 
+ 
+Country Questionnaire order # 3 - Refused 
+
+ template value=Refused 
+ country value=Grande'anse 
+ 
+Country Questionnaire order # 4 - Nippes 
+
+ template value= 
+ country value=Nippes 
+ 
+Country Questionnaire order # 5 - North 
+
+ template value= 
+ country value=North 
+ 
+Country Questionnaire order # 6 - North-east 
+
+ template value= 
+ country value=North-east 
+ 
+Country Questionnaire order # 7 - North-west 
+
+ template value= 
+ country value=North-west 
+ 
+Country Questionnaire order # 8 - South 
+
+ template value= 
+ country value=South 
+ 
+Country Questionnaire order # 9 - South-east 
+
+ template value= 
+ country value=South-east 
+ 
+Country Questionnaire order # 10 - West 
+
+ template value= 
+ country value=West 
+ 
+Country Questionnaire order # 11 - Don't know 
+
+ template value= 
+ country value=Don't know 
+ 
+Country Questionnaire order # 12 - Refused 
+
+ template value= 
+ country value=Refused 
+ 
+
+
+-------
+Domains have been changed for question:
+hh_admin2_1
+
+Country Questionnaire order # 1 - Admin2 
+
+ template value=Admin2 
+ country value=Anse rouge 
+ 
+Country Questionnaire order # 2 - Don't know 
+
+ template value=Don't know 
+ country value=Desdunes 
+ 
+Country Questionnaire order # 3 - Refused 
+
+ template value=Refused 
+ country value=Dessalines 
+ 
+Country Questionnaire order # 4 - Ennery 
+
+ template value= 
+ country value=Ennery 
+ 
+Country Questionnaire order # 5 - Gonaives 
+
+ template value= 
+ country value=Gonaives 
+ 
+Country Questionnaire order # 6 - Grande saline 
+
+ template value= 
+ country value=Grande saline 
+ 
+Country Questionnaire order # 7 - Gros morne 
+
+ template value= 
+ country value=Gros morne 
+ 
+Country Questionnaire order # 8 - La chapelle 
+
+ template value= 
+ country value=La chapelle 
+ 
+Country Questionnaire order # 9 - L'estere 
+
+ template value= 
+ country value=L'estere 
+ 
+Country Questionnaire order # 10 - Marmelade 
+
+ template value= 
+ country value=Marmelade 
+ 
+Country Questionnaire order # 11 - Petite riviere de l'artibonite 
+
+ template value= 
+ country value=Petite riviere de l'artibonite 
+ 
+Country Questionnaire order # 12 - Saint-marc 
+
+ template value= 
+ country value=Saint-marc 
+ 
+Country Questionnaire order # 13 - Saint-michel de l'attalaye 
+
+ template value= 
+ country value=Saint-michel de l'attalaye 
+ 
+Country Questionnaire order # 14 - Terre neuve 
+
+ template value= 
+ country value=Terre neuve 
+ 
+Country Questionnaire order # 15 - Verrettes 
+
+ template value= 
+ country value=Verrettes 
+ 
+Country Questionnaire order # 16 - Don't know 
+
+ template value= 
+ country value=Don't know 
+ 
+Country Questionnaire order # 17 - Refused 
+
+ template value= 
+ country value=Refused 
+ 
+
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['hh_asset_transp_boatmotor', 'hh_asset_prod_ref', 'assistance_gov', 'fish_inputdif_dk', 'covid_none', 'hh_asset_prod_process', 'hh_asset_transp_ref', 'fish_inputdif_fingerling', 'fish_inputdif_bait_feed', 'hh_asset_prod_none', 'ls_all_cattle', 'hh_asset_transp_bici', 'hh_asset_transp_boatnomotor', 'covid_stayhome', 'hh_asset_transp_van', 'hh_asset_prod_truck', 'ls_all_none', 'assistance_otherun', 'ls_all_equine', 'hh_asset_prod_taxi', 'covid_curfew', 'covid_processclosed', 'hh_asset_prod_sewing', 'assistance_dk', 'hh_asset_prod_dk', 'covid_school', 'hh_asset_transp_cart', 'assistance_ref', 'covid_borderclosed', 'covid_ref', 'hh_asset_transp_motorbike', 'assistance_wfp', 'ls_all_ref', 'hh_asset_transp_car', 'hh_asset_transp_dk', 'fish_inputdif_fuel', 'hh_asset_transp_none', 'covid_goodstransp', 'covid_marketclosed', 'ls_all_goats', 'ls_all_dk', 'fish_inputdif_labour', 'fish_inputdif_ice', 'assistance_fao', 'covid_dk', 'fish_inputdif_ref', 'hh_asset_prod_farmmach', 'ls_all_swine', 'ls_all_poultry', 'fish_inputdif_repairs', 'covid_gatherings', 'ls_all_smallmammals', 'assistance_ngo', 'fish_inputdif_gear', 'ls_all_camelids', 'ls_all_sheep']
+Derived field only in country (therefore not stored/published on the Hub): ['hh_asset_ref', 'hh_asset_agr_shov', 'hh_asset_agr_none', 'hh_asset_car', 'hh_asset_cart', 'hh_asset_agr_wheel', 'hh_asset_moto', 'hh_asset_agr_mach', 'hh_asset_fridge', 'hh_asset_agr_axe', 'hh_asset_agr_ref', 'hh_asset_agr_dk', 'hh_asset_bike', 'hh_asset_agr_plo', 'hh_asset_dk', 'hh_asset_agr_proc', 'hh_asset_agr_rake', 'hh_asset_boat\n2) hh_asset_radio', 'hh_asset_agr_hoe', 'hh_asset_tv']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/HTI/R5/validated_questionnaire_geopoll_fr_HTI_20231102133643.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 10
+
+Survey edited by replacing values according the Additional Information sheet

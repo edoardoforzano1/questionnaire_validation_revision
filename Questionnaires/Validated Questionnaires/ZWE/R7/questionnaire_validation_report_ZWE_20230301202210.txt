@@ -1,0 +1,267 @@
+
+Country Questionnaire File: GeoPoll_FAO COVID-19 Needs Assessment_Zimbabwe_ZWE_R7_HH_EN_V4.1.xlsx
+Country Questionnaire Type: geopoll
+Country Questionnaire Language: en
+The template used to validate the country questionnaire is: 20220929
+Validation number: 2
+User: Ibrahim Ali Ahmad
+Validated on: 20230301202210
+
+QName Field - Number of questions in the Template Questionnaire: 183
+QName Field - Number of questions in the Country Questionnaire: 189
+
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 181
+SuggestedQName Field - Number of questions in the Country Questionnaire: 175
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['hh_admin2_5', 'o_crp_seed_price_change', 'o_crp_irrig_system', 'hh_admin2_2', 'hh_id', 'rcsi_restrict_adult_consumption', 'income_gender_control', 'future_int_time_ \n1) future_int_time_morn\n2) future_int_time_aft\n3) future_int_time_eve', 'fish_saledif_2\n\n1) fish_saledif_marketing_cost\n2) fish_saledif_damage_losses\n3) fish_saledif_low_demand\n4)fish_saledif_pay_delay\n5) fish_saledif_low_prices\n6) fish_saledif_processing\n7) fish_saledif_competition\n8) fish_saledif_other\n9) fish_saledif_dk\n10) fish_saledif_ref', 'hh_admin2_3', 'hh_admin2_4', 'hh_admin2_10', 'hh_admin2_6', 'hh_admin2_9', 'phone_number_leader_yn', 'future_int_day_\n1) future_int_day_mon\n2) future_int_day_tues\n3) future_int_day_wed\n4) future_int_day_thurs\n5) future_int_day_fri\n6) future_int_day_sat\n7) future_int_day_sun', 'hh_admin2_7', 'hh_admin2_8']
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country): ['cs_crisis_consume_seed_stock', 'hh_explanation', 'crp_storage', 'crp_irrig_system', 'future_int_day_\n\n1) future_int_day_mon\n2) future_int_day_tues\n3) future_int_day_wed\n4) future_int_day_thurs\n5) future_int_day_fri\n6) future_int_day_sat\n7) future_int_day_sun', 'fish_saledif_\n\n1) fish_saledif_marketing_cost\n2) fish_saledif_damage_losses\n3) fish_saledif_low_demand\n4)fish_saledif_pay_delay\n5) fish_saledif_low_prices\n6) fish_saledif_processing\n7) fish_saledif_competition\n8) fish_saledif_other\n9) fish_saledif_dk\n10) fish_saledif_ref', 'cs_stress_changed_school', 'cs_emergency_sold_house', 'leader_contact', 'covid_\n\n1) covid_goodstransp\n2) covid_marketclosed\n3) covid_borderclosed\n4) covid_stayhome\n5) covid_gatherings\n6) covid_processclosed\n7) covid_curfew\n8) covid_school\n9) covid_other\n10) covid_none\n11) covid_dk\n12) covid_ref', 'crp_harv_vol', 'hh_wealth_toilet', 'hh_wealth_water', 'future_int_time_ \n\n1) future_int_time_morn\n2) future_int_time_aft\n3) future_int_time_eve', 'cs_stress_eat_elsewhere', 'crp_harv_unit_kg', 'cs_crisis_reduced_health_exp', 'crp_harv_lastyr', 'NA', 'crp_main_check', 'cs_stress_spent_savings', 'rcsi_restrict_adult_consumpt', 'cs_stress_borrowed_or_helped', 'crp_harv_unit']
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['hh_admin2_5', 'End poll callback', 'hh_admin2_2', 'income_gender_control', 'o_crp_fert_supply', 'o_crp_main_area', 'o_crp_germination', 'o_crp_seed_price_change', 'hh_admin2_3', 'o_crp_Main_landsize_unit', 'hh_admin2_6', 'hh_admin2_7', 'CallBack-Introduction', 'o_crp_fert_price', 'hh_admin2_9', 'hh_admin2_8', 'CallBack-Confirmation', 'o_crp_irrig_system', 'hh_admin2_4', 'hh_admin2_10', 'o_crp_fert_now', 'hh_id', 'o_fert_subst']
+QName Field - Questions in template questionnaire only (therefore not collected in the country): ['cs_crisis_reduced_health_exp', 'cs_stress_spent_savings', 'cs_stress_changed_school', 'cs_crisis_consume_seed_stock', 'cs_emergency_sold_house', 'covid', 'crp_harv_lastyr', 'hh_explanation', 'crp_storage', 'crp_irrig_system', 'crp_harv_vol', 'cs_stress_borrowed_or_helped', 'hh_wealth_toilet', 'hh_wealth_water', 'crp_harv_unit', 'cs_stress_eat_elsewhere', 'crp_harv_unit_kg']
+
+Found 81 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+Found 81 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: approved
+
+
+12 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 4
+Number of EMERGENCY questions: 4
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+
+-------
+
+Domains have been changed for question: resp_language
+   code                                     label
+1     2  Other options (add as many as necessary)
+1     2                                     Shona
+2     3                                   Ndebele
+
+-------
+
+Domains have been changed for question: hh_admin1
+    code                label
+0      1               Admin1
+1      2           Don't know
+2      3              Refused
+0      1             Bulawayo
+1      2               Harare
+2      3           Manicaland
+3      4  Mashonaland central
+4      5     Mashonaland east
+5      6     Mashonaland west
+6      7             Masvingo
+7      8   Matabeleland north
+8      9   Matabeleland south
+9     10             Midlands
+10    11           Don't know
+11    12              Refused
+
+-------
+
+Domains have been changed for question: hh_admin2_1
+   code     label
+0     1    Admin2
+0     1  Bulawayo
+
+-------
+
+Domains have been changed for question: hh_wealth_light
+   code                    label
+2     3              Petrol lamp
+2     3  Paraffin or petrol lamp
+
+-------
+
+Domains have been changed for question: income_main
+    code                                                                      label
+15    16  Income not derived from work, welfare transfer, pension, humanitarian aid
+15    16    Income not derived from work, welfare transfer/pension/humanitarian aid
+
+-------
+
+Domains have been changed for question: income_sec
+    code                                                                      label
+15    16  Income not derived from work, welfare transfer, pension, humanitarian aid
+18    19                                  No second most important source of income
+19    20                                                                 Don't know
+20    21                                                                    Refused
+15    16    Income not derived from work, welfare transfer/pension/humanitarian aid
+18    19   No income source in the last 3 months and used exclusively savings, debt
+19    20                                                                    Refused
+
+-------
+
+Domains have been changed for question: income_third
+    code                                                                      label
+7      8               Agricultural trade excluding producers (formal and informal)
+15    16  Income not derived from work, welfare transfer, pension, humanitarian aid
+18    19                                   No third most important source of income
+19    20                                                                 Don't know
+20    21                                                                    Refused
+7      8                Agricultural trade excluding producers (formal or informal)
+15    16    Income not derived from work, welfare transfer/pension/humanitarian aid
+18    19   No income source in the last 3 months and used exclusively savings, debt
+19    20                                                                    Refused
+
+-------
+
+Domains have been changed for question: crp_landsize_unit
+   code                     label
+4     5  $local measurement unit$
+
+-------
+
+Domains have been changed for question: crp_salesmain
+   code                                               label
+0     1                                              Millet
+1     2                                             Sorghum
+2     3                                               Maize
+3     4                                      Sweet potatoes
+4     5                                               Beans
+5     6                                             Cabbage
+6     7                                            Tomatoes
+7     8                                             Pumpkin
+8     9                                              Onions
+9    10                                    Groundnut/peanut
+10   11                                         Bambara nut
+11   12                                           Sunflower
+12   13                                                Rice
+13   14                                               Wheat
+14   15                                              Barley
+15   16                                        Other cereal
+16   17                                             Cassava
+17   18                                             Potatoe
+18   19                                                Yams
+19   20                                             Carrots
+20   21                                             Cocoyam
+21   22                                        Other tubers
+22   23                                             Lentils
+23   24                                                Peas
+24   25                                            Soybeans
+25   26                                           Chickpeas
+26   27                                          Fava beans
+27   28                                         Broad beans
+28   29                                        Other pulses
+29   30                                         Cauliflower
+30   31                                             Lettuce
+31   32                                    Spinach-amaranth
+32   33                                      Cassava leaves
+33   34                                      Potatoe leaves
+34   35                                             Moringa
+35   36                           Sorrel hibiscus, rosselle
+36   37  Green salad herbs (thyme/parsley/mint/rocca/other)
+37   38                              Other leafy vegetables
+38   39                                          Green peas
+39   40                                    Fava beans green
+40   41                                            Cucumber
+41   42                                  Eggplant/aubergine
+42   43                                            Zucchini
+43   44                                                Okra
+44   45                                         Bell pepper
+45   46                                             Haricot
+46   47                                Other non leafy vegs
+47   48                                              Orange
+48   49                                               Lemon
+49   50                                          Grapefruit
+50   51                               Mandarins/clementines
+51   52                                  Other citrus fruit
+52   53                                        Sweet banana
+53   54                                                Figs
+54   55                                              Grapes
+55   56                                              Olives
+56   57                                               Apple
+57   58                                             Apricot
+58   59                                            Cherries
+59   60                                     Peach/nectarine
+60   61                                        Strawberries
+61   62                                  Melon (cantaloupe)
+62   63                                           Plantains
+63   64                                              Papaya
+64   65                                               Mango
+65   66                                               Guava
+66   67                                           Pineapple
+67   68                                             Avocado
+68   69                                         Water melon
+69   70                                               Dates
+70   71                                         Other fruit
+71   72                                            Coconuts
+72   73                                          Cashew nut
+73   74                                            Kola nut
+74   75                                              Sesame
+75   76                                              Almond
+76   77                                              Walnut
+77   78                                          Other nuts
+78   79                                               Cocoa
+79   80                                              Coffee
+80   81                                                 Tea
+81   82                                           Sugarcane
+82   83                                Other food cash crop
+83   84                                              Cotton
+84   85                                              Rubber
+85   86                                                Jute
+86   87                                              Fodder
+87   88                                             Tobacco
+88   89                                                 Qat
+89   90                            Other non-food cash crop
+90   91                                  No crop production
+91   92                                          Don't know
+92   93                                             Refused
+
+-------
+
+Domains have been changed for question: ls_main
+   code  label
+1     2   Goat
+1     2  Goats
+
+-------
+
+Domains have been changed for question: ls_salesmain
+   code                         label
+1     2                          Goat
+3     4   Swine (pig, boar, hog, etc)
+1     2                         Goats
+3     4  Swine  (pig, boar, hog, etc)
+
+-------
+
+Domains have been changed for question: fish_salesmain
+   code                                                                        label
+0     1                               Fresh fish (any kind, including invertebrates)
+1     2  Preserved fish (including dry fish, smoked fish, fermented fish, salt fish)
+0     1                              Fresh fish (any kind - including invertebrates)
+1     2     Preserved fish (including dry fish/smoked fish/fermented fish/salt fish)
+
+-------
+
+Domains have been changed for question: language2
+   code                                            label
+1     2  Other languages (consistent with resp_language)
+1     2                                            Shona
+2     3                                          Ndebele
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['need_received_dk', 'need_env_infra_rehab', 'need_received_vouchers_fair', 'fish_inputdif_ref', 'need_ref', 'covid_marketclosed', 'fish_inputdif_fuel', 'need_received_none', 'covid_ref', 'covid_gatherings', 'covid_borderclosed', 'covid_school', 'fish_inputdif_labour', 'need_received_crop_assist', 'covid_dk', 'need_cold_storage', 'fish_inputdif_ice', 'covid_goodstransp', 'need_crop_infrastructure', 'need_dk', 'fish_inputdif_bait_feed', 'need_ls_feed', 'need_fish_knowledge', 'covid_curfew', 'need_received_ls_assist', 'need_received_rehabilitation', 'need_received_ref', 'need_received_food', 'need_ls_knowledge', 'fish_inputdif_repairs', 'need_ls_infrastructure', 'need_crop_knowledge', 'covid_none', 'need_ls_vet_service', 'fish_inputdif_fingerling', 'need_fish_inputs', 'need_received_fish_assist', 'covid_stayhome', 'need_marketing_supp', 'fish_inputdif_gear', 'need_received_sales_support', 'need_food', 'need_vouchers_fair', 'covid_processclosed', 'need_cash', 'need_fish_infrastructure', 'need_received_cash', 'need_crop_inputs', 'fish_inputdif_dk']
+Derived field only in country (therefore not stored/published on the Hub): []
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/ZWE/R7/validated_questionnaire_geopoll_en_ZWE_20230301202210.xlsx
+
+Created Admin Info sheet with updated boundaries.

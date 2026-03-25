@@ -1,0 +1,69 @@
+
+Country Questionnaire File: household_questionnaire_geopoll_EN_SOM_R5.xlsx
+Country Questionnaire Type: geopoll
+Country Questionnaire Language: en
+The template used to validate the country questionnaire is: 20220929
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 20221102123617
+
+
+detecting differences in column: Core questions only
+['crp_intro']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_2']; ['crp_salesmain']; ['crp_salesdif']; ['crp_salesdif_2']; ['crp_salesprice']; ['ls_intro']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_change']; ['ls_proddif']; ['ls_proddif_2']; ['ls_salesmain']; ['ls_salesdif']; ['ls_salesdif_2']; ['ls_salesprice']; ['fish_intro']; ['fish_main']; ['fish_change']; ['fish_proddif']; ['fish_proddif_2']; ['fish_salesmain']; ['fish_salesdif']; ['fish_salesdif_2']; ['fish_salesprice']
+
+QName Field - Number of questions in the Template Questionnaire: 183
+QName Field - Number of questions in the Country Questionnaire: 163
+
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 181
+SuggestedQName Field - Number of questions in the Country Questionnaire: 161
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['hh_wealth_roof']
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country): ['covid_\n\n1) covid_goodstransp\n2) covid_marketclosed\n3) covid_borderclosed\n4) covid_stayhome\n5) covid_gatherings\n6) covid_processclosed\n7) covid_curfew\n8) covid_school\n9) covid_other\n10) covid_none\n11) covid_dk\n12) covid_ref', 'crp_irrig_pay', 'income_sec_amount_conf', 'crp_harv_unit_kg', 'income_main_amount_conf', 'crp_harv_unit', 'crp_irrig_system', 'income_sec_amount', 'crp_harv_lastyr', 'crp_harv_vol', 'income_third_gender', 'income_sec_control', 'income_third_control', 'hh_asset_prod_\n\n1) hh_asset_prod_process\n2) hh_asset_prod_farmmach\n3) hh_asset_prod_sewing\n4) hh_asset_prod_taxi\n5) hh_asset_prod_truck\n6) hh_asset_prod_other\n7) hh_asset_prod_none\n8) hh_asset_prod_dk\n9) hh_asset_prod_ref', 'income_main_amount', 'hh_asset_transp_\n\n1) hh_asset_transp_bici\n2) hh_asset_transp_cart\n3) hh_asset_transp_boat\n4) hh_asset_transp_motorbike\n5) hh_asset_transp_car\n6) hh_asset_transp_van\n7) hh_asset_transp_other\n8) hh_asset_transp_none\n9) hh_asset_transp_dk\n10) hh_asset_transp_ref', 'income_sec_gender', 'ls_all_\n\n1)ls_all_cattle\n2)ls_all_goats\n3)ls_all_sheep\n4)ls_all_swine\n5)ls_all_equine\n6)ls_all_smallmammals\n7)ls_all_poultry\n8)ls_all_camelids\n9)ls_all_other\n10)ls_all_none\n11)ls_all_dk\n12)ls_all_ref', 'income_third_amount', 'crp_all_[name of crop as per crop list]', 'income_third_amount_conf']
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub): ['hh_wealth_roof']
+QName Field - Questions in template questionnaire only (therefore not collected in the country): ['crp_irrig_pay', 'ls_all', 'covid', 'hh_asset_transp', 'income_sec_amount_conf', 'hh_asset_prod', 'crp_harv_unit_kg', 'income_main_amount_conf', 'crp_harv_unit', 'crp_irrig_system', 'income_sec_amount', 'crp_harv_lastyr', 'crp_harv_vol', 'income_third_gender', 'income_sec_control', 'income_third_control', 'crp_all', 'income_main_amount', 'income_sec_gender', 'income_third_amount', 'income_third_amount_conf']
+
+Found 81 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+4 hh_wealth_ questions found in the country questionnaire: it should be only one!
+
+
+19 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 8
+Number of CRISIS questions: 6
+Number of EMERGENCY questions: 5
+Rule respected
+
+19 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 8
+Number of CRISIS questions: 6
+Number of EMERGENCY questions: 5
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['hh_asset_prod_sewing', 'ls_all_dk', 'hh_asset_transp_cart', 'hh_asset_transp_car', 'ls_all_sheep', 'covid_marketclosed', 'covid_curfew', 'covid_gatherings', 'hh_asset_transp_none', 'hh_asset_transp_motorbike', 'ls_all_poultry', 'ls_all_camelids', 'covid_dk', 'hh_asset_prod_process', 'hh_asset_transp_van', 'ls_all_swine', 'hh_asset_prod_truck', 'ls_all_none', 'hh_asset_transp_ref', 'ls_all_ref', 'hh_asset_transp_boat', 'hh_asset_prod_taxi', 'ls_all_smallmammals', 'ls_all_goats', 'hh_asset_prod_none', 'hh_asset_transp_bici', 'hh_asset_prod_farmmach', 'ls_all_equine', 'hh_asset_prod_dk', 'hh_asset_prod_ref', 'hh_asset_transp_dk', 'covid_school', 'covid_goodstransp', 'covid_borderclosed', 'ls_all_cattle', 'covid_ref', 'covid_processclosed', 'covid_none', 'covid_stayhome']
+Derived field only in country (therefore not stored/published on the Hub): []
+All domains have been respected
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/SOM/R5/validated_questionnaire_geopoll_en_SOM_20221102123617.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 11
+
+Survey edited by replacing values according the Additional Information sheet

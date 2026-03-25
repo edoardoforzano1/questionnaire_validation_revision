@@ -1,0 +1,45 @@
+
+Country Questionnaire File: Validated_questionnaire_kobo_fr_BFA_20230711121811_20230907.xlsx
+Country Questionnaire Type: kobo
+Country Questionnaire Language: fr
+The template used to validate the country questionnaire is: 20230307
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: September 08, 2023
+
+All Fields in country questionnaire and not in template questionnaire: ['adm4_pcode', 'adm3_name', 'adm3_pcode', 'adm4_name']
+All Fields in template questionnaire and not in country questionnaire: ['crp_harv_vol', 'crp_harv_unit', 'income_sec_gender', 'cs_stress_hh_assets', 'crp_irrig_pay', 'income_third_control', 'fish_inputdif', 'cs_stress_eat_elsewhere', 'income_sec_control', 'income_sec_amount', 'fish_inputdif_otherspecify', 'cs_stress_changed_school', 'covid_otherspecify', 'crp_harv_lastyr', 'income_third_gender', 'income_third_amount', 'crp_harv_unit_kg', 'cs_stress_borrowed_or_helped', 'cs_crisis_harv_immature_crops', 'covid', 'crp_irrig_system', 'income_third_amount_conf', 'income_sec_amount_conf', 'crp_harvunit']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: label::English (en)
+['adm1_pcode']; ['adm2_pcode ']; ['income_main_amount']; ['income_main_comp']; ['income_sec_comp']; ['income_third_comp']; ['crp_intro']; ['crp_main']; ['crp_main_check']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_']; ['crp_salesprice']; ['ls_salesprice']; ['fish_salesprice']; ['fcs_vegetables_days']; ['fcs_fruit_days']
+DETECTING DIFFERENCES IN QUESTIONS: label::French (fr)
+['adm1_pcode']; ['adm2_pcode ']; ['income_main_amount']; ['income_main_comp']; ['income_sec_comp']; ['income_third_comp']; ['crp_intro']; ['crp_landsize_num']; ['crp_main']; ['crp_main_check']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_']; ['crp_salesprice']; ['ls_salesprice']; ['fish_salesprice']; ['fcs_vegetables_days']; ['fcs_fruit_days']
+DETECTING DIFFERENCES IN QUESTIONS: hint::English (en)
+['income_main_amount_conf']
+DETECTING DIFFERENCES IN QUESTIONS: hint::French (fr)
+['income_main_amount_conf']
+DETECTING DIFFERENCES IN QUESTIONS: constraint
+['resp_age']; ['phone_number_personal']; ['phone_number_2']; ['phone_number_3']; ['income_main_amount']; ['phone_number_leader']
+
+Found 111 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 14 CS questions found in the country questionnaire
+Number of STRESS questions: 4
+Number of CRISIS questions: 5
+Number of EMERGENCY questions: 5
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/BFA/R2/V2/validated_questionnaire_kobo_fr_BFA_20230908152040.xlsx

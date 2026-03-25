@@ -1,0 +1,52 @@
+
+Country Questionnaire File: Household_questionnaire_kobo_EN_template_RY reviewed _23_12_13.xlsx
+Country Questionnaire Type: kobo
+Country Questionnaire Language: en
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: December 14, 2023
+
+All Fields in country questionnaire and not in template questionnaire: ['phone_number_leader', 'leader_name', 'leader_contact', 'leader_type', 'o_crp_harv_consume', 'o_crp_harv_duration']
+All Fields in template questionnaire and not in country questionnaire: ['income_third_gender', 'income_third_control', 'hh_fish', 'income_third_amount_conf', 'cs_emergency_hh_migration', 'cs_stress_borrowed_or_helped', 'cs_stress_changed_school', 'cs_stress_hh_assets', 'covid', 'cs_crisis_reduced_health_exp', 'income_third_amount', 'cs_crisis_sold_prod_assets', 'cs_emergency_sold_house', 'covid_otherspecify', 'cs_crisis_no_school', 'cs_stress_eat_elsewhere']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: label::English (en)
+['contact_2']; ['contact_3']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['crp_main']; ['ls_main']; ['fish_intro']; ['fish_change']; ['fish_proddif']; ['fish_proddif_']; ['fish_salesmain']
+DETECTING DIFFERENCES IN QUESTIONS: appearance
+['adm1_pcode']; ['adm2_pcode ']; ['crp_main']; ['crp_all']; ['crp_sales_main_2']
+
+Found 111 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+Found 111 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 10 CS questions found in the country questionnaire
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 5  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harvunit', 'crp_harv_unit_kg']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/SLE/R11/validated_questionnaire_kobo_en_SLE_20231214170053.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 10
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/SLE/R11/validated_questionnaire_kobo_en_SLE_20231214170053.xlsx
+
+Survey edited by replacing values according the Additional Information sheet

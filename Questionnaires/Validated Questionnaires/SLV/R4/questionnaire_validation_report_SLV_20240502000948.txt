@@ -1,0 +1,50 @@
+
+Country Questionnaire File: ESV_R4_ES_Questionnaire_v1.xlsx
+Country Questionnaire Type: Please include Geopoll or Kobo inside the filename
+Country Questionnaire Language: es
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: May 02, 2024
+
+All Fields in country questionnaire and not in template questionnaire: ['o_ls_jornal_month', 'o_crp_area_changewhy_other', 'o_reserves_cornorigin', 'o_reserves_bean', 'o_credit', 'o_crp_grain_frequency', 'o_reserves_beanorigin', 'o_reserves_cornlast', 'o_ls_jornal', 'o_creditdate', 'o_crp_proddif_replanting', 'o_crp_proddif_followup', 'o_hh_U5', 'o_harvmarket', 'o_remittances_usage_other', 'o_ls_jornal_number', 'o_harvestdestination_OS', 'o_credit_willenddate', 'o_creditdestinationOS', 'o_jornal_members', 'o_crp_proddif_excesswaterOS', 'o_migration_why', 'o_crp_grain_next', 'o_remittances_usage', 'o_corn_price_market', 'o_creditenddate', 'crp_proddif_OS', 'o_creditwhere', 'o_migration', 'o_crp_grain_datemonth', 'o_area', 'o_remittances_frequency', 'o_jornal_where', 'o_beans_reserve', 'o_crp_grain_datechange_w_ot', 'reserves_group', 'o_landtenure_otherspecify', 'o_crp_area_changewhy', 'o_jornal_importance', 'o_migration_where', 'o_jornal', 'o_crp_grain_harvest_month2', 'o_reserves_corn', 'o_crp_season', 'o_crp_landsize', 'o_crp_proddif_replanting_mo', 'o_crp_agricinfo', 'o_hh_residencetype_why', 'o_migration_genero', 'o_crp_jornal_amount', 'ls_proddif_OS', 'o_crp_jornal', 'o_beans_reserve_month', 'o_crp_proddif_impact', 'o_remittances', 'o_harvestdestination', 'o_corn_reserve_month', 'o_crp_season_harvested', 'o_ls_jornal_number_lastyr', 'end_group', 'o_creditdate_end', 'o_creditwhereOS', 'o_ls_jornal_amount', 'o_migration_cantidad', 'o_reserves_bean_qty', 'o_beans_price_market', 'o_crp_jornal_season', 'o_jornal_amount', 'Credi_group', 'o_ls_proddif_followup', 'o_crp_jornal_number', 'o_jornal_duration', 'o_crp_grain_harvest_month', 'o_reserves_beanlast', 'o_crp_proddif_excesswater', 'o_corn_reserve', 'o_crp_jornal_number_lastyr', 'o_crp_grain_datechange', 'o_crp_grain_datechange_why', 'o_migration_hh', 'o_jornal_crop', 'o_reserves_corn_qty', 'o_shock_followup_climate', 'o_crp_grain_datemonth2', 'o_crp_jornal_crop', 'o_crp_agrictech', 'o_crp_proddif_replanting_pe', 'o_landtenure', 'o_creditdestination']
+All Fields in template questionnaire and not in country questionnaire: ['crp_harv_unit_kg', 'crp_harvunit', 'gps_1', 'cs_emergency_hh_migration', 'crp_harv_vol', 'cs_crisis_decrease_input_exp', 'crp_harv_unit', 'covid', 'cs_stress_sold_more_animals', 'cs_stress_borrowed_or_helped', 'covid_otherspecify', 'hh_explanation', 'cs_stress_changed_school', 'crp_harv_lastyr', 'cs_emergency_sold_last_female', 'cs_stress_eat_elsewhere', 'cs_crisis_harv_immature_crops', 'gps_2', 'cs_crisis_no_school']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: label::English (en)
+['fies_hungry']
+DETECTING DIFFERENCES IN QUESTIONS: required
+['enumerator']; ['introduction']; ['resp_agree']; ['Refusal']; ['eligibility']; ['resp_firstname']; ['resp_lastname']; ['resp_age']; ['resp_gender']; ['phone_number_personal']; ['contact_2']; ['phone_number_2']; ['contact_2_name']; ['contact_3']; ['phone_number_3']; ['contact_3_name']; ['adm1_pcode']; ['adm2_pcode ']; ['hh_agricactivity']; ['hh_fish']; ['generalInfo']; ['resp_id']; ['hh_gender']; ['hh_education']; ['hh_wealth_water']; ['hh_wealth_toilet']; ['hh_wealth_light']; ['hh_residencetype']; ['hh_size']; ['hh_asset_prod']; ['hh_asset_transp']; ['hh_maritalstat']; ['hh_age']; ['Income_Shocks_group']; ['income_main']; ['income_main_crop_check']; ['income_main_ls_check']; ['income_main_fish_check']; ['income_main_amount']; ['income_main_amount_conf']; ['income_main_gender']; ['income_main_control']; ['income_main_comp']; ['income_sec']; ['income_sec_crop_check']; ['income_sec_ls_check']; ['income_sec_fish_check']; ['income_sec_amount']; ['income_sec_amount_conf']; ['income_sec_gender']; ['income_sec_control']; ['income_sec_comp']; ['income_third']; ['income_third_crop_check']; ['income_third_ls_check']; ['income_third_fish_check']; ['income_third_amount']; ['income_third_amount_conf']; ['income_third_gender']; ['income_third_control']; ['income_third_comp']; ['shock']; ['CropProduction_group']; ['crp_landsize_num']; ['crp_landsize_unit']; ['crp_main']; ['crp_main_check']; ['crp_irrig_source']; ['crp_irrig_source_otherspecify']; ['crp_seed']; ['crp_area_change']; ['crp_harv_change']; ['crp_proddif']; ['crp_proddif_']; ['crp_storage']; ['crp_all']; ['CropSales_group']; ['crp_sales_main_1']; ['crp_sales_main_2']; ['crp_salesdif']; ['crp_saledif']; ['crp_salesprice']; ['Livestock_group']; ['ls_main']; ['ls_num_lastyr']; ['ls_num_now']; ['ls_num_diff']; ['ls_num']; ['ls_feed']; ['ls_proddif']; ['ls_proddif_']; ['ls_all']; ['LivestockSales_group']; ['ls_salesmain']; ['ls_salesdif']; ['ls_salesdif_']; ['ls_salesprice']; ['Fishing_group']; ['fish_main']; ['fish_change']; ['fish_proddif']; ['fish_proddif_otherspecify']; ['fish_inputdif']; ['fish_inputdif_otherspecify']; ['FishSales_group']; ['fish_salesmain']; ['fish_salesmain_otherspecify']; ['fish_salesdif']; ['fish_saledif']; ['fish_salesdif_otherspecify']; ['fish_salesprice']; ['FSI']; ['fies_intro']; ['fies_worried']; ['fies_healthy']; ['fies_fewfoods']; ['fies_skipped']; ['fies_ateless']; ['fies_ranout']; ['fies_ranout_hhs']; ['fies_hungry']; ['fies_hungry_hhs']; ['fies_whlday']; ['fies_whlday_hhs']; ['cs_stress_hh_assets']; ['cs_stress_spent_savings']; ['cs_stress_credit']; ['cs_stress_borrowed_money']; ['cs_crisis_sold_prod_assets']; ['cs_crisis_reduced_health_exp']; ['cs_crisis_consume_seed_stocks']; ['cs_emergency_sold_house']; ['cs_emergency_begged']; ['cs_emergency_illegal']; ['hdds_intro']; ['hdds']; ['hdds_confirmation']; ['fcs_intro']; ['fcs_staple_days']; ['fcs_pulses_days']; ['fcs_vegetables_days']; ['fcs_fruit_days']; ['fcs_meat_fish_days']; ['fcs_dairy_days']; ['fcs_sugar_days']; ['fcs_oil_days']; ['fcs_condiments_days']; ['rcsi_intro']; ['rcsi_less_preferred_foods']; ['rcsi_borrowed_food']; ['rcsi_reduce_number_meals']; ['rcsi_limit_portions']; ['rcsi_restrict_adult_consumpt']; ['Assisstance_group']; ['need']; ['need_']; ['need_otherspecify']; ['need_received']; ['need_received_otherspecify']; ['assistance_quality']; ['assistance']; ['closing']; ['callback']; ['future_int_day']; ['future_int_time']; ['language2']; ['closeout']; ['Interview_End_Time']; ['enum_notes']; ['__version__']
+DETECTING DIFFERENCES IN QUESTIONS: constraint
+['resp_age']; ['phone_number_personal']; ['phone_number_2']; ['phone_number_3']; ['income_main_amount']; ['income_sec_amount']; ['income_third_amount']
+DETECTING DIFFERENCES IN QUESTIONS: Mandatory
+['resp_gender']; ['income_main_gender']; ['income_main_control']; ['income_sec_gender']; ['income_sec_control']; ['income_third_gender']; ['income_third_control']; ['crp_irrig_system']; ['crp_irrig_pay']; ['need_received']; ['need_received_otherspecify']; ['assistance_quality']; ['assistance']
+
+Found 111 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 10 CS questions found in the country questionnaire
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/SLV/R4/validated_questionnaire_Please include Geopoll or Kobo inside the filename_es_SLV_20240502000948.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 10
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/SLV/R4/validated_questionnaire_Please include Geopoll or Kobo inside the filename_es_SLV_20240502000948.xlsx
+
+Survey edited by replacing values according the Additional Information sheet

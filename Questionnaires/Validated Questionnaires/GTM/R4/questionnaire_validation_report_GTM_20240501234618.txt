@@ -1,0 +1,46 @@
+
+Country Questionnaire File: GTE_R4_es_questionnaire_v2.xlsx
+Country Questionnaire Type: Please include Geopoll or Kobo inside the filename
+Country Questionnaire Language: es
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: May 01, 2024
+
+All Fields in country questionnaire and not in template questionnaire: ['o_ls_jornal_number_lastyr', 'o_crp_jornal_number_lastyr', 'o_crp_season', 'o_crp_jornal_season', 'o_crp_grain_harvest_month2', 'o_remittances_usage', 'o_crp_destinocosecha_otro', 'o_hh_residencetype_why', 'o_remittances_frequency', 'o_production_use', 'o_reserves_bean_qty', 'o_hh_ethnic', 'CallbackMessageEN', 'o_crp_grain_datemonth', 'o_crp_grain_next', 'cs_crisis_hh_assets', 'o_impact_fertilizerprice', 'o_reserves_corn_qty', 'o_crp_grain_datemonth2', 'o_jornal_crop', 'o_ls_jornal_number', 'WhenCallBack', 'o_corn_reserve', 'o_jornal_where', 'o_crp_destinocosecha_otro_d', 'o_reserves_cornorigin', 'o_crp_proddif_impact', 'o_migration_genero', 'o_jornal_duration', 'o_corn_reserve_month', 'o_migration_why', 'o_crp_destinocosecha_cons', 'o_migration_cantidad', 'o_crp_all', 'o_migration_where', 'o_crp_jornal', 'o_crp_area_changewhy', 'o_fertilizer_price', 'o_crp_grain_datechange_why', 'o_reserves_beanlast', 'o_crp_destinocosecha_com', 'o_crp_proddif_followup', 'o_migration', 'callstat', 'o_beans_price_market', 'o_ls_jornal', 'o_shock_followup_climate', 'Sample', 'reserves_group', 'o_crp_season_harvested', 'o_ls_proddif_followup', 'o_jornal', 'o_corn_price_market', 'o_remittances', 'o_crp_grain_datechange', 'o_crp_jornal_number', 'total_autoconsumo', 'o_beans_reserve_month', 'calldispo', 'o_reserves_corn', 'o_crp_grain_frequency', 'o_affected_fertilizer_price', 'o_beans_reserve', 'o_ls_jornal_amount', 'o_crp_proddif_replanting', 'o_landtenure', 'total_autoconsumo_com', 'cluster', 'o_reserves_beanorigin', 'o_credit', 'o_crp_proddif_replanting_pe', 'end_group', 'o_reserves_cornlast', 'phone_number', 'hh_id', 'o_crp_jornal_crop', 'o_crp_proddif_replanting_mo', 'o_hh_U5', 'o_jornal_importance', 'o_ls_jornal_month', 'o_reserves_bean', 'o_crp_grain_harvest_month', 'o_jornal_amount', 'o_crp_jornal_amount']
+All Fields in template questionnaire and not in country questionnaire: ['cs_stress_hh_assets', 'crp_irrig_pay', 'crp_harv_lastyr', 'income_sec_amount', 'crp_harv_unit_kg', 'crp_harvunit', 'cs_crisis_decrease_input_exp', 'fish_inputdif', 'income_third_amount', 'covid', 'crp_harv_unit', 'hh_age', 'cs_crisis_reduced_health_exp', 'cs_crisis_no_school', 'cs_stress_sold_more_animals', 'cs_crisis_harv_immature_crops', 'enum_team', 'income_sec_gender', 'income_third_control', 'hh_asset_prod', 'hh_fish', 'fish_inputdif_otherspecify', 'income_sec_control', 'hh_maritalstat', 'crp_harv_vol', 'hh_explanation', 'cs_stress_changed_school', 'cs_stress_spent_savings', 'income_third_gender', 'cs_emergency_illegal', 'covid_otherspecify', 'hh_size', 'crp_storage', 'cs_emergency_begged', 'income_third_amount_conf', 'hh_asset_transp', 'crp_all', 'income_sec_amount_conf', 'gps_1']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: label::English (en)
+['fies_hungry']
+DETECTING DIFFERENCES IN QUESTIONS: Mandatory
+['resp_gender']; ['income_main_gender']; ['income_main_control']; ['crp_irrig_system']; ['lcsi_intro']; ['cs_stress_eat_elsewhere']; ['cs_stress_borrowed_or_helped']; ['cs_stress_credit']; ['cs_stress_borrowed_money']; ['cs_crisis_sold_prod_assets']; ['cs_crisis_consume_seed_stocks']; ['cs_emergency_sold_house']; ['cs_emergency_sold_last_female']; ['cs_emergency_hh_migration']; ['need_received']; ['need_received_otherspecify']; ['assistance_quality']; ['assistance']
+
+Found 111 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 10 CS questions found in the country questionnaire
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/GTM/R4/validated_questionnaire_Please include Geopoll or Kobo inside the filename_es_GTM_20240501234618.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 10
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/GTM/R4/validated_questionnaire_Please include Geopoll or Kobo inside the filename_es_GTM_20240501234618.xlsx
+
+Survey edited by replacing values according the Additional Information sheet

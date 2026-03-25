@@ -1,0 +1,52 @@
+
+Country Questionnaire File: GTE_R3_ES_questionnaire_kobo_forvalid.xlsx
+Country Questionnaire Type: kobo
+Country Questionnaire Language: es
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: November 20, 2023
+
+All Fields in country questionnaire and not in template questionnaire: ['o_affected_fertilizer_price', 'o_corn_reserve', 'o_remittance_use', 'o_alimentos', 'o_gastos_intro', 'grp_gasto', 'o_segunda_cosecha_2023', 'o_time_wages', 'o_fertilizer_price', 'o_beans_reserve', 'o_cost_wages', 'o_date_planting', 'o_crop_laborer', 'o_corn_price_market', 'o_impact_fertilizerprice', 'o_beans_price_market', 'o_Gastos_confirmation', 'o_farm_laborer', 'cs_crisis_hh_assets', 'o_production_use', 'o_gastos']
+All Fields in template questionnaire and not in country questionnaire: ['cs_crisis_reduced_health_exp', 'cs_stress_changed_school', 'cs_crisis_harv_immature_crops', 'gps_2', 'cs_stress_spent_savings', 'cs_emergency_begged', 'cs_stress_hh_assets', 'gps_1', 'cs_crisis_no_school', 'cs_crisis_decrease_input_exp', 'cs_stress_sold_more_animals', 'cs_emergency_illegal']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: TYPE
+['hh_gender']; ['ls_feed']
+DETECTING DIFFERENCES IN QUESTIONS: hint::English (en)
+['ls_feed']
+DETECTING DIFFERENCES IN QUESTIONS: required
+['ls_feed']
+DETECTING DIFFERENCES IN QUESTIONS: constraint
+['ls_feed']
+DETECTING DIFFERENCES IN QUESTIONS: Mandatory
+['ls_feed']
+
+Found 111 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 10 CS questions found in the country questionnaire
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 5  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harvunit', 'crp_harv_unit_kg']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/GTM/R3/validated_questionnaire_kobo_es_GTM_20231120112509.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 10
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/GTM/R3/validated_questionnaire_kobo_es_GTM_20231120112509.xlsx
+
+Survey edited by replacing values according the Additional Information sheet

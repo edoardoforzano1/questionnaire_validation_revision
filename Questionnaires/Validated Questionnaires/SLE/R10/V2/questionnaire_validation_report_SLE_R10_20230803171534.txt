@@ -1,0 +1,270 @@
+
+Country iso3: SLE
+Country round #: 10
+Country Questionnaire Language: en
+Country Questionnaire Type: geopoll
+Country Questionnaire File: GeoPoll_FAO_Needs_Assessment_Sierra_Leone_Round_10_EN_CATI_V4.xlsx
+The template used to validate the country questionnaire is: 20230307
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: 03/08/2023, 17:15:34
+
+QName Field - Number of questions in the Template Questionnaire: 184
+QName Field - Number of questions in the Country Questionnaire: 174
+
+SuggestedQName Field - Number of questions in the Template Questionnaire: 182
+SuggestedQName Field - Number of questions in the Country Questionnaire: 166
+
+Found 81 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+SuggestedQName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- hh_admin2_2
+
+SuggestedQName Field - Questions in template questionnaire only (therefore not collected in the country):
+- covid_
+
+1) covid_goodstransp
+2) covid_marketclosed
+3) covid_borderclosed
+4) covid_stayhome
+5) covid_gatherings
+6) covid_processclosed
+7) covid_curfew
+8) covid_school
+9) covid_other
+10) covid_none
+11) covid_dk
+12) covid_ref
+- crp_harv_lastyr
+- cs_stress_borrowed_or_helped
+- cs_stress_changed_school
+- crp_irrig_pay
+- cs_crisis_sold_prod_assets
+- income_third_control
+- cs_crisis_no_school
+- cs_stress_hh_assets
+- income_third_gender
+- cs_crisis_reduced_health_exp
+- crp_irrig_system
+- cs_emergency_hh_migration
+- income_third_amount
+- income_sec_control
+- income_third_amount_conf
+- cs_stress_eat_elsewhere
+- cs_emergency_sold_house
+
+QName Field - Questions in country questionnaire only (therefore not stored/published on the Hub):
+- CallBack-Confirmation
+- phone_number_3_name
+- hh_admin2_5
+- CallBack-Introduction
+- phone_number_pers
+- hh_admin2_4
+- hh_admin2_3
+- resp_agree
+- End poll callback
+- hh_admin2_2
+
+QName Field - Questions in template questionnaire only (therefore not collected in the country):
+- contact_3_name
+- cs_stress_hh_assets
+- crp_harv_lastyr
+- cs_stress_borrowed_or_helped
+- crp_irrig_pay
+- income_third_control
+- crp_irrig_system
+- phone_number_personal
+- cs_emergency_hh_migration
+- income_third_amount
+- cs_stress_changed_school
+- income_third_amount_conf
+- cs_stress_eat_elsewhere
+- Agree
+- cs_crisis_no_school
+- covid
+- income_third_gender
+- cs_crisis_reduced_health_exp
+- cs_crisis_sold_prod_assets
+- cs_emergency_sold_house
+
+3 hh_wealth_ questions found in the country questionnaire: it should be only one!
+
+
+3 hh_wealth_ questions found in the country questionnaire: it should be only one!
+
+
+10 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+Rule respected
+
+10 CS questions found in the country questionnaire
+There are more than 10 coping strategies included in the questionnaire. Make sure that each respondent profile will be administered at least 10 coping strategies.
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+Rule respected
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or the 4 crp_harv questions from the template: RULE IS RESPECTED
+Number of crp_harv questions: 4  - ['crp_harv_change', 'crp_harv_vol', 'crp_harv_unit', 'crp_harv_unit_kg']
+
+
+-------
+Domains have been changed for question:
+resp_language
+
+Template Questionnaire order # 2 - Other options (add as many as necessary) 
+
+ template value=Other options (add as many as necessary) 
+ country value=Krio 
+ 
+
+
+-------
+Domains have been changed for question:
+hh_admin1
+
+Country Questionnaire order # 1 - Admin1 
+
+ template value=Admin1 
+ country value=Eastern province 
+ 
+Country Questionnaire order # 2 - Don't know 
+
+ template value=Don't know 
+ country value=Northern province 
+ 
+Country Questionnaire order # 3 - Refused 
+
+ template value=Refused 
+ country value=North west province 
+ 
+Country Questionnaire order # 4 - Southern province 
+
+ template value= 
+ country value=Southern province 
+ 
+Country Questionnaire order # 5 - Western area 
+
+ template value= 
+ country value=Western area 
+ 
+Country Questionnaire order # 6 - Don't know 
+
+ template value= 
+ country value=Don't know 
+ 
+Country Questionnaire order # 7 - Refused 
+
+ template value= 
+ country value=Refused 
+ 
+
+
+-------
+Domains have been changed for question:
+hh_admin2_1
+
+Country Questionnaire order # 1 - Admin2 
+
+ template value=Admin2 
+ country value=Kailahun 
+ 
+Country Questionnaire order # 2 - Don't know 
+
+ template value=Don't know 
+ country value=Kenema 
+ 
+Country Questionnaire order # 3 - Refused 
+
+ template value=Refused 
+ country value=Kono 
+ 
+Country Questionnaire order # 4 - Don't know 
+
+ template value= 
+ country value=Don't know 
+ 
+Country Questionnaire order # 5 - Refused 
+
+ template value= 
+ country value=Refused 
+ 
+
+
+-------
+Domains have been changed for question:
+hh_wealth_toilet
+
+Country Questionnaire order # 3 - Open pit (hole in the ground for excrement without water, roof or wall) 
+
+ template value=Open pit (hole in the ground for excrement without water, roof or wall) 
+ country value=Open pit (whole in the ground for excrement without water, roof or wall) 
+ 
+
+
+-------
+Domains have been changed for question:
+fish_salesmain
+
+Country Questionnaire order # 1 - Fresh fish (any kind, including invertebrates) 
+
+ template value=Fresh fish (any kind, including invertebrates) 
+ country value=Fresh fish (any kind including invertebrates) 
+ 
+
+
+-------
+Domains have been changed for question:
+language2
+
+Country Questionnaire order # 2 - Other languages (consistent with resp_language) 
+
+ template value=Other languages (consistent with resp_language) 
+ country value=Krio 
+ 
+Country Questionnaire order # 3 - French 
+
+ template value= 
+ country value=French 
+ 
+Country Questionnaire order # 4 - Temne 
+
+ template value= 
+ country value=Temne 
+ 
+Country Questionnaire order # 5 - Mende 
+
+ template value= 
+ country value=Mende 
+ 
+Country Questionnaire order # 6 - Limba 
+
+ template value= 
+ country value=Limba 
+ 
+
+
+-------
+
+Derived fields analysis: 
+Derived field only in template (therefore not collected in the country): ['need_received_none', 'need_received_crop_assist', 'need_crop_inputs', 'need_cash', 'covid_stayhome', 'need_received_food', 'fish_inputdif_ice', 'fish_inputdif_dk', 'need_received_rehabilitation', 'need_received_cash', 'need_ls_infrastructure', 'fish_inputdif_fingerling', 'fish_inputdif_ref', 'assistance_ref', 'need_vouchers_fair', 'covid_processclosed', 'need_received_vouchers_fair', 'fish_inputdif_gear', 'covid_borderclosed', 'need_ref', 'need_fish_knowledge', 'assistance_gov', 'fish_inputdif_repairs', 'need_food', 'need_crop_knowledge', 'covid_none', 'covid_dk', 'covid_marketclosed', 'assistance_ngo', 'need_marketing_supp', 'assistance_dk', 'need_fish_inputs', 'need_received_ls_assist', 'need_ls_knowledge', 'fish_inputdif_bait_feed', 'covid_goodstransp', 'assistance_wfp', 'need_received_sales_support', 'need_dk', 'covid_ref', 'need_received_dk', 'need_ls_feed', 'need_fish_infrastructure', 'need_ls_vet_service', 'assistance_fao', 'covid_gatherings', 'assistance_otherun', 'need_received_fish_assist', 'need_cold_storage', 'fish_inputdif_fuel', 'need_env_infra_rehab', 'need_received_ref', 'fish_inputdif_labour', 'covid_curfew', 'need_crop_infrastructure', 'covid_school']
+Derived field only in country (therefore not stored/published on the Hub): []
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/NEW Questionnaire/Questionnaires/Validated Questionnaires/SLE/R10/V2/validated_questionnaire_geopoll_en_SLE_20230803171534.xlsx
+
+Created Admin Info sheet with updated boundaries.
+
+Survey edited by sorting the crop list according to the prioritised crops
+Number of most common crops selected in the Crop list sheet: 10
+
+Survey edited by replacing values according the Additional Information sheet

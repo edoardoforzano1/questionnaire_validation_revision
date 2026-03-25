@@ -1,0 +1,56 @@
+
+Country Questionnaire File: Household_questionnaire_kobo_EN_template_20230720_ISO3_F2F_20240109_NGA.xlsx
+Country Questionnaire Type: kobo
+Country Questionnaire Language: en
+The template used to validate the country questionnaire is: 20230720
+Validation number: 1
+User: Ibrahim Ali Ahmad
+Validated on: January 09, 2024
+
+All Fields in country questionnaire and not in template questionnaire: ['cs_crisis_sold_last_female', 'o_hh_borrow', 'o_acute_child_name', 'o_food_stock', 'o_crp_dryseason_crop', 'o_crp_dryseason_diff', 'grp_borrowing', 'o_acute_woman_name', 'o_hh_asset_dom', 'o_crp_dryseason', 'o_hh_borrow_reason_other', 'o_crp_dryseason_harvest', 'o_hh_borrow_amount', 'o_hh_bank account', 'o_acute_woman_age', 'cs_stress_reduced_health_exp', 'o_afford_meal', 'o_acute_child_sex', 'o_hh_borrow_reason', 'o_acute_child_age', 'o_acute_malntn', 'o_hh_displaced_num', 'o_hh_residencetype']
+All Fields in template questionnaire and not in country questionnaire: ['crp_irrig_system', 'cs_crisis_decrease_input_exp', 'cs_emergency_sold_last_female', 'covid', 'cs_stress_changed_school', 'crp_storage', 'ls_feed', 'cs_stress_sold_more_animals', 'income_main_amount_conf', 'crp_harv_lastyr', 'covid_otherspecify', 'crp_harv_unit', 'cs_emergency_hh_migration', 'income_sec_amount_conf', 'cs_stress_credit', 'cs_crisis_consume_seed_stocks', 'income_main_amount', 'income_sec_control', 'crp_irrig_pay', 'hh_explanation', 'crp_harvunit', 'cs_crisis_reduced_health_exp', 'cs_stress_borrowed_or_helped', 'income_third_amount', 'cs_crisis_harv_immature_crops', 'enum_team', 'income_third_control', 'fish_inputdif_otherspecify', 'crp_all', 'income_sec_amount', 'crp_harv_unit_kg', 'income_third_amount_conf', 'crp_harv_vol', 'cs_stress_eat_elsewhere', 'hh_residencetype', 'crp_seed', 'fish_inputdif']
+
+
+DETECTING DIFFERENCES IN QUESTIONS: label::English (en)
+['shock']
+
+Found 117 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+Found 117 mandatory questions in the template questionnaire
+Yes, country questionnaire contains all mandatory questions
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+
+1 hh_wealth_ question found in the country questionnaire: RULE IS RESPECTED
+
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 10 CS questions found in the country questionnaire
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+There should be 10 or more CS questions in the Country Questionnaire: (4 stress + 3 crisis + 3 emergency)
+
+RULE IS RESPECTED - 10 CS questions found in the country questionnaire
+Number of STRESS questions: 4
+Number of CRISIS questions: 3
+Number of EMERGENCY questions: 3
+
+There should be more than 2 HDDS fields
+Number of HDDS questions: 2  - ['hdds_intro', 'hdds_confirmation']
+
+There should be either only "crp_harv_change" or 5 crp_harv questions from the template: 
+
+RULE IS RESPECTED
+Number of crp_harv questions: 1  - ['crp_harv_change']
+
+Output validated country questionnaire: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/NGA/R6/validated_questionnaire_kobo_en_NGA_20240109151942.xlsx
+
+Survey edited by sorting the crop list according to the prioritise
+Number of most common crops selected in the Crop list sheet: 10
+
+Created Admin Info sheet with updated boundaries: /Users/ibrahim.aliahmad/Documents/FAO/Working Files/Questionnaire Validation/Script/questionnaire_validation/Questionnaire Validation/Questionnaires/Validated Questionnaires/NGA/R6/validated_questionnaire_kobo_en_NGA_20240109151942.xlsx
+
+Survey edited by replacing values according the Additional Information sheet
