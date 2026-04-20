@@ -1,0 +1,63 @@
+# =============================================================================
+#  DIEM Questionnaire Validation — Centralized Configuration
+#  Edit ONLY this file. Never touch the notebook code.
+# =============================================================================
+
+# ── KoBO ─────────────────────────────────────────────────────────────────────
+kobo:
+  # Path to the country questionnaire being validated
+  questionnaire_path: "C:/Temp/DIEM_Monitoring questionnaire_kobo_en_AFG_20260415.xlsx"
+
+  # Language code: en | fr | ar | es
+  language: "en"
+
+  # ISO3 country code — used to fetch admin boundaries from AGOL
+  iso3: "AFG"
+
+  # How to find the reference template:
+  #   latest_template   → auto-detect newest matching file in templates_dir
+  #   custom_reference  → use the path in custom_reference_path
+  reference_mode: "latest_template"
+  custom_reference_path: null
+
+  # Folder containing all template Excel files
+  templates_dir: "c:/Users/edoar/WORK/FAO/repo/questionnaire_validation_revision/Questionnaires/Questionnaire Templates"
+
+  # Where to write the validation report and validated questionnaire
+  output_dir: "C:/Temp"
+
+  # Choice list names that are country-specific and must NOT be compared to the
+  # template. They are re-injected into the validated output questionnaire:
+  #   crop / crop2 / crop3  → populated from the 'Crop list' sheet
+  #   admin1 / admin2       → fetched from public FAO AGOL REST service
+  country_specific_list_names:
+    - "crop"
+    - "crop2"
+    - "crop3"
+    - "admin1"
+    - "admin2"
+    - "crp_main_sales2"
+
+  # Add any other list names here if they cause false option-change flags
+
+  # Question names to skip from option-level comparison (temporary operational fields)
+  # Keep this list small and documented.
+  exclude_qnames_from_option_compare:
+    - "enumerator"
+    - "enum_team"
+
+  # Report metadata
+  validation_number: 1
+  user_name: "Edoardo"
+
+# ── GeoPoll (future) ──────────────────────────────────────────────────────────
+geopoll:
+  questionnaire_path: null
+  language: "en"
+  iso3: null
+  reference_mode: "latest_template"
+  custom_reference_path: null
+  templates_dir: null
+  output_dir: null
+  validation_number: 1
+  user_name: null

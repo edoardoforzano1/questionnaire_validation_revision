@@ -1,0 +1,78 @@
+# critical_sets.yaml
+# Validation rules for the GeoPoll questionnaire validator.
+# Edit this file to update rules when questionnaire structure changes.
+# No code changes needed — the notebook loads this file automatically.
+#
+# Three rule types:
+#   exact_sets      — specific named questions that must be present (and optionally mandatory)
+#   min_count_sets  — question groups that must reach a minimum count by prefix
+#   crop_harvest    — special rule: either the minimal set OR the full set must be present
+
+# ── Exact question sets ────────────────────────────────────────────────────────
+# All questions marked required: true must be present with the correct Mandatory flag.
+# Questions marked required: false generate a warning (medium) if absent.
+#
+# NOTE: RCSI was NOT a critical set in the original GeoPoll validation.
+# It is included here as an optional check — remove the RCSI block below if not needed.
+
+exact_sets:
+
+  HDDS:
+    - q_name: hdds
+      expected_mandatory: "yes"
+      required: true
+    - q_name: hdds_confirmation
+      expected_mandatory: "yes"
+      required: false   # warning if absent, not a hard error
+
+
+
+# ── Prefix-based minimum count rules ──────────────────────────────────────────
+# Any question whose name starts with `prefix` counts toward the minimum.
+# The found question names are listed in the Critical Sets sheet for reference.
+#
+# CS rule: each respondent profile must receive at least 10 coping strategies
+#          (4 STRESS + 3 CRISIS + 3 EMERGENCY).
+#
+# WEALTH rule: at least one hh_wealth_* question must be present
+#              (covers hh_wealth_toilet, hh_wealth_water, hh_wealth_light, etc.)
+#              More than one is fine.
+
+min_count_sets:
+
+  WEALTH:
+    prefix: hh_wealth_
+    min_count: 1
+    description: "At least 1 hh_wealth_* question required (toilet / water / light)"
+
+
+  CS_stress:
+    prefix: cs_stress
+    min_count: 4
+    description: "At least 4 STRESS coping strategy questions required (cs_stress_*)"
+
+  CS_crisis:
+    prefix: cs_crisis
+    min_count: 3
+    description: "At least 3 CRISIS coping strategy questions required (cs_crisis_*)"
+
+  CS_emergency:
+    prefix: cs_emergency
+    min_count: 3
+    description: "At least 3 EMERGENCY coping strategy questions required (cs_emergency_*)"
+
+# ── Crop harvest rule ──────────────────────────────────────────────────────────
+# The questionnaire must contain EITHER:
+#   - only the minimal set (just crp_harv_change), OR
+#   - all questions in the full set (extras beyond the full set are allowed).
+# Any other combination is flagged as a violation.
+
+crop_harvest:
+  minimal:
+    - crp_harv_change
+  full:
+    - crp_harv_change
+    - crp_harv_vol
+    - crp_harv_unit
+    - crp_harv_unit_kg
+    - crp_harv_lastyr
