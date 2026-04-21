@@ -1,23 +1,37 @@
-# =============================================================================
-#  DIEM Questionnaire Validation — Centralized Configuration
+﻿# =============================================================================
+#  DIEM Questionnaire Validation - Centralized Configuration
 #  Edit ONLY this file. Never touch the notebook code.
 # =============================================================================
 
-# ── KoBO ─────────────────────────────────────────────────────────────────────
+# -- KoBO ----------------------------------------------------------------------
 kobo:
-  # Path to the country questionnaire being validated
-  questionnaire_path: "C:/Temp/DIEM_Monitoring questionnaire_kobo_en_AFG_20260415.xlsx"
+  # Working directory used to resolve questionnaire_file / previous_round_file.
+  # Keep input files in this folder to avoid long absolute paths.
+  working_dir: "C:/Temp"
+
+  # Current questionnaire file to validate (resolved under working_dir).
+  questionnaire_file: "DIEM_Monitoring questionnaire_kobo_en_AFG_20260415_test.xlsx"
+
+  # Legacy fallback (optional): full path. Ignored if questionnaire_file is set.
+  questionnaire_path: null
 
   # Language code: en | fr | ar | es
   language: "en"
 
-  # ISO3 country code — used to fetch admin boundaries from AGOL
+  # ISO3 country code - used to fetch admin boundaries from AGOL
   iso3: "AFG"
 
-  # How to find the reference template:
-  #   latest_template   → auto-detect newest matching file in templates_dir
-  #   custom_reference  → use the path in custom_reference_path
-  reference_mode: "latest_template"
+  # Reference mode:
+  #   latest_template -> auto-detect newest matching file in templates_dir
+  #   previous_round  -> compare against previous_round_file in working_dir
+  reference_mode: "previous_round"
+
+  # Only used when reference_mode = previous_round
+  previous_round_file: "AFG validated_questionnaire_kobo_fr_AFG_20250120195700.xlsx"
+  # Legacy fallback path (optional)
+  previous_round_path: null
+
+  # Legacy fallback from older notebooks (optional)
   custom_reference_path: null
 
   # Folder containing all template Excel files
@@ -26,10 +40,7 @@ kobo:
   # Where to write the validation report and validated questionnaire
   output_dir: "C:/Temp"
 
-  # Choice list names that are country-specific and must NOT be compared to the
-  # template. They are re-injected into the validated output questionnaire:
-  #   crop / crop2 / crop3  → populated from the 'Crop list' sheet
-  #   admin1 / admin2       → fetched from public FAO AGOL REST service
+  # Choice list names treated as country-parameter lists (crop/admin/etc).
   country_specific_list_names:
     - "crop"
     - "crop2"
@@ -38,10 +49,7 @@ kobo:
     - "admin2"
     - "crp_main_sales2"
 
-  # Add any other list names here if they cause false option-change flags
-
   # Question names to skip from option-level comparison (temporary operational fields)
-  # Keep this list small and documented.
   exclude_qnames_from_option_compare:
     - "enumerator"
     - "enum_team"
@@ -50,7 +58,7 @@ kobo:
   validation_number: 1
   user_name: "Edoardo"
 
-# ── GeoPoll (future) ──────────────────────────────────────────────────────────
+# -- GeoPoll (future) ----------------------------------------------------------
 geopoll:
   questionnaire_path: null
   language: "en"
