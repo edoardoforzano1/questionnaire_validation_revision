@@ -10,7 +10,7 @@ kobo:
   working_dir: "C:/Temp"
 
   # Current questionnaire file to validate (resolved under working_dir).
-  questionnaire_file: "DIEM_Monitoring questionnaire_kobo_en_AFG_20260415_test.xlsx"
+  questionnaire_file: "DIEM_Monitoring questionnaire_kobo_en_AFG_20260415.xlsx"
 
   # Legacy fallback (optional): full path. Ignored if questionnaire_file is set.
   questionnaire_path: null
@@ -27,7 +27,7 @@ kobo:
   reference_mode: "previous_round"
 
   # Only used when reference_mode = previous_round
-  previous_round_file: "AFG validated_questionnaire_kobo_fr_AFG_20250120195700.xlsx"
+  previous_round_file: "DIEM_Monitoring questionnaire_kobo_en_AFG_20260415.xlsx"
   # Legacy fallback path (optional)
   previous_round_path: null
 
