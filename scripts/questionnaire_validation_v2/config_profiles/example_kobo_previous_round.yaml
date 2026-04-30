@@ -1,0 +1,11 @@
+﻿# Example profile: KoBo previous round
+# Activate by setting config_profile: "example_kobo_previous_round.yaml" in validation_config.yaml
+
+tool: "kobo"
+questionnaire_file: "DIEM_Monitoring questionnaire_kobo_en_AFG_20260415.xlsx"
+language: "en"
+iso3: "AFG"
+reference_mode: "previous_round"
+previous_round_file: "DIEM_Monitoring questionnaire_kobo_en_AFG_20260320.xlsx"
+working_dir: "C:/Temp"
+output_dir: "C:/Temp/questionnaire_validation"

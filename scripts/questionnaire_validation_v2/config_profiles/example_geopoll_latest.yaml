@@ -1,0 +1,10 @@
+﻿# Example profile: GeoPoll latest template
+# Activate by setting config_profile: "example_geopoll_latest.yaml" in validation_config.yaml
+
+tool: "geopoll"
+questionnaire_file: "validated_questionnaire_geopoll_ar_YEM_20251013124512_TEST.xlsx"
+language: "ar"
+iso3: "YEM"
+reference_mode: "latest_template"
+working_dir: "C:/Temp"
+output_dir: "C:/Temp/questionnaire_validation"

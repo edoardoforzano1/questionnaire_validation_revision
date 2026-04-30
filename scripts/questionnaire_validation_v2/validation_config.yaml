@@ -3,43 +3,58 @@
 #  Edit ONLY this file. Never touch the notebook code.
 # =============================================================================
 
-# -- KoBO ----------------------------------------------------------------------
-kobo:
-  # Working directory used to resolve questionnaire_file / previous_round_file.
-  # Keep input files in this folder to avoid long absolute paths.
-  working_dir: "C:/Temp"
+# Which tool to run: kobo | geopoll
+# Optional quick-switch profile file in config_profiles/ (or absolute path).
+# Example: "geopoll_ar_yem_latest_template.yaml"
+config_profile: ""
 
-  # Current questionnaire file to validate (resolved under working_dir).
-  questionnaire_file: "DIEM_Monitoring questionnaire_kobo_en_AFG_20260415.xlsx"
+# Optional custom folder containing profile files.
+# If empty, defaults to scripts/questionnaire_validation_v2/config_profiles/
+config_profiles_dir: ""
 
-  # Legacy fallback (optional): full path. Ignored if questionnaire_file is set.
-  questionnaire_path: null
+tool: "geopoll"
 
-  # Language code: en | fr | ar | es
-  language: "en"
+# =============================================================================
+#  CORE SETTINGS  (used identically by both tools — change these each run)
+# =============================================================================
 
-  # ISO3 country code - used to fetch admin boundaries from AGOL
-  iso3: "AFG"
+# Working directory: input files are resolved relative to this folder.
+working_dir: "C:/Temp"
 
-  # Reference mode:
-  #   latest_template -> auto-detect newest matching file in templates_dir
-  #   previous_round  -> compare against previous_round_file in working_dir
-  reference_mode: "previous_round"
+# Current questionnaire filename (resolved under working_dir).
+questionnaire_file: "validated_questionnaire_geopoll_ar_YEM_20251013124512_TEST.xlsx"
 
-  # Only used when reference_mode = previous_round
-  previous_round_file: "DIEM_Monitoring questionnaire_kobo_en_AFG_20260415.xlsx"
-  # Legacy fallback path (optional)
-  previous_round_path: null
+# Language code: en | fr | ar | es
+language: "ar"
 
-  # Legacy fallback from older notebooks (optional)
-  custom_reference_path: null
+# ISO3 country code
+iso3: "YEM"
 
-  # Folder containing all template Excel files
-  templates_dir: "c:/Users/edoar/WORK/FAO/repo/questionnaire_validation_revision/Questionnaires/Questionnaire Templates"
+# Reference mode:
+#   latest_template -> auto-detect newest matching file in templates_dir
+#   previous_round  -> compare against previous_round_file in working_dir
+reference_mode: "latest_template"
 
-  # Where to write the validation report and validated questionnaire
-  output_dir: "C:/Temp"
+# Only used when reference_mode = previous_round
+previous_round_file: "DIEM_Monitoring questionnaire_kobo_en_AFG_20260415.xlsx"
 
+# Folder containing all template Excel files
+templates_dir: "c:/Users/edoar/WORK/FAO/repo/questionnaire_validation_revision/Questionnaires/Questionnaire Templates"
+
+# Base output folder. Each tool writes to its own subfolder automatically:
+#   kobo   -> output_dir/kobo_output/
+#   geopoll -> output_dir/geopoll_output/
+output_dir: "C:/Temp/questionnaire_validation"
+
+# Report metadata
+validation_number: 1
+user_name: "Edoardo"
+
+# =============================================================================
+#  KOBO-SPECIFIC OPTIONS  (only read by the kobo notebook)
+# =============================================================================
+
+kobo_options:
   # Choice list names treated as country-parameter lists (crop/admin/etc).
   country_specific_list_names:
     - "crop"
@@ -49,23 +64,7 @@ kobo:
     - "admin2"
     - "crp_main_sales2"
 
-  # Question names to skip from option-level comparison (temporary operational fields)
+  # Question names to skip from option-level comparison (temporary operational fields).
   exclude_qnames_from_option_compare:
     - "enumerator"
     - "enum_team"
-
-  # Report metadata
-  validation_number: 1
-  user_name: "Edoardo"
-
-# -- GeoPoll (future) ----------------------------------------------------------
-geopoll:
-  questionnaire_path: null
-  language: "en"
-  iso3: null
-  reference_mode: "latest_template"
-  custom_reference_path: null
-  templates_dir: null
-  output_dir: null
-  validation_number: 1
-  user_name: null
