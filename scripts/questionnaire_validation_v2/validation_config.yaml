@@ -9,10 +9,10 @@
 config_profile: ""
 
 # Optional custom folder containing profile files.
-# If empty, defaults to scripts/questionnaire_validation_v2/config_profiles/
+# If empty, defaults to <output_dir>/config_profiles/
 config_profiles_dir: ""
 
-tool: "geopoll"
+tool: "kobo"
 
 # =============================================================================
 #  CORE SETTINGS  (used identically by both tools — change these each run)
@@ -22,13 +22,13 @@ tool: "geopoll"
 working_dir: "C:/Temp"
 
 # Current questionnaire filename (resolved under working_dir).
-questionnaire_file: "validated_questionnaire_geopoll_ar_YEM_20251013124512_TEST.xlsx"
+questionnaire_file: "COL_R6_Questionnaire_v2_forvalid_copy.xlsx"
 
 # Language code: en | fr | ar | es
-language: "ar"
+language: "es"
 
 # ISO3 country code
-iso3: "YEM"
+iso3: "COL"
 
 # Reference mode:
 #   latest_template -> auto-detect newest matching file in templates_dir
@@ -36,7 +36,7 @@ iso3: "YEM"
 reference_mode: "latest_template"
 
 # Only used when reference_mode = previous_round
-previous_round_file: "DIEM_Monitoring questionnaire_kobo_en_AFG_20260415.xlsx"
+previous_round_file: "validated_questionnaire_geopoll_fr_COD_20250423171555_copyr10.xlsx"
 
 # Folder containing all template Excel files
 templates_dir: "c:/Users/edoar/WORK/FAO/repo/questionnaire_validation_revision/Questionnaires/Questionnaire Templates"

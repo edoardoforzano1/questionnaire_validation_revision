@@ -5,10 +5,15 @@ Put reusable YAML profiles here for quick switching.
 Use `config_profile` in `validation_config.yaml` to activate one profile.
 Profiles can contain full config or only fields to override.
 
+## Default profile folder
+If `config_profiles_dir` is empty, notebooks now look in:
+- `<output_dir>/config_profiles/`
+
 ## Quick use
-1. Set `config_profile` in `validation_config.yaml` (for example `example_geopoll_latest.yaml`).
-2. Run notebook normally.
-3. The notebook writes a resolved run snapshot to:
+1. Put profile file in `<output_dir>/config_profiles/` (or set `config_profiles_dir`).
+2. Set `config_profile` in `validation_config.yaml` (for example `example_geopoll_latest.yaml`).
+3. Run notebook normally.
+4. The notebook writes a resolved run snapshot to:
    - Shared: `<output_dir>/configuration/`
 
 Example:
