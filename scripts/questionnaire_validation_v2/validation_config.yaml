@@ -12,7 +12,7 @@ config_profile: ""
 # If empty, defaults to <output_dir>/config_profiles/
 config_profiles_dir: ""
 
-tool: "kobo"
+tool: "geopoll"
 
 # =============================================================================
 #  CORE SETTINGS  (used identically by both tools — change these each run)
@@ -22,18 +22,18 @@ tool: "kobo"
 working_dir: "C:/Temp"
 
 # Current questionnaire filename (resolved under working_dir).
-questionnaire_file: "COL_R6_Questionnaire_v2_forvalid_copy.xlsx"
+questionnaire_file: "DRC_R11 HH questionnaire_Geopoll_TEST.xlsx"
 
 # Language code: en | fr | ar | es
-language: "es"
+language: "fr"
 
 # ISO3 country code
-iso3: "COL"
+iso3: "COD"
 
 # Reference mode:
 #   latest_template -> auto-detect newest matching file in templates_dir
 #   previous_round  -> compare against previous_round_file in working_dir
-reference_mode: "latest_template"
+reference_mode: "previous_round"
 
 # Only used when reference_mode = previous_round
 previous_round_file: "validated_questionnaire_geopoll_fr_COD_20250423171555_copyr10.xlsx"
